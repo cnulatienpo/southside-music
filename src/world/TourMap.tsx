@@ -126,7 +126,7 @@ const TourMap: React.FC<TourMapProps> = ({ onZoneSelect }) => {
               >
                 <div
                   className={`absolute -inset-px rounded-2xl bg-gradient-to-br ${zone.accentColor} opacity-0 transition-opacity duration-300 group-hover:opacity-40`}
-                  aria-hidden
+                  aria-hidden={true}
                 />
 
                 {locked && (
@@ -134,7 +134,7 @@ const TourMap: React.FC<TourMapProps> = ({ onZoneSelect }) => {
                 )}
 
                 <div className="relative flex items-center justify-between">
-                  <span className="text-3xl" aria-hidden>
+                  <span className="text-3xl" aria-hidden={true}>
                     {zone.icon}
                   </span>
                   <span className={`rounded-full border px-3 py-1 text-xs uppercase tracking-[0.3em] ${locked ? "border-zinc-700/80 text-zinc-500" : "border-emerald-400/70 text-emerald-300"}`}>
@@ -158,7 +158,7 @@ const TourMap: React.FC<TourMapProps> = ({ onZoneSelect }) => {
                     <ul className="mt-1 space-y-1 text-xs text-zinc-300">
                       {zone.influences.map((influence) => (
                         <li key={influence} className="flex items-start gap-2">
-                          <span className="mt-[3px] h-1.5 w-1.5 rounded-full bg-zinc-500" aria-hidden />
+                          <span className="mt-[3px] h-1.5 w-1.5 rounded-full bg-zinc-500" aria-hidden={true} />
                           <span>{influence}</span>
                         </li>
                       ))}
@@ -184,7 +184,7 @@ const TourMap: React.FC<TourMapProps> = ({ onZoneSelect }) => {
                 {locked && (
                   <div className="pointer-events-none absolute inset-0 flex items-center justify-center rounded-2xl bg-black/40 backdrop-blur-[2px]">
                     <span className="flex items-center gap-2 rounded-full border border-zinc-700/80 bg-zinc-900/80 px-4 py-1 text-xs uppercase tracking-[0.35em] text-zinc-400">
-                      <span aria-hidden>🔒</span> Future Route
+                      <span aria-hidden={true}>🔒</span> Future Route
                     </span>
                   </div>
                 )}
