@@ -1,5 +1,7 @@
 import React, { useMemo, useState } from "react";
 
+import CharacterBox from "../characters/CharacterBox";
+
 type CardFace = {
   lines: string[];
   chela?: string;
@@ -144,6 +146,15 @@ const TheoryDeck: React.FC = () => {
           )}
         </div>
       </article>
+
+      {!isFlipped && currentCard.title === "What's a Beat?" && (
+        <CharacterBox
+          name="Spark"
+          mood="jazz"
+          line="That beat swings, even when it’s straight."
+          delay={180}
+        />
+      )}
 
       <div className="flex items-center gap-4">
         <button

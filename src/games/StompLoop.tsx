@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import * as Tone from "tone";
 
+import CharacterBox from "../characters/CharacterBox";
+
 const CONSISTENCY_THRESHOLD = 150;
 
 const formatMessage = (averageSpacing: number | null, isConsistent: boolean) => {
@@ -23,9 +25,16 @@ const formatMessage = (averageSpacing: number | null, isConsistent: boolean) => 
   return "Keep stomping";
 };
 
+type CharacterDialogue = {
+  name: string;
+  mood: string;
+  line: string;
+  delay?: number;
+};
+
 const StompLoop = () => {
   const [stomps, setStomps] = useState<number[]>([]);
-  const [voiceLine, setVoiceLine] = useState("");
+  const [characterDialogue, setCharacterDialogue] = useState<CharacterDialogue | null>(null);
   const synthRef = useRef<Tone.Synth | null>(null);
   const toneStartedRef = useRef(false);
 
@@ -81,23 +90,33 @@ const StompLoop = () => {
 
   useEffect(() => {
     if (stomps.length === 0) {
-      setVoiceLine("");
+      setCharacterDialogue(null);
       return;
     }
 
-    const voiceMap: Record<string, string | undefined> = {
-      "Too fast": "Whoa there, speed demon",
-      "Too slow": "That’s not doom. That’s a nap.",
-      "Now that’s a loop": "You could play Wax Trax on that",
+    const voiceMap: Record<string, CharacterDialogue | undefined> = {
+      "Too fast": {
+        name: "Buzz",
+        mood: "roast",
+        line: "Whoa there, speed demon.",
+        delay: 80,
+      },
+      "Too slow": {
+        name: "Mouth",
+        mood: "coach",
+        line: "That’s not doom. That’s a nap.",
+        delay: 120,
+      },
+      "Now that’s a loop": {
+        name: "Thump",
+        mood: "hype",
+        line: "Now that’s a loop!",
+        delay: 150,
+      },
     };
 
-    const line = voiceMap[feedbackMessage];
-    if (line) {
-      console.log(`Chela: ${line}`);
-      setVoiceLine(line);
-    } else {
-      setVoiceLine("");
-    }
+    const dialogue = voiceMap[feedbackMessage];
+    setCharacterDialogue(dialogue ?? null);
   }, [feedbackMessage, stomps.length]);
 
   const handleStomp = async () => {
@@ -138,10 +157,15 @@ const StompLoop = () => {
           STOMP
         </button>
 
-        <div className="flex flex-col items-center justify-center text-lg font-mono space-y-1">
+        <div className="flex flex-col items-center justify-center text-lg font-mono space-y-3">
           <span>{feedbackMessage}</span>
-          {voiceLine && (
-            <span className="text-sm text-zinc-400">Chela: {voiceLine}</span>
+          {characterDialogue && (
+            <CharacterBox
+              name={characterDialogue.name}
+              mood={characterDialogue.mood}
+              line={characterDialogue.line}
+              delay={characterDialogue.delay}
+            />
           )}
         </div>
 
