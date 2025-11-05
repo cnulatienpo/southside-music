@@ -9,7 +9,12 @@ import React, {
 } from "react";
 
 export type GameKey =
+  | "LevelZero"
   | "StompLoop"
+  | "BlinkRoom"
+  | "CutCutCut"
+  | "BassCar"
+  | "StrokeMachine"
   | "TheoryCards"
   | "BandBuilder"
   | "StudioMode"
@@ -17,7 +22,7 @@ export type GameKey =
 
 export type ZoneKey = "Wax Town" | "Yacht Dock" | "Skyline Stage";
 
-export type UnlockKey = "yachtDock" | "theoryLevel2" | "spark";
+export type UnlockKey = "waxTown" | "yachtDock" | "theoryLevel2" | "spark";
 
 export interface GameProgress {
   completed: boolean;
@@ -78,14 +83,19 @@ const PROGRESS_STORAGE_KEY = "southside:progress";
 
 const createDefaultProgressState = (): ProgressState => ({
   games: {
+    LevelZero: { completed: false },
     StompLoop: { completed: false },
+    BlinkRoom: { completed: false },
+    CutCutCut: { completed: false },
+    BassCar: { completed: false },
+    StrokeMachine: { completed: false },
     TheoryCards: { completed: false },
     BandBuilder: { completed: false },
     StudioMode: { completed: false },
     TourJam: { completed: false },
   },
   zones: {
-    "Wax Town": { status: "unlocked", percent: 35, unlockedAt: new Date().toISOString() },
+    "Wax Town": { status: "locked", percent: 0 },
     "Yacht Dock": { status: "locked", percent: 0 },
     "Skyline Stage": { status: "locked", percent: 0 },
   },
@@ -94,6 +104,7 @@ const createDefaultProgressState = (): ProgressState => ({
   bandMembers: [],
   studioTracks: [],
   unlocks: {
+    waxTown: false,
     yachtDock: false,
     theoryLevel2: false,
     spark: false,
@@ -165,6 +176,28 @@ const loadProgressFromStorage = (): LoadResult => {
 const applyUnlocks = (state: ProgressState): { state: ProgressState; events: UnlockEvent[] } => {
   const events: UnlockEvent[] = [];
   let nextState = state;
+
+  const levelZeroComplete = nextState.games.LevelZero?.completed;
+  if (levelZeroComplete && nextState.zones["Wax Town"]?.status === "locked") {
+    nextState = {
+      ...nextState,
+      unlocks: { ...nextState.unlocks, waxTown: true },
+      zones: {
+        ...nextState.zones,
+        "Wax Town": {
+          status: "unlocked",
+          percent: nextState.zones["Wax Town"]?.percent ?? 0,
+          unlockedAt: new Date().toISOString(),
+        },
+      },
+    };
+    events.push({
+      id: "waxTown",
+      title: "Wax Town Opens",
+      badge: "🕯️",
+      message: "Chela winks: The first waxy boulevard is ready for your feet.",
+    });
+  }
 
   const completedGames = Object.values(nextState.games).filter((game) => game.completed).length;
   if (!nextState.unlocks.yachtDock && completedGames >= 2) {
