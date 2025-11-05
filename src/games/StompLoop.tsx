@@ -1,4 +1,5 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import * as Tone from "tone";
 
 const CONSISTENCY_THRESHOLD = 150;
 
@@ -24,6 +25,23 @@ const formatMessage = (averageSpacing: number | null, isConsistent: boolean) => 
 
 const StompLoop = () => {
   const [stomps, setStomps] = useState<number[]>([]);
+  const [voiceLine, setVoiceLine] = useState("");
+  const synthRef = useRef<Tone.Synth | null>(null);
+  const toneStartedRef = useRef(false);
+
+  useEffect(() => {
+    const synth = new Tone.Synth({
+      oscillator: { type: "sine" },
+      envelope: { attack: 0.001, decay: 0.15, sustain: 0, release: 0.15 },
+    }).toDestination();
+
+    synth.volume.value = -6;
+    synthRef.current = synth;
+
+    return () => {
+      synth.dispose();
+    };
+  }, []);
 
   const intervals = useMemo(() => {
     if (stomps.length < 2) {
@@ -61,7 +79,39 @@ const StompLoop = () => {
     [averageSpacing, isConsistent],
   );
 
-  const handleStomp = () => {
+  useEffect(() => {
+    if (stomps.length === 0) {
+      setVoiceLine("");
+      return;
+    }
+
+    const voiceMap: Record<string, string | undefined> = {
+      "Too fast": "Whoa there, speed demon",
+      "Too slow": "That’s not doom. That’s a nap.",
+      "Now that’s a loop": "You could play Wax Trax on that",
+    };
+
+    const line = voiceMap[feedbackMessage];
+    if (line) {
+      console.log(`Chela: ${line}`);
+      setVoiceLine(line);
+    } else {
+      setVoiceLine("");
+    }
+  }, [feedbackMessage, stomps.length]);
+
+  const handleStomp = async () => {
+    if (!toneStartedRef.current) {
+      await Tone.start();
+      toneStartedRef.current = true;
+    }
+
+    const now = Tone.now();
+    const synth = synthRef.current;
+    if (synth) {
+      synth.triggerAttackRelease("C2", 0.1, now);
+    }
+
     setStomps((prev) => [...prev, Date.now()]);
   };
 
@@ -88,8 +138,11 @@ const StompLoop = () => {
           STOMP
         </button>
 
-        <div className="h-6 flex items-center justify-center text-lg font-mono">
-          {feedbackMessage}
+        <div className="flex flex-col items-center justify-center text-lg font-mono space-y-1">
+          <span>{feedbackMessage}</span>
+          {voiceLine && (
+            <span className="text-sm text-zinc-400">Chela: {voiceLine}</span>
+          )}
         </div>
 
         <div className="flex flex-wrap justify-center gap-3 max-w-xl">
