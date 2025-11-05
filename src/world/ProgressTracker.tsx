@@ -8,6 +8,8 @@ import React, {
   useState,
 } from "react";
 
+import { THEORY_LEVEL_TWO_CARD_COUNT } from "../cards/TheoryLevelTwo";
+
 export type GameKey =
   | "LevelZero"
   | "StompLoop"
@@ -42,6 +44,7 @@ export interface TheoryProgress {
   read: string[];
   favorites: string[];
   reactions: Record<string, string | undefined>;
+  unlockedCounts: Record<number, number>;
 }
 
 export interface BandMemberProgress {
@@ -80,6 +83,11 @@ export interface UnlockEvent {
 }
 
 const PROGRESS_STORAGE_KEY = "southside:progress";
+const THEORY_LEVEL_ONE_CARD_COUNT = 3;
+const THEORY_LEVEL_CARD_COUNTS: Record<number, number> = {
+  1: THEORY_LEVEL_ONE_CARD_COUNT,
+  2: THEORY_LEVEL_TWO_CARD_COUNT,
+};
 
 const createDefaultProgressState = (): ProgressState => ({
   games: {
@@ -100,7 +108,16 @@ const createDefaultProgressState = (): ProgressState => ({
     "Skyline Stage": { status: "locked", percent: 0 },
   },
   loopsCollected: [],
-  theory: { level: 1, read: [], favorites: [], reactions: {} },
+  theory: {
+    level: 1,
+    read: [],
+    favorites: [],
+    reactions: {},
+    unlockedCounts: {
+      1: THEORY_LEVEL_ONE_CARD_COUNT,
+      2: 0,
+    },
+  },
   bandMembers: [],
   studioTracks: [],
   unlocks: {
@@ -118,7 +135,12 @@ export interface ProgressTrackerContextValue {
   progress: ProgressState;
   completeGame: (game: GameKey, notes?: string) => void;
   addLoop: (loopId: string) => void;
-  markTheoryCard: (cardId: string, reaction?: string) => void;
+  markTheoryCard: (
+    cardId: string,
+    level: number,
+    totalCardsInLevel: number,
+    reaction?: string
+  ) => void;
   toggleFavoriteTheoryCard: (cardId: string) => void;
   recruitBandMember: (member: Omit<BandMemberProgress, "recruitedAt">) => void;
   retireBandMember: (memberId: string) => void;
@@ -163,6 +185,14 @@ const loadProgressFromStorage = (): LoadResult => {
         ...parsed,
         games: { ...baseline.games, ...parsed.games },
         zones: { ...baseline.zones, ...parsed.zones },
+        theory: {
+          ...baseline.theory,
+          ...parsed.theory,
+          unlockedCounts: {
+            ...baseline.theory.unlockedCounts,
+            ...(parsed.theory?.unlockedCounts ?? {}),
+          },
+        },
         unlocks: { ...baseline.unlocks, ...parsed.unlocks },
       },
       hasStored: true,
@@ -221,21 +251,60 @@ const applyUnlocks = (state: ProgressState): { state: ProgressState; events: Unl
     });
   }
 
-  const theoryReadCount = nextState.theory.read.length;
-  if (!nextState.unlocks.theoryLevel2 && theoryReadCount >= 5) {
+  const normalizedUnlockedCounts = {
+    ...(nextState.theory.unlockedCounts ?? {}),
+    1: Math.max(
+      nextState.theory.unlockedCounts?.[1] ?? 0,
+      THEORY_LEVEL_CARD_COUNTS[1]
+    ),
+  };
+  if (
+    nextState.theory.unlockedCounts?.[1] !== normalizedUnlockedCounts[1] ||
+    nextState.theory.unlockedCounts?.[2] === undefined
+  ) {
+    nextState = {
+      ...nextState,
+      theory: {
+        ...nextState.theory,
+        unlockedCounts: {
+          ...normalizedUnlockedCounts,
+          2: nextState.theory.unlockedCounts?.[2] ?? 0,
+        },
+      },
+    };
+  }
+
+  const levelOneReadCount = nextState.theory.read.filter((cardId) => {
+    if (cardId.startsWith("L1:")) {
+      return true;
+    }
+    return !cardId.includes(":");
+  }).length;
+  if (
+    !nextState.unlocks.theoryLevel2 &&
+    (levelZeroComplete || levelOneReadCount >= 5)
+  ) {
+    const unlockedCounts = {
+      ...nextState.theory.unlockedCounts,
+      2: Math.max(
+        nextState.theory.unlockedCounts?.[2] ?? 0,
+        THEORY_LEVEL_CARD_COUNTS[2]
+      ),
+    };
     nextState = {
       ...nextState,
       unlocks: { ...nextState.unlocks, theoryLevel2: true },
       theory: {
         ...nextState.theory,
         level: Math.max(nextState.theory.level, 2),
+        unlockedCounts,
       },
     };
     events.push({
       id: "theoryLevel2",
       title: "Theory Level 2",
       badge: "📚",
-      message: "Chela nods: You've unlocked the next layer of chord magic.",
+      message: "Chela nods: The gilded deck is unlocked. Wipe your paws before reading.",
     });
   }
 
@@ -343,11 +412,20 @@ export const ProgressTrackerProvider: React.FC<ProgressTrackerProviderProps> = (
   );
 
   const markTheoryCard = useCallback(
-    (cardId: string, reaction?: string) => {
+    (cardId: string, level: number, totalCardsInLevel: number, reaction?: string) => {
       updateProgress((previous) => {
         const read = previous.theory.read.includes(cardId)
           ? previous.theory.read
           : [...previous.theory.read, cardId];
+        const previousCounts = previous.theory.unlockedCounts ?? {};
+        const unlockedCounts = {
+          ...previousCounts,
+          [level]: Math.max(
+            previousCounts[level] ?? 0,
+            totalCardsInLevel,
+            THEORY_LEVEL_CARD_COUNTS[level] ?? totalCardsInLevel
+          ),
+        };
         return {
           ...previous,
           theory: {
@@ -357,6 +435,7 @@ export const ProgressTrackerProvider: React.FC<ProgressTrackerProviderProps> = (
               ...previous.theory.reactions,
               [cardId]: reaction ?? previous.theory.reactions[cardId],
             },
+            unlockedCounts,
           },
         };
       });
@@ -784,6 +863,23 @@ const GamesSection: React.FC<{ progress: ProgressState }> = ({ progress }) => {
 
 const TheorySection: React.FC<{ progress: ProgressState }> = ({ progress }) => {
   const { theory } = progress;
+  const formatCardId = (cardId: string) => {
+    const [levelToken, slug] = cardId.split(":");
+    if (!slug) {
+      return cardId;
+    }
+    const words = slug.split("-").map((word) =>
+      word.length > 0 ? word[0].toUpperCase() + word.slice(1) : word
+    );
+    const levelLabel = levelToken ? levelToken.toUpperCase() : "LEVEL";
+    return `${words.join(" ")} (${levelLabel})`;
+  };
+  const unlockedSummary = [
+    `Level 1 — ${theory.unlockedCounts?.[1] ?? 0}`,
+    theory.unlockedCounts?.[2] ? `Level 2 — ${theory.unlockedCounts[2]}` : null,
+  ]
+    .filter(Boolean)
+    .join(" · ");
   return (
     <div className="space-y-4">
       <h3 className="text-2xl font-black uppercase tracking-widest text-slate-900">
@@ -800,8 +896,9 @@ const TheorySection: React.FC<{ progress: ProgressState }> = ({ progress }) => {
               {theory.level >= 2 ? "Unlocked" : "Beginner"}
             </span>
           </div>
-          <div className="mt-2 text-xs text-indigo-500">
-            Read {theory.read.length} cards · Favorited {theory.favorites.length}
+          <div className="mt-2 text-xs text-indigo-500 space-y-1">
+            <div>Read {theory.read.length} cards · Favorited {theory.favorites.length}</div>
+            <div>Unlocked cards: {unlockedSummary}</div>
           </div>
         </div>
         <div className="rounded-3xl bg-slate-900 p-4 text-amber-100">
@@ -810,7 +907,7 @@ const TheorySection: React.FC<{ progress: ProgressState }> = ({ progress }) => {
             {theory.read.length === 0 && <li>No cards read yet. Flip a page!</li>}
             {theory.read.map((cardId) => (
               <li key={cardId} className="flex items-center justify-between gap-2">
-                <span>{cardId}</span>
+                <span>{formatCardId(cardId)}</span>
                 <span className="text-xs uppercase tracking-wide text-amber-400">
                   {theory.favorites.includes(cardId) ? "✨ Favorite" : "Read"}
                 </span>
