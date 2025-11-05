@@ -1,12 +1,29 @@
 {
-  "name": "southside-music",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "southside-school-of-music",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.368.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "shadcn-ui": "^0.8.0",
+    "tone": "^14.8.49"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.47",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
+  }
 }
