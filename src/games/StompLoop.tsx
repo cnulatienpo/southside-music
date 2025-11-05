@@ -1,118 +1,114 @@
 import { useMemo, useState } from "react";
 
-const MIN_INTERVAL = 300;
-const MAX_INTERVAL = 1500;
-const MAX_PULSES = 12;
+const CONSISTENCY_THRESHOLD = 150;
 
-const formatFeedback = (times: number[]): string => {
-  if (times.length === 0) {
-    return "Give Chela a stomp to start the loop.";
+const formatMessage = (averageSpacing: number | null, isConsistent: boolean) => {
+  if (averageSpacing === null) {
+    return "Start stomping";
   }
 
-  if (times.length === 1) {
-    return "Feel that first pulse. Keep it going.";
-  }
-
-  const lastInterval = times[times.length - 1] - times[times.length - 2];
-
-  if (lastInterval < MIN_INTERVAL) {
+  if (averageSpacing < 300) {
     return "Too fast";
   }
 
-  if (lastInterval > MAX_INTERVAL) {
+  if (averageSpacing > 1500) {
     return "Too slow";
   }
 
-  if (times.length >= 4) {
-    const intervals = times
-      .slice(1)
-      .map((time, index) => time - times[index]);
-    const recentIntervals = intervals.slice(-3);
-
-    const isSteady =
-      recentIntervals.length === 3 &&
-      recentIntervals.every(
-        (interval) => interval >= MIN_INTERVAL && interval <= MAX_INTERVAL,
-      );
-
-    if (isSteady) {
-      return "Now that's a loop";
-    }
+  if (isConsistent) {
+    return "Now that’s a loop";
   }
 
-  return "Keep that stomp breathing.";
+  return "Keep stomping";
 };
 
 const StompLoop = () => {
   const [stomps, setStomps] = useState<number[]>([]);
 
-  const trimmedStomps = useMemo(
-    () => stomps.slice(-MAX_PULSES),
-    [stomps],
+  const intervals = useMemo(() => {
+    if (stomps.length < 2) {
+      return [];
+    }
+
+    const diffs: number[] = [];
+    for (let i = 1; i < stomps.length; i += 1) {
+      diffs.push(stomps[i] - stomps[i - 1]);
+    }
+    return diffs;
+  }, [stomps]);
+
+  const averageSpacing = useMemo(() => {
+    if (intervals.length === 0) {
+      return null;
+    }
+
+    const total = intervals.reduce((sum, value) => sum + value, 0);
+    return total / intervals.length;
+  }, [intervals]);
+
+  const isConsistent = useMemo(() => {
+    if (stomps.length < 3 || intervals.length < 2) {
+      return false;
+    }
+
+    const minInterval = Math.min(...intervals);
+    const maxInterval = Math.max(...intervals);
+    return maxInterval - minInterval <= CONSISTENCY_THRESHOLD;
+  }, [intervals, stomps.length]);
+
+  const feedbackMessage = useMemo(
+    () => formatMessage(averageSpacing, isConsistent),
+    [averageSpacing, isConsistent],
   );
 
-  const feedback = useMemo(() => formatFeedback(stomps), [stomps]);
-
   const handleStomp = () => {
-    const now = Date.now();
-    setStomps((previous) => [...previous, now]);
+    setStomps((prev) => [...prev, Date.now()]);
   };
 
   return (
-    <div className="min-h-screen bg-zinc-950 text-white flex flex-col items-center justify-center px-6 py-12">
-      <div className="max-w-3xl text-center space-y-8">
-        <p className="text-2xl font-semibold font-serif leading-relaxed">
-          Welcome to school. Not the kind with chalkboards and sit-still energy.
+    <div className="min-h-screen bg-zinc-950 text-white flex flex-col justify-between items-center py-12 px-4">
+      <div className="max-w-3xl text-center font-serif text-lg md:text-xl space-y-4">
+        <p>
+          “Welcome to school. Not the kind with chalkboards and sit-still energy.
           <br />
-          This is the <span className="italic">feel-it-in-your-ribs</span> kind.
+          This is the <em>feel-it-in-your-ribs</em> kind.
           <br />
           You learn to hear with your neck. With your gut. With your spine.
           <br />
-          That’s how music works down here. On the Southside.
+          That’s how music works down here. On the Southside.”
         </p>
+      </div>
 
+      <div className="flex flex-col items-center space-y-8">
         <button
           type="button"
           onClick={handleStomp}
-          className="mt-6 inline-flex items-center justify-center px-12 py-6 text-xl font-bold rounded-full bg-white text-black shadow-[0_0_30px_rgba(59,130,246,0.4)] hover:scale-105 transition-transform"
+          className="px-16 py-10 text-4xl font-bold rounded-full bg-white text-zinc-900 transition-transform duration-200 hover:scale-105 hover:bg-zinc-200"
         >
           STOMP
         </button>
 
-        <div className="mt-10 flex flex-wrap items-center justify-center gap-6">
-          {trimmedStomps.map((time, index) => {
-            const intensity = (index + 1) / trimmedStomps.length;
-            const size = index === trimmedStomps.length - 1 ? "w-16 h-16" : "w-12 h-12";
-            const opacity = (0.4 + intensity * 0.6).toFixed(2);
-
-            return (
-              <div
-                key={time}
-                className={`${size} rounded-full border-4 border-emerald-400/80 flex items-center justify-center transition-transform duration-300`}
-                style={{
-                  boxShadow: `0 0 25px rgba(16, 185, 129, ${opacity})`,
-                }}
-              >
-                <div
-                  className="w-3/4 h-3/4 rounded-full bg-emerald-300"
-                  style={{ opacity }}
-                />
-              </div>
-            );
-          })}
+        <div className="h-6 flex items-center justify-center text-lg font-mono">
+          {feedbackMessage}
         </div>
 
-        <div className="mt-8 text-lg font-mono text-emerald-200 tracking-wide uppercase">
-          {feedback}
+        <div className="flex flex-wrap justify-center gap-3 max-w-xl">
+          {stomps.map((stomp, index) => (
+            <span
+              key={`${stomp}-${index}`}
+              className="w-4 h-4 rounded-full bg-white animate-ping"
+              style={{ animationDuration: "1s" }}
+            />
+          ))}
         </div>
-
-        <button
-          type="button"
-          className="mt-12 inline-flex items-center justify-center px-8 py-3 border border-white/20 rounded-full text-sm tracking-[0.3em] uppercase hover:bg-white hover:text-black transition"
-        >
-          Advance to Next Game
-        </button>
       </div>
+
+      <button
+        type="button"
+        className="px-6 py-3 border border-white/40 rounded-full text-sm uppercase tracking-widest hover:bg-white/10 transition"
+      >
+        Advance to Next Game
+      </button>
     </div>
   );
 };
