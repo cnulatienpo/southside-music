@@ -1,0 +1,12 @@
+# Ensure binary files are treated correctly
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ogg binary
+*.mp3 binary
+*.wav binary
+*.ttf binary
+*.otf binary
+*.zip binary
+*.glb binary
+*.ico binary
