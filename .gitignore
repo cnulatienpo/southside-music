@@ -1,39 +1,21 @@
-# Node
-node_modules/
-dist/
-.env
-
-# Editor
-.vscode/
+# macOS system files
 .DS_Store
-.idea/
 
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# GameMaker project folders
+*.yy.old
+*.yyp.bak
+.yyc/
+cache/
+output/
+temp/
 
-# OS
-Thumbs.db
-Desktop.ini
+# Audio workstation temp files
+*.als
+*.logicx
+*.npr
 
-# Misc
-*.zip
-*.bak
-*.tmp
-
-# Binary/audio
-*.mp3
-*.wav
-*.ogg
-*.glb
-*.ttf
-*.otf
-*.jpg
-*.png
-*.ico
-*.psd
-*.ai
-
-# Git
-.gitattributes
+# Build outputs
+/build/
+/dist/
+/*.exe
+/*.app
