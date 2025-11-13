@@ -1,0 +1,26 @@
+[
+  {
+    "id": "intervals",
+    "title": "Intervals & Ear Training",
+    "genre": ["industrial", "blues", "house"],
+    "description": "Practice identifying melodic intervals with both sung and synthesized examples.",
+    "videoUrl": "https://www.youtube.com/embed/3wUom0K5Mq4",
+    "activities": [
+      "Sing ascending and descending intervals",
+      "Match intervals with on-screen fretboard",
+      "Tap rhythm patterns while intervals play"
+    ]
+  },
+  {
+    "id": "rhythm",
+    "title": "Rhythm Lab",
+    "genre": ["funk", "salsa", "outlaw country"],
+    "description": "Layer percussion grooves and clap along to syncopated rhythms.",
+    "videoUrl": "https://www.youtube.com/embed/5sDCrR2bqFw",
+    "activities": [
+      "Step through clave-inspired grooves",
+      "Drag-and-drop kick/snare patterns",
+      "Switch time signatures to feel the pulse"
+    ]
+  }
+]
