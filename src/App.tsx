@@ -1,75 +1,58 @@
 import React, { useMemo, useState } from "react";
-import EarTrainer from "./components/EarTrainer";
-import LoopStation from "./components/LoopStation";
-import TheoryCard, { TheoryCardData } from "./components/TheoryCard";
+import LearningStack from "./components/LearningStack";
+import { TheoryCardContent } from "./components/TheoryCard";
 import cards from "./data/theoryCards.json";
 
-const App: React.FC = () => {
-  const [activeCard, setActiveCard] = useState<string>(cards[0]?.id ?? "");
+const theoryCards = cards as TheoryCardContent[];
 
-  const selectedCard = useMemo<TheoryCardData | undefined>(
-    () => cards.find((card) => card.id === activeCard),
-    [activeCard]
-  );
+const App: React.FC = () => {
+  const [activeCardId, setActiveCardId] = useState<string>(theoryCards[0]?.id ?? "");
+
+  const activeCard = useMemo<TheoryCardContent | undefined>(() => {
+    return theoryCards.find((card) => card.id === activeCardId);
+  }, [activeCardId]);
+
+  const handleReadyForQuiz = (card: TheoryCardContent) => {
+    // Placeholder for future quiz routing/integration
+    // eslint-disable-next-line no-alert
+    alert(`Unlocked quiz and studio activity for ${card.title}!`);
+  };
 
   return (
     <div className="app">
       <header className="app__header">
         <h1>Southside School of Music</h1>
         <p>
-          Learn to hear, speak, and create music through interactive training that
-          celebrates industrial, classic rock, heavy metal, blues, house, funk,
-          salsa, goth, and outlaw country vibes.
+          Explore rhythm, groove, and feel. Read the lesson, listen with focused
+          ears, reflect on what you heard, and unlock the next studio mission.
         </p>
       </header>
 
-      <main className="app__content">
-        <section className="app__cards">
-          <h2>Learning Paths</h2>
-          <div className="app__grid">
-            {cards.map((card) => (
-              <TheoryCard
+      <main className="app__main">
+        <aside className="app__sidebar">
+          <h2>Lesson Cards</h2>
+          <nav className="app__cardList">
+            {theoryCards.map((card) => (
+              <button
                 key={card.id}
-                data={card}
-                isActive={card.id === activeCard}
-                onSelect={setActiveCard}
-              />
+                type="button"
+                className={`app__cardButton ${card.id === activeCardId ? "app__cardButton--active" : ""}`}
+                onClick={() => setActiveCardId(card.id)}
+              >
+                <span>{card.title}</span>
+              </button>
             ))}
-          </div>
+          </nav>
+        </aside>
+
+        <section className="app__learning">
+          {activeCard ? (
+            <LearningStack card={activeCard} onReadyForQuiz={handleReadyForQuiz} />
+          ) : (
+            <p>Select a lesson to get started.</p>
+          )}
         </section>
-
-        {selectedCard && (
-          <section className="app__viewer">
-            <h2>{selectedCard.title} Assignment</h2>
-            <div className="app__media">
-              <iframe
-                title={selectedCard.title}
-                src={selectedCard.videoUrl}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-              <aside>
-                <h3>Practice Checklist</h3>
-                <ul>
-                  {selectedCard.activities.map((activity) => (
-                    <li key={activity}>{activity}</li>
-                  ))}
-                </ul>
-              </aside>
-            </div>
-          </section>
-        )}
-
-        <EarTrainer />
-        <LoopStation />
       </main>
-
-      <footer className="app__footer">
-        <p>
-          Dial in your groove, record progress, and remix lessons into your own
-          compositions.
-        </p>
-      </footer>
     </div>
   );
 };
