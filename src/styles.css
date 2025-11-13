@@ -123,6 +123,139 @@ body {
   box-shadow: 0 18px 42px rgba(2, 6, 23, 0.6);
 }
 
+.app__studioShell {
+  display: grid;
+  gap: clamp(1.25rem, 3vw, 2rem);
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.app__studioHeader {
+  text-align: center;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.app__studioHeader h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 3vw, 2.3rem);
+}
+
+.app__studioHeader p {
+  margin: 0 auto;
+  max-width: 520px;
+  color: rgba(226, 232, 240, 0.76);
+}
+
+.app__studioActions {
+  display: flex;
+  justify-content: center;
+}
+
+.app__studioActions button {
+  background: rgba(15, 23, 42, 0.72);
+  color: rgba(226, 232, 240, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  border-radius: 999px;
+  padding: 0.75rem 1.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.app__studioActions button:hover {
+  transform: translateY(-1px);
+  background: rgba(30, 41, 59, 0.85);
+  box-shadow: 0 16px 28px rgba(15, 23, 42, 0.45);
+}
+
+.loop-station {
+  background: rgba(2, 6, 23, 0.45);
+  border-radius: 24px;
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  display: grid;
+  gap: 1.5rem;
+  border: 1px solid rgba(51, 65, 85, 0.45);
+}
+
+.loop-station__header {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.loop-station__header h2 {
+  margin: 0;
+  font-size: clamp(1.6rem, 2.5vw, 2rem);
+}
+
+.loop-station__header p {
+  margin: 0;
+  color: rgba(226, 232, 240, 0.72);
+  line-height: 1.6;
+}
+
+.loop-station__header button {
+  justify-self: center;
+  border: none;
+  border-radius: 999px;
+  padding: 0.75rem 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.9), rgba(14, 165, 233, 0.9));
+  color: #0b1120;
+  box-shadow: 0 18px 32px rgba(14, 165, 233, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.loop-station__header button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 22px 40px rgba(14, 165, 233, 0.45);
+}
+
+.loop-station__grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.loop-station__row {
+  display: grid;
+  grid-template-columns: 80px repeat(8, minmax(0, 1fr));
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.loop-station__label {
+  font-weight: 600;
+  color: rgba(226, 232, 240, 0.75);
+}
+
+.loop-station__step {
+  background: rgba(15, 23, 42, 0.72);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  color: rgba(226, 232, 240, 0.85);
+  border-radius: 12px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
+.loop-station__step:hover {
+  transform: translateY(-2px);
+  border-color: rgba(59, 130, 246, 0.55);
+}
+
+.loop-station__step--active {
+  background: rgba(59, 130, 246, 0.28);
+  border-color: rgba(59, 130, 246, 0.65);
+  box-shadow: 0 14px 28px rgba(37, 99, 235, 0.35);
+}
+
+.loop-station__step--current {
+  outline: 2px solid rgba(248, 250, 252, 0.45);
+  outline-offset: 2px;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

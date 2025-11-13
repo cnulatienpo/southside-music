@@ -1,0 +1,44 @@
+{
+  "beat-01": [
+    {
+      "type": "multiple-choice",
+      "question": "Which sound is usually the beat in a rock song?",
+      "options": ["Snare", "Bass Drum", "Hi-Hat", "Guitar"],
+      "answer": "Bass Drum"
+    },
+    {
+      "type": "visual-pick",
+      "question": "Which waveform matches the steady beat we heard?",
+      "imageOptions": [
+        {
+          "label": "A",
+          "src": "https://dummyimage.com/320x180/1f2937/ffffff&text=Steady+Pulse"
+        },
+        {
+          "label": "B",
+          "src": "https://dummyimage.com/320x180/0f172a/ffffff&text=Syncopated"
+        }
+      ],
+      "answer": "A"
+    }
+  ],
+  "groove-02": [
+    {
+      "type": "multiple-choice",
+      "question": "What makes a groove feel locked-in?",
+      "options": [
+        "Every instrument playing the exact same rhythm",
+        "Layered rhythms that support each other",
+        "A single instrument playing as loudly as possible",
+        "Silence between every note"
+      ],
+      "answer": "Layered rhythms that support each other"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "When the hi-hat pattern pushes slightly ahead of the kick, what feeling does it often create?",
+      "options": ["It drags the tempo", "It creates forward motion", "It stops the groove", "It removes the beat"],
+      "answer": "It creates forward motion"
+    }
+  ]
+}
