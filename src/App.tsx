@@ -1,21 +1,33 @@
 import React, { useMemo, useState } from "react";
 import LearningStack from "./components/LearningStack";
+import LoopStation from "./components/LoopStation";
+import QuizLauncher from "./components/QuizLauncher";
 import { TheoryCardContent } from "./components/TheoryCard";
 import cards from "./data/theoryCards.json";
 
 const theoryCards = cards as TheoryCardContent[];
 
+type ExperienceMode = "learn" | "quiz" | "studio";
+
 const App: React.FC = () => {
   const [activeCardId, setActiveCardId] = useState<string>(theoryCards[0]?.id ?? "");
+  const [mode, setMode] = useState<ExperienceMode>("learn");
 
   const activeCard = useMemo<TheoryCardContent | undefined>(() => {
     return theoryCards.find((card) => card.id === activeCardId);
   }, [activeCardId]);
 
   const handleReadyForQuiz = (card: TheoryCardContent) => {
-    // Placeholder for future quiz routing/integration
-    // eslint-disable-next-line no-alert
-    alert(`Unlocked quiz and studio activity for ${card.title}!`);
+    setActiveCardId(card.id);
+    setMode("quiz");
+  };
+
+  const handleReturnToLesson = () => {
+    setMode("learn");
+  };
+
+  const handleLaunchStudio = () => {
+    setMode("studio");
   };
 
   return (
@@ -37,7 +49,10 @@ const App: React.FC = () => {
                 key={card.id}
                 type="button"
                 className={`app__cardButton ${card.id === activeCardId ? "app__cardButton--active" : ""}`}
-                onClick={() => setActiveCardId(card.id)}
+                onClick={() => {
+                  setActiveCardId(card.id);
+                  setMode("learn");
+                }}
               >
                 <span>{card.title}</span>
               </button>
@@ -46,11 +61,39 @@ const App: React.FC = () => {
         </aside>
 
         <section className="app__learning">
-          {activeCard ? (
+          {mode === "learn" && activeCard && (
             <LearningStack card={activeCard} onReadyForQuiz={handleReadyForQuiz} />
-          ) : (
-            <p>Select a lesson to get started.</p>
           )}
+
+          {mode === "quiz" && activeCard && (
+            <QuizLauncher
+              cardId={activeCard.id}
+              cardTitle={activeCard.title}
+              onReturnToLesson={handleReturnToLesson}
+              onLaunchStudio={handleLaunchStudio}
+            />
+          )}
+
+          {mode === "studio" && (
+            <div className="app__studioShell">
+              <header className="app__studioHeader">
+                <h2>Create in the Studio Lab</h2>
+                {activeCard && (
+                  <p>
+                    Inspired by <strong>{activeCard.title}</strong>? Use the loop station to sculpt your own groove.
+                  </p>
+                )}
+              </header>
+              <LoopStation />
+              <div className="app__studioActions">
+                <button type="button" onClick={handleReturnToLesson}>
+                  Back to Lessons
+                </button>
+              </div>
+            </div>
+          )}
+
+          {!activeCard && <p>Select a lesson to get started.</p>}
         </section>
       </main>
     </div>
