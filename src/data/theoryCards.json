@@ -1,26 +1,42 @@
 [
   {
-    "id": "intervals",
-    "title": "Intervals & Ear Training",
-    "genre": ["industrial", "blues", "house"],
-    "description": "Practice identifying melodic intervals with both sung and synthesized examples.",
-    "videoUrl": "https://www.youtube.com/embed/3wUom0K5Mq4",
-    "activities": [
-      "Sing ascending and descending intervals",
-      "Match intervals with on-screen fretboard",
-      "Tap rhythm patterns while intervals play"
+    "id": "beat-01",
+    "title": "What’s a Beat?",
+    "category": "Rhythm Foundations",
+    "content": "In the beginning, there was a noise that repeated. That repetition became the heartbeat of music — the beat. Whether it’s the crash of a drum kit or the pulse of a synth bass, the beat is the pattern you can march to, clap along with, or nod your head to.",
+    "examples": [
+      {
+        "source": "youtube",
+        "title": "War Pigs",
+        "artist": "Black Sabbath",
+        "url": "https://www.youtube.com/watch?v=xtqy4DTHGqg"
+      },
+      {
+        "source": "soundcloud",
+        "title": "Move Your Body",
+        "artist": "Marshall Jefferson",
+        "url": "https://soundcloud.com/housemusic/marshall-jefferson-move-your-body"
+      }
     ]
   },
   {
-    "id": "rhythm",
-    "title": "Rhythm Lab",
-    "genre": ["funk", "salsa", "outlaw country"],
-    "description": "Layer percussion grooves and clap along to syncopated rhythms.",
-    "videoUrl": "https://www.youtube.com/embed/5sDCrR2bqFw",
-    "activities": [
-      "Step through clave-inspired grooves",
-      "Drag-and-drop kick/snare patterns",
-      "Switch time signatures to feel the pulse"
+    "id": "groove-02",
+    "title": "Finding the Groove",
+    "category": "Rhythm Foundations",
+    "content": "A groove is more than a beat — it’s the feel that makes you lean in. Grooves layer rhythms together, combining kick drums, snares, hi-hats, and bass lines to create motion. Listen for how instruments speak to each other to lock in the groove.",
+    "examples": [
+      {
+        "source": "youtube",
+        "title": "Chameleon",
+        "artist": "Herbie Hancock",
+        "url": "https://www.youtube.com/watch?v=UbkqE4fpvdI"
+      },
+      {
+        "source": "soundcloud",
+        "title": "Jungle",
+        "artist": "Jamie xx",
+        "url": "https://soundcloud.com/jamie-xx/jamie-xx-jungle"
+      }
     ]
   }
 ]
