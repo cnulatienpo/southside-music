@@ -1,0 +1,21 @@
+{
+  "appId": "com.southside.music",
+  "productName": "Southside School of Music",
+  "files": [
+    "build/**/*",
+    "main/**/*"
+  ],
+  "directories": {
+    "buildResources": "assets"
+  },
+  "mac": {
+    "category": "public.app-category.education"
+  },
+  "win": {
+    "target": "nsis"
+  },
+  "linux": {
+    "target": ["AppImage"],
+    "category": "AudioVideo"
+  }
+}

@@ -1,21 +1,6 @@
-# macOS system files
+node_modules
+dist
+out
+.env
 .DS_Store
-
-# GameMaker project folders
-*.yy.old
-*.yyp.bak
-.yyc/
-cache/
-output/
-temp/
-
-# Audio workstation temp files
-*.als
-*.logicx
-*.npr
-
-# Build outputs
-/build/
-/dist/
-/*.exe
-/*.app
+*.log
