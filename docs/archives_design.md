@@ -18,7 +18,7 @@
 - listening notes
 
 ## Why It Matters
-This is YOUR creative biography.
+This is YOUR creative biography. Every drawer and neon sticky note charts what you noticed, stole, learned, and built.
 
 ## Integrations
 - EarTrainingEngine

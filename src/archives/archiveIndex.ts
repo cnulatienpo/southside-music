@@ -1,19 +1,27 @@
-/**
- * ARCHIVES INDEX
- * Defines the structures returned by the ArchiveEngine.
- */
+export interface ArchiveIndex {
+  drills: TimelineEntry[];
+  heists: HeistReport[];
+  seeds: TimelineEntry[];
+  soundworldAssets: GardenMemory[];
+  songSections: SongProjectSummary[];
+  vocabularyMappings: Record<string, string>;
+  pitchMilestones: Milestone[];
+  listeningLogs: TimelineEntry[];
+  labExperiments: LabExperiment[];
+  gardenScrapbook: GardenMemory[];
+}
 
 export interface TimelineEntry {
   id: string;
   timestamp: string;
-  type: string; // "drill","heist","seed","song","vocab","milestone","garden","lab","listen"
+  type: "drill" | "heist" | "seed" | "song" | "vocab" | "milestone" | "garden" | "lab" | "listen";
   summary: string;
   metadata: Record<string, any>;
 }
 
 export interface Milestone {
   id: string;
-  type: string; // "octave","contour","color","rhythm","recognition"
+  type: "octave" | "contour" | "color" | "rhythm" | "recognition";
   description: string;
   timestamp: string;
 }
@@ -43,20 +51,12 @@ export interface LabExperiment {
 
 export interface HeistReport {
   id: string;
-  target?: string;
-  loot?: string;
-  insight?: string;
-  timestamp: string;
-  outcome?: string;
-}
-
-export interface ArchiveIndex {
-  drills: any[];
-  heists: HeistReport[];
-  seeds: any[];
-  soundworldAssets: any[];
-  songSections: any[];
-  vocabulary: Record<string, string>;
-  pitchMilestones: Milestone[];
-  listeningLogs: any[];
+  userId: string;
+  createdAt: string;
+  sourceDescription: string;
+  heistMode: "form" | "context" | "mixed";
+  perceivedRuthlessness?: number;
+  perceivedCreativity?: number;
+  perceivedEffort?: number;
+  notes?: string;
 }

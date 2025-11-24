@@ -1,47 +1,29 @@
-/**
- * ARCHIVE ENGINE
- * Aggregates creative memory across the Southside School systems.
- */
-
+import dayjs from "dayjs";
+import { DeepSeekEngine } from "../lib/deepSeekEngine";
+import { EarTrainingLogEntry, TheftHeistReport, UserDataStore } from "../data/userDataStore";
 import {
   ArchiveIndex,
   GardenMemory,
+  HeistReport,
   LabExperiment,
   Milestone,
   SongProjectSummary,
   TimelineEntry,
-  HeistReport,
-} from "./memoryStructures";
-
-// Lightweight contracts for collaborating systems. These are intentionally
-// open-ended so that different engines can plug in their own data providers.
-type UserDataStore = {
-  getDrills?: (userId: string) => Promise<any[]> | any[];
-  getHeists?: (userId: string) => Promise<HeistReport[]> | HeistReport[];
-  getSeeds?: (userId: string) => Promise<any[]> | any[];
-  getSoundworldAssets?: (userId: string) => Promise<any[]> | any[];
-  getSongSections?: (userId: string) => Promise<any[]> | any[];
-  getVocabularyMap?: (userId: string) => Promise<Record<string, string>> | Record<string, string>;
-  getPitchMilestones?: (userId: string) => Promise<Milestone[]> | Milestone[];
-  getListeningLogs?: (userId: string) => Promise<any[]> | any[];
-  getSongProjects?: (userId: string) => Promise<SongProjectSummary[]> | SongProjectSummary[];
-  getGardenScrapbook?: (userId: string) => Promise<GardenMemory[]> | GardenMemory[];
-  getLabExperiments?: (userId: string) => Promise<LabExperiment[]> | LabExperiment[];
-};
-
-type DeepSeekEngine = {
-  reflectOnArchive?: (payload: {
-    userId: string;
-    timeline: TimelineEntry[];
-    vocabulary: Record<string, string>;
-    milestones: Milestone[];
-  }) => Promise<string> | string;
-};
+} from "./archiveIndex";
 
 export class ArchiveEngine {
-  userId: string;
-  store: UserDataStore;
-  deepSeek: DeepSeekEngine;
+  private readonly userId: string;
+  private readonly store: UserDataStore;
+  private readonly deepSeek: DeepSeekEngine;
+
+  private vocabularyMap: Record<string, string> = {};
+  private masteryMilestones: Milestone[] = [];
+  private songProjects: SongProjectSummary[] = [];
+  private gardenScrapbook: GardenMemory[] = [];
+  private labExperiments: LabExperiment[] = [];
+  private drills: TimelineEntry[] = [];
+  private seeds: TimelineEntry[] = [];
+  private soundworldAssets: GardenMemory[] = [];
 
   constructor(options: { userId: string; store: UserDataStore; deepSeek: DeepSeekEngine }) {
     this.userId = options.userId;
@@ -49,201 +31,188 @@ export class ArchiveEngine {
     this.deepSeek = options.deepSeek;
   }
 
-  private async resolveArray<T>(value: Promise<T[]> | T[] | undefined): Promise<T[]> {
-    if (!value) return [] as T[];
-    const resolved = await value;
-    return Array.isArray(resolved) ? resolved : [];
+  public setVocabularyMap(map: Record<string, string>): void {
+    this.vocabularyMap = { ...map };
   }
 
-  private async resolveObject<T extends object>(value: Promise<T> | T | undefined): Promise<T> {
-    if (!value) return {} as T;
-    return await value;
+  public setMasteryMilestones(milestones: Milestone[]): void {
+    this.masteryMilestones = [...milestones];
   }
 
-  private coerceTimestamp(entry: any): string {
-    if (!entry) return new Date().toISOString();
-    return (
-      entry.timestamp ||
-      entry.createdAt ||
-      entry.updatedAt ||
-      (entry.metadata && entry.metadata.timestamp) ||
-      new Date().toISOString()
-    );
+  public setSongProjects(projects: SongProjectSummary[]): void {
+    this.songProjects = [...projects];
   }
 
-  private toTimelineEntry(
-    id: string,
-    type: TimelineEntry["type"],
-    summary: string,
-    timestampSource: any,
-    metadata: Record<string, any> = {}
-  ): TimelineEntry {
-    return {
-      id,
-      timestamp: this.coerceTimestamp(timestampSource),
-      type,
-      summary,
-      metadata,
-    };
+  public setGardenScrapbook(memories: GardenMemory[]): void {
+    this.gardenScrapbook = [...memories];
   }
 
-  async getFullIndex(): Promise<ArchiveIndex> {
-    const [
-      drills,
-      heists,
-      seeds,
-      soundworldAssets,
-      songSections,
-      vocabulary,
-      pitchMilestones,
-      listeningLogs,
-    ] = await Promise.all([
-      this.resolveArray(this.store.getDrills?.(this.userId)),
-      this.resolveArray(this.store.getHeists?.(this.userId)),
-      this.resolveArray(this.store.getSeeds?.(this.userId)),
-      this.resolveArray(this.store.getSoundworldAssets?.(this.userId)),
-      this.resolveArray(this.store.getSongSections?.(this.userId)),
-      this.resolveObject(this.store.getVocabularyMap?.(this.userId)),
-      this.resolveArray(this.store.getPitchMilestones?.(this.userId)),
-      this.resolveArray(this.store.getListeningLogs?.(this.userId)),
+  public setLabExperiments(experiments: LabExperiment[]): void {
+    this.labExperiments = [...experiments];
+  }
+
+  public setDrills(drillEntries: TimelineEntry[]): void {
+    this.drills = [...drillEntries];
+  }
+
+  public setSeeds(seedEntries: TimelineEntry[]): void {
+    this.seeds = [...seedEntries];
+  }
+
+  public setSoundworldAssets(assets: GardenMemory[]): void {
+    this.soundworldAssets = [...assets];
+  }
+
+  public async getFullIndex(): Promise<ArchiveIndex> {
+    const [heists, listeningLogs] = await Promise.all([
+      this.safeGetHeistHistory(),
+      this.safeGetListeningLogs(),
     ]);
 
     return {
-      drills,
+      drills: this.drills,
       heists,
-      seeds,
-      soundworldAssets,
-      songSections,
-      vocabulary: vocabulary ?? {},
-      pitchMilestones,
-      listeningLogs,
+      seeds: this.seeds,
+      soundworldAssets: this.soundworldAssets,
+      songSections: this.songProjects,
+      vocabularyMappings: { ...this.vocabularyMap },
+      pitchMilestones: this.masteryMilestones,
+      listeningLogs: listeningLogs.map((log) => this.mapListeningToTimeline(log)),
+      labExperiments: this.labExperiments,
+      gardenScrapbook: this.gardenScrapbook.length > 0 ? this.gardenScrapbook : this.soundworldAssets,
     };
   }
 
-  async getTimeline(): Promise<TimelineEntry[]> {
+  public async getTimeline(): Promise<TimelineEntry[]> {
     const index = await this.getFullIndex();
-    const timeline: TimelineEntry[] = [];
 
-    index.drills.forEach((drill: any) => {
-      timeline.push(
-        this.toTimelineEntry(drill.id || `drill-${timeline.length}`, "drill", drill.summary || "Drill", drill)
-      );
-    });
+    const timelineSeeds: TimelineEntry[] = [
+      ...index.drills,
+      ...index.seeds,
+      ...index.listeningLogs,
+      ...index.pitchMilestones.map((milestone) => ({
+        id: milestone.id,
+        timestamp: milestone.timestamp,
+        type: "milestone" as const,
+        summary: milestone.description,
+        metadata: { milestoneType: milestone.type },
+      })),
+      ...index.heists.map((heist) => this.mapHeistToTimeline(heist)),
+      ...index.songSections.map((song) => ({
+        id: song.id,
+        timestamp: song.updatedAt,
+        type: "song" as const,
+        summary: song.title,
+        metadata: { sections: song.sections, notes: song.notes },
+      })),
+      ...index.labExperiments.map((experiment) => ({
+        id: experiment.id,
+        timestamp: experiment.timestamp,
+        type: "lab" as const,
+        summary: experiment.concept,
+        metadata: { result: experiment.result },
+      })),
+    ];
 
-    index.heists.forEach((heist) => {
-      timeline.push(
-        this.toTimelineEntry(
-          heist.id || `heist-${timeline.length}`,
-          "heist",
-          heist.insight || heist.target || "Heist",
-          heist,
-          { outcome: heist.outcome, target: heist.target }
-        )
-      );
-    });
-
-    index.seeds.forEach((seed: any) => {
-      timeline.push(
-        this.toTimelineEntry(seed.id || `seed-${timeline.length}`, "seed", seed.text || seed.summary || "Seed", seed)
-      );
-    });
-
-    index.songSections.forEach((section: any) => {
-      timeline.push(
-        this.toTimelineEntry(
-          section.id || `song-${timeline.length}`,
-          "song",
-          section.title || section.name || "Song section",
-          section,
-          { section }
-        )
-      );
-    });
-
-    Object.entries(index.vocabulary || {}).forEach(([phrase, concept], idx) => {
-      timeline.push(this.toTimelineEntry(`vocab-${idx}`, "vocab", `${phrase} → ${concept}`, { timestamp: undefined }));
-    });
-
-    index.pitchMilestones.forEach((milestone) => {
-      timeline.push(
-        this.toTimelineEntry(
-          milestone.id,
-          "milestone",
-          milestone.description,
-          milestone,
-          { milestoneType: milestone.type }
-        )
-      );
-    });
-
-    index.soundworldAssets.forEach((asset: any) => {
-      timeline.push(
-        this.toTimelineEntry(
-          asset.id || `garden-${timeline.length}`,
-          "garden",
-          asset.summary || asset.name || "Soundworld sketch",
-          asset,
-          { palette: asset.palette, mood: asset.mood }
-        )
-      );
-    });
-
-    index.listeningLogs.forEach((entry: any, idx: number) => {
-      timeline.push(
-        this.toTimelineEntry(
-          entry.id || `listen-${idx}`,
-          "listen",
-          entry.notes || entry.track || "Listening",
-          entry,
-          { source: entry.source }
-        )
-      );
-    });
-
-    return timeline.sort((a, b) => a.timestamp.localeCompare(b.timestamp));
+    const timeline = timelineSeeds.filter((entry) => Boolean(entry.timestamp));
+    timeline.sort((a, b) => dayjs(a.timestamp).diff(dayjs(b.timestamp)));
+    return timeline;
   }
 
-  async getVocabularyMap(): Promise<Record<string, string>> {
-    const vocab = await this.resolveObject(this.store.getVocabularyMap?.(this.userId));
-    return vocab ?? {};
+  public async getVocabularyMap(): Promise<Record<string, string>> {
+    return { ...this.vocabularyMap };
   }
 
-  async getMasteryMilestones(): Promise<Milestone[]> {
-    return this.resolveArray(this.store.getPitchMilestones?.(this.userId));
+  public async getMasteryMilestones(): Promise<Milestone[]> {
+    return [...this.masteryMilestones];
   }
 
-  async getHeistHistory(): Promise<HeistReport[]> {
-    return this.resolveArray(this.store.getHeists?.(this.userId));
+  public async getHeistHistory(): Promise<HeistReport[]> {
+    return this.safeGetHeistHistory();
   }
 
-  async getSongProjects(): Promise<SongProjectSummary[]> {
-    return this.resolveArray(this.store.getSongProjects?.(this.userId));
+  public async getSongProjects(): Promise<SongProjectSummary[]> {
+    return [...this.songProjects];
   }
 
-  async getGardenScrapbook(): Promise<GardenMemory[]> {
-    return this.resolveArray(this.store.getGardenScrapbook?.(this.userId));
+  public async getGardenScrapbook(): Promise<GardenMemory[]> {
+    return [...this.gardenScrapbook];
   }
 
-  async getLabExperiments(): Promise<LabExperiment[]> {
-    return this.resolveArray(this.store.getLabExperiments?.(this.userId));
+  public async getLabExperiments(): Promise<LabExperiment[]> {
+    return [...this.labExperiments];
   }
 
-  async askDeepSeekForReflection(): Promise<string> {
-    const [timeline, vocabulary, milestones] = await Promise.all([
-      this.getTimeline(),
-      this.getVocabularyMap(),
-      this.getMasteryMilestones(),
-    ]);
+  public async askDeepSeekForReflection(): Promise<string> {
+    const prompt = [
+      "Archive reflection request:",
+      "- Tone: flickering fluorescent lights, metal drawers, blueprint walls, graffiti annotations.",
+      "- Voice: note patterns, color associations, playful but observant.",
+      "Share a short poetic reflection on the player's evolution without grading them.",
+    ].join("\n");
 
-    if (typeof this.deepSeek.reflectOnArchive === "function") {
-      return await this.deepSeek.reflectOnArchive({
-        userId: this.userId,
-        timeline,
-        vocabulary,
-        milestones,
-      });
+    return this.deepSeek.generateNoGradingResponse({ userId: this.userId, userMessage: prompt });
+  }
+
+  private async safeGetHeistHistory(): Promise<HeistReport[]> {
+    try {
+      const heists = await this.store.getTheftHistory(this.userId, 200);
+      return heists.map((heist) => this.mapHeistReport(heist));
+    } catch (error) {
+      console.error("Failed to pull heist history for archives", error);
+      return [];
     }
+  }
 
-    return "Your archive hums under flickering lights — a collage of drills, heists, and neon notes.";
+  private async safeGetListeningLogs(): Promise<EarTrainingLogEntry[]> {
+    try {
+      return await this.store.getEarTrainingHistory(this.userId, 200);
+    } catch (error) {
+      console.error("Failed to pull listening logs for archives", error);
+      return [];
+    }
+  }
+
+  private mapHeistReport(report: TheftHeistReport): HeistReport {
+    return {
+      id: report.id,
+      userId: report.userId,
+      createdAt: report.createdAt,
+      sourceDescription: report.sourceDescription,
+      heistMode: report.heistMode,
+      perceivedRuthlessness: report.perceivedRuthlessness,
+      perceivedCreativity: report.perceivedCreativity,
+      perceivedEffort: report.perceivedEffort,
+      notes: report.notes,
+    };
+  }
+
+  private mapHeistToTimeline(report: HeistReport): TimelineEntry {
+    return {
+      id: report.id,
+      timestamp: report.createdAt,
+      type: "heist",
+      summary: `${report.heistMode} lift: ${report.sourceDescription}`,
+      metadata: {
+        perceivedRuthlessness: report.perceivedRuthlessness,
+        perceivedCreativity: report.perceivedCreativity,
+        perceivedEffort: report.perceivedEffort,
+        notes: report.notes,
+      },
+    };
+  }
+
+  private mapListeningToTimeline(entry: EarTrainingLogEntry): TimelineEntry {
+    return {
+      id: entry.id,
+      timestamp: entry.createdAt,
+      type: "listen",
+      summary: `Listening: ${entry.exerciseType}`,
+      metadata: {
+        difficultyLevel: entry.difficultyLevel,
+        userResponse: entry.userResponse,
+        systemContext: entry.systemContext,
+      },
+    };
   }
 }
