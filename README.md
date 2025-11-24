@@ -8,3 +8,6 @@ An Electron + React desktop app that teaches music theory and creation using emb
 - Embedded YouTube listening assignments
 - Simple UI for composition and music creation
 - Designed for visual and neurodiverse learners
+
+## Guides
+- [PART 1 — THEFT MODE](docs/theft_mode_manifesto.md): How to “rob” form, vibe, and energy while staying transformative.
