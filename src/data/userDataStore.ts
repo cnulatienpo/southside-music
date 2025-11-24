@@ -31,6 +31,18 @@ export type EarTrainingLogEntry = {
   systemContext?: Record<string, any>;
 };
 
+export type LearningRecordLogEntry = {
+  id: string;
+  userId: string;
+  createdAt: string;
+  rawText: string;
+  clipContext?: string | null;
+  classification: Record<string, any>;
+  vocabularyMappings: Array<Record<string, any>>;
+  suggestedTheory?: string[];
+  suggestedExercises?: string[];
+};
+
 export type TheftHeistReport = {
   id: string;
   userId: string;
@@ -104,6 +116,18 @@ export class UserDataStore {
           difficulty_level INTEGER,
           user_response TEXT NOT NULL,
           system_context TEXT
+        );
+
+        CREATE TABLE IF NOT EXISTS learning_records (
+          id TEXT PRIMARY KEY,
+          user_id TEXT NOT NULL,
+          created_at TEXT NOT NULL,
+          raw_text TEXT NOT NULL,
+          clip_context TEXT,
+          classification_json TEXT,
+          vocabulary_mappings_json TEXT,
+          suggested_theory_json TEXT,
+          suggested_exercises_json TEXT
         );
 
         CREATE TABLE IF NOT EXISTS theft_heists (
@@ -287,6 +311,62 @@ export class UserDataStore {
       return fullEntry;
     } catch (error) {
       console.error("Failed to log ear training entry", error);
+      throw error;
+    }
+  }
+
+  public async logLearningRecord(
+    record: Omit<LearningRecordLogEntry, "id" | "createdAt"> & { createdAt?: string }
+  ): Promise<LearningRecordLogEntry> {
+    this.ensureInitialized();
+    const fullRecord: LearningRecordLogEntry = {
+      ...record,
+      id: nanoid(),
+      createdAt: record.createdAt ?? dayjs().toISOString(),
+    };
+
+    try {
+      const stmt = this.db.prepare(
+        `INSERT INTO learning_records (
+          id,
+          user_id,
+          created_at,
+          raw_text,
+          clip_context,
+          classification_json,
+          vocabulary_mappings_json,
+          suggested_theory_json,
+          suggested_exercises_json
+        ) VALUES (
+          @id,
+          @userId,
+          @createdAt,
+          @rawText,
+          @clipContext,
+          @classificationJson,
+          @vocabularyMappingsJson,
+          @suggestedTheoryJson,
+          @suggestedExercisesJson
+        )`
+      );
+
+      stmt.run({
+        id: fullRecord.id,
+        userId: fullRecord.userId,
+        createdAt: fullRecord.createdAt,
+        rawText: fullRecord.rawText,
+        clipContext: fullRecord.clipContext ?? null,
+        classificationJson: JSON.stringify(fullRecord.classification ?? {}),
+        vocabularyMappingsJson: JSON.stringify(fullRecord.vocabularyMappings ?? []),
+        suggestedTheoryJson: fullRecord.suggestedTheory ? JSON.stringify(fullRecord.suggestedTheory) : null,
+        suggestedExercisesJson: fullRecord.suggestedExercises
+          ? JSON.stringify(fullRecord.suggestedExercises)
+          : null,
+      });
+
+      return fullRecord;
+    } catch (error) {
+      console.error("Failed to log learning record", error);
       throw error;
     }
   }
