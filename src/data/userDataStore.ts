@@ -43,6 +43,18 @@ export type LearningRecordLogEntry = {
   suggestedExercises?: string[];
 };
 
+export type DojoEventLogEntry = {
+  id: string;
+  userId: string;
+  createdAt: string;
+  drillName: string;
+  category: string;
+  userResponse: string;
+  prompt: string;
+  followUp?: string | null;
+  metadata?: Record<string, any>;
+};
+
 export type TheftHeistReport = {
   id: string;
   userId: string;
@@ -128,6 +140,18 @@ export class UserDataStore {
           vocabulary_mappings_json TEXT,
           suggested_theory_json TEXT,
           suggested_exercises_json TEXT
+        );
+
+        CREATE TABLE IF NOT EXISTS dojo_events (
+          id TEXT PRIMARY KEY,
+          user_id TEXT NOT NULL,
+          created_at TEXT NOT NULL,
+          drill_name TEXT NOT NULL,
+          category TEXT NOT NULL,
+          user_response TEXT NOT NULL,
+          prompt TEXT NOT NULL,
+          follow_up TEXT,
+          metadata TEXT
         );
 
         CREATE TABLE IF NOT EXISTS theft_heists (
@@ -367,6 +391,50 @@ export class UserDataStore {
       return fullRecord;
     } catch (error) {
       console.error("Failed to log learning record", error);
+      throw error;
+    }
+  }
+
+  public async logDojoEvent(
+    event: Omit<DojoEventLogEntry, "id" | "createdAt"> & { createdAt?: string }
+  ): Promise<DojoEventLogEntry> {
+    this.ensureInitialized();
+    const fullEvent: DojoEventLogEntry = {
+      ...event,
+      id: nanoid(),
+      createdAt: event.createdAt ?? dayjs().toISOString(),
+    };
+
+    try {
+      const stmt = this.db.prepare(
+        `INSERT INTO dojo_events (
+          id,
+          user_id,
+          created_at,
+          drill_name,
+          category,
+          user_response,
+          prompt,
+          follow_up,
+          metadata
+        ) VALUES (@id, @userId, @createdAt, @drillName, @category, @userResponse, @prompt, @followUp, @metadata)`
+      );
+
+      stmt.run({
+        id: fullEvent.id,
+        userId: fullEvent.userId,
+        createdAt: fullEvent.createdAt,
+        drillName: fullEvent.drillName,
+        category: fullEvent.category,
+        userResponse: fullEvent.userResponse,
+        prompt: fullEvent.prompt,
+        followUp: fullEvent.followUp ?? null,
+        metadata: fullEvent.metadata ? JSON.stringify(fullEvent.metadata) : null,
+      });
+
+      return fullEvent;
+    } catch (error) {
+      console.error("Failed to log dojo event", error);
       throw error;
     }
   }
