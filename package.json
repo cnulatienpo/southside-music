@@ -2,12 +2,12 @@
   "name": "southside-music",
   "version": "0.1.0",
   "private": true,
-  "main": "main/main.ts",
+  "main": "main/main.js",
   "scripts": {
     "start": "concurrently \"npm run react-start\" \"npm run electron-start\"",
     "dev": "npm run start",
     "react-start": "react-scripts start",
-    "electron-start": "wait-on http://localhost:3000 && electron -r ts-node/register ./main/main.ts",
+    "electron-start": "wait-on http://localhost:3000 && electron ./main/main.js",
     "build": "react-scripts build && electron-builder"
   },
   "dependencies": {
@@ -22,6 +22,7 @@
     "concurrently": "^8.2.2",
     "electron": "^28.2.0",
     "electron-builder": "^24.9.1",
+    "electron-reload": "^2.0.0",
     "ts-node": "^10.9.2",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
