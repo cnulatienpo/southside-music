@@ -143,6 +143,10 @@ export class EarTrainingEngine {
     return chosenExercise;
   }
 
+  public setManualExercise(exerciseType: EarTrainingExerciseType): void {
+    this.currentExercise = exerciseType;
+  }
+
   public async getExercisePrompt(): Promise<string> {
     if (!this.currentExercise) {
       await this.generateNextExercise();
@@ -233,12 +237,15 @@ export class EarTrainingEngine {
     return "What else did you notice?";
   }
 
-  public async runExerciseCycle(userResponse: string): Promise<{
+  public async runExerciseCycle(
+    userResponse: string,
+    extraContext?: Record<string, any>
+  ): Promise<{
     acknowledgement: string;
     followUp: string;
     newTerm?: string | null;
   }> {
-    await this.recordAttempt(userResponse);
+    await this.recordAttempt(userResponse, extraContext);
     const acknowledgement = this.randomAck();
     const followUp = await this.getFollowUpPrompt();
     const newTerm = this.maybeIntroduceTerminology(this.lastClassificationTags);
