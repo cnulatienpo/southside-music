@@ -79,6 +79,7 @@ export type ModeUsageEvent = {
 export type LowDBSchema = {
   profile: UserProfile | null;
   lastSessionId?: string;
+  customData?: Record<string, any>;
 };
 
 type ConstructorOptions = {
@@ -177,10 +178,13 @@ export class UserDataStore {
       `);
 
       const adapter = new JSONFile<LowDBSchema>(this.jsonPath);
-      this.lowdb = new Low<LowDBSchema>(adapter, { profile: null });
+      this.lowdb = new Low<LowDBSchema>(adapter, { profile: null, customData: {} });
       await this.lowdb.read();
       if (!this.lowdb.data) {
-        this.lowdb.data = { profile: null };
+        this.lowdb.data = { profile: null, customData: {} };
+      }
+      if (!this.lowdb.data.customData) {
+        this.lowdb.data.customData = {};
       }
       await this.lowdb.write();
 
@@ -219,7 +223,10 @@ export class UserDataStore {
       });
 
       if (!this.lowdb.data) {
-        this.lowdb.data = { profile: null };
+        this.lowdb.data = { profile: null, customData: {} };
+      }
+      if (!this.lowdb.data.customData) {
+        this.lowdb.data.customData = {};
       }
       this.lowdb.data.profile = newProfile;
       await this.lowdb.write();
@@ -256,7 +263,10 @@ export class UserDataStore {
       });
 
       if (!this.lowdb.data) {
-        this.lowdb.data = { profile: null };
+        this.lowdb.data = { profile: null, customData: {} };
+      }
+      if (!this.lowdb.data.customData) {
+        this.lowdb.data.customData = {};
       }
       this.lowdb.data.profile = updatedProfile;
       await this.lowdb.write();
@@ -618,6 +628,33 @@ export class UserDataStore {
       console.error("Failed to get mode usage summary", error);
       throw error;
     }
+  }
+
+  public async getCustomData<T>(key: string): Promise<T | undefined> {
+    this.ensureInitialized();
+    await this.lowdb.read();
+    if (!this.lowdb.data) {
+      this.lowdb.data = { profile: null, customData: {} };
+    }
+    if (!this.lowdb.data.customData) {
+      this.lowdb.data.customData = {};
+    }
+
+    return this.lowdb.data.customData[key] as T | undefined;
+  }
+
+  public async setCustomData<T>(key: string, value: T): Promise<void> {
+    this.ensureInitialized();
+    await this.lowdb.read();
+    if (!this.lowdb.data) {
+      this.lowdb.data = { profile: null, customData: {} };
+    }
+    if (!this.lowdb.data.customData) {
+      this.lowdb.data.customData = {};
+    }
+
+    this.lowdb.data.customData[key] = value;
+    await this.lowdb.write();
   }
 
   private ensureInitialized(): void {
