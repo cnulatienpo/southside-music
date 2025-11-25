@@ -5,6 +5,7 @@ import { ShapeSoundMapper } from "./shapeSoundMapper";
 export type DualMode = "visual" | "audio" | "dual";
 
 export interface MediaSync {
+  init?(): Promise<void> | void;
   snapshot(): { currentTime: number; isYouTube: boolean; fft?: Uint8Array };
 }
 

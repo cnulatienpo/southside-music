@@ -1,14 +1,14 @@
 import { CircuitChoice, CircuitScene, CircuitToolId } from "./circuitsTypes";
 
 export interface CircuitsUIHooks {
-  onRenderScene(scene: CircuitScene): void;
-  onRenderNPC(text: string): void;
-  onRenderSetting(text: string): void;
-  onRenderExcuse(text: string): void;
-  onRenderTools(tools: CircuitToolId[]): void;
-  onRenderChoices(choices: CircuitChoice[]): void;
-  onPlayerChosen(choice: CircuitChoice): void;
-  onClear(): void;
+  onRenderScene?(scene: CircuitScene): void;
+  onRenderNPC?(text: string): void;
+  onRenderSetting?(text: string): void;
+  onRenderExcuse?(text: string): void;
+  onRenderTools?(tools: CircuitToolId[]): void;
+  onRenderChoices?(choices: CircuitChoice[]): void;
+  onPlayerChosen?(choice: CircuitChoice): void;
+  onClear?(): void;
   onBackgroundRender?(): void;
   onBackgroundClear?(): void;
 }

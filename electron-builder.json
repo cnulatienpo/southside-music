@@ -3,19 +3,20 @@
   "productName": "Southside School of Music",
   "files": [
     "build/**/*",
-    "main/**/*"
+    "main/**/*",
+    "node_modules/**/*",
+    "package.json"
   ],
   "directories": {
     "buildResources": "assets"
   },
-  "mac": {
-    "category": "public.app-category.education"
-  },
+  "asar": true,
   "win": {
-    "target": "nsis"
-  },
-  "linux": {
-    "target": ["AppImage"],
-    "category": "AudioVideo"
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      }
+    ]
   }
 }
