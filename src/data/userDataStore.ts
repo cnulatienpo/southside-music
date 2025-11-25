@@ -4,6 +4,7 @@ import { nanoid } from "nanoid";
 import dayjs from "dayjs";
 import path from "path";
 import fs from "fs";
+import { Souvenir, StoryChain } from "../circuits/meta/circuitsMetaTypes";
 
 export type UserProfile = {
   id: string;
@@ -174,6 +175,22 @@ export class UserDataStore {
           action TEXT NOT NULL,
           timestamp TEXT NOT NULL,
           metadata TEXT
+        );
+
+        CREATE TABLE IF NOT EXISTS circuits_runs (
+          id TEXT PRIMARY KEY,
+          user_id TEXT NOT NULL,
+          created_at TEXT NOT NULL,
+          chain_json TEXT NOT NULL
+        );
+
+        CREATE TABLE IF NOT EXISTS circuits_souvenirs (
+          id TEXT PRIMARY KEY,
+          user_id TEXT NOT NULL,
+          label TEXT NOT NULL,
+          type TEXT NOT NULL,
+          metadata TEXT,
+          created_at TEXT NOT NULL
         );
       `);
 
@@ -626,6 +643,127 @@ export class UserDataStore {
       return summary;
     } catch (error) {
       console.error("Failed to get mode usage summary", error);
+      throw error;
+    }
+  }
+
+  public async saveCircuitRun(chain: StoryChain): Promise<StoryChain> {
+    this.ensureInitialized();
+    const fullChain: StoryChain = {
+      ...chain,
+      id: chain.id ?? nanoid(),
+      createdAt: chain.createdAt ?? dayjs().toISOString(),
+    };
+
+    try {
+      const stmt = this.db.prepare(
+        `REPLACE INTO circuits_runs (id, user_id, created_at, chain_json)
+         VALUES (@id, @userId, @createdAt, @chainJson)`
+      );
+
+      stmt.run({
+        id: fullChain.id,
+        userId: fullChain.userId,
+        createdAt: fullChain.createdAt,
+        chainJson: JSON.stringify(fullChain),
+      });
+
+      return fullChain;
+    } catch (error) {
+      console.error("Failed to save circuit run", error);
+      throw error;
+    }
+  }
+
+  public async listCircuitRuns(userId: string, limit = 20): Promise<StoryChain[]> {
+    this.ensureInitialized();
+    try {
+      const stmt = this.db.prepare(
+        `SELECT chain_json FROM circuits_runs WHERE user_id = ? ORDER BY created_at DESC LIMIT ?`
+      );
+      const rows = stmt.all(userId, limit) as Array<{ chain_json: string }>;
+
+      return rows.map((row) => JSON.parse(row.chain_json) as StoryChain);
+    } catch (error) {
+      console.error("Failed to list circuit runs", error);
+      throw error;
+    }
+  }
+
+  public async getCircuitRun(chainId: string): Promise<StoryChain | null> {
+    this.ensureInitialized();
+    try {
+      const stmt = this.db.prepare(`SELECT chain_json FROM circuits_runs WHERE id = ?`);
+      const row = stmt.get(chainId) as { chain_json: string } | undefined;
+
+      if (!row?.chain_json) {
+        return null;
+      }
+
+      return JSON.parse(row.chain_json) as StoryChain;
+    } catch (error) {
+      console.error("Failed to fetch circuit run", error);
+      throw error;
+    }
+  }
+
+  public async saveSouvenir(
+    souvenir: Omit<Souvenir, "id" | "createdAt"> & { id?: string; createdAt?: string }
+  ): Promise<Souvenir> {
+    this.ensureInitialized();
+    const fullSouvenir: Souvenir = {
+      ...souvenir,
+      id: souvenir.id ?? nanoid(),
+      createdAt: souvenir.createdAt ?? dayjs().toISOString(),
+    };
+
+    try {
+      const stmt = this.db.prepare(
+        `REPLACE INTO circuits_souvenirs (id, user_id, label, type, metadata, created_at)
+         VALUES (@id, @userId, @label, @type, @metadata, @createdAt)`
+      );
+
+      stmt.run({
+        id: fullSouvenir.id,
+        userId: fullSouvenir.userId,
+        label: fullSouvenir.label,
+        type: fullSouvenir.type,
+        metadata: fullSouvenir.metadata ? JSON.stringify(fullSouvenir.metadata) : null,
+        createdAt: fullSouvenir.createdAt,
+      });
+
+      return fullSouvenir;
+    } catch (error) {
+      console.error("Failed to save souvenir", error);
+      throw error;
+    }
+  }
+
+  public async listSouvenirs(userId: string, limit = 50): Promise<Souvenir[]> {
+    this.ensureInitialized();
+    try {
+      const stmt = this.db.prepare(
+        `SELECT * FROM circuits_souvenirs WHERE user_id = ? ORDER BY created_at DESC LIMIT ?`
+      );
+      const rows = stmt.all(userId, limit) as Array<{
+        id: string;
+        user_id: string;
+        label: string;
+        type: string;
+        metadata: string | null;
+        created_at: string;
+      }>;
+
+      return rows.map((row) => ({
+        id: row.id,
+        userId: row.user_id,
+        label: row.label,
+        type: row.type,
+        metadata: row.metadata ? JSON.parse(row.metadata) : {},
+        createdAt: row.created_at,
+      }));
+    } catch (error) {
+      console.error("Failed to fetch souvenirs", error);
       throw error;
     }
   }
