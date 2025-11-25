@@ -63,6 +63,7 @@ export class DeepSeekEngine {
       clipDescription?: string;
       mode?: string;
       tags?: string[];
+      prompt?: string;
     };
   }): Promise<ListeningAnalysisResult> {
     const payload = {

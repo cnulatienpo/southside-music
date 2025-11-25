@@ -89,7 +89,7 @@ type ConstructorOptions = {
 };
 
 export class UserDataStore {
-  private db!: Database.Database;
+  private db!: any;
   private lowdb!: Low<LowDBSchema>;
   private initialized = false;
   private readonly dbPath: string;
@@ -195,7 +195,8 @@ export class UserDataStore {
       `);
 
       const adapter = new JSONFile<LowDBSchema>(this.jsonPath);
-      this.lowdb = new Low<LowDBSchema>(adapter, { profile: null, customData: {} });
+      this.lowdb = new Low<LowDBSchema>(adapter);
+      this.lowdb.data = { profile: null, customData: {} };
       await this.lowdb.read();
       if (!this.lowdb.data) {
         this.lowdb.data = { profile: null, customData: {} };

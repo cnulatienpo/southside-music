@@ -11,7 +11,7 @@ export class VisualizerEngine {
   private waveformContainer?: HTMLDivElement;
   private canvas?: HTMLCanvasElement;
   private ctx?: CanvasRenderingContext2D | null;
-  private waveSurfer?: WaveSurfer;
+  private waveSurfer?: any;
   private analyser?: AnalyserNode;
   private dataArray?: Uint8Array;
   private rafId?: number;

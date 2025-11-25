@@ -5,7 +5,7 @@ import { UserDataStore } from "../data/userDataStore";
 export interface StoryChain {
   id: string;
   topic: CircuitTopic;
-  status?: string;
+  status?: "in_progress" | "complete" | "abandoned";
   metadata?: Record<string, any>;
 }
 
