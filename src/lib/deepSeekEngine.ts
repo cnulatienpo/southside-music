@@ -13,6 +13,13 @@ export type ListeningAnalysisResult = {
   vocabularyMappings?: VocabularyMapping[];
 };
 
+export type DeepSeekContext = {
+  clipDescription?: string;
+  mode?: string;
+  tags?: string[];
+  prompt?: string;
+};
+
 export type EarTrainingAnalysisResult = {
   exerciseType: string;
   difficultyHint?: string | null;
@@ -59,12 +66,7 @@ export class DeepSeekEngine {
   async analyzeListeningNote(input: {
     userId: string;
     text: string;
-    context?: {
-      clipDescription?: string;
-      mode?: string;
-      tags?: string[];
-      prompt?: string;
-    };
+    context?: DeepSeekContext;
   }): Promise<ListeningAnalysisResult> {
     const payload = {
       model: this.model,

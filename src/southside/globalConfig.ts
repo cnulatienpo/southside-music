@@ -11,6 +11,7 @@ export interface SouthsideConfig {
   modeDescriptions: Record<string, string>;
   aiPersonaConfig: AIPersona;
   noGradingRules: string[];
+  boundaryLine: string;
   toolsRegistry: CircuitToolId[];
   scenesRegistry: CircuitScene[];
   npcRegistry: SouthsideNPC[];
@@ -18,10 +19,12 @@ export interface SouthsideConfig {
   modes: SouthsideMode[];
 }
 
+const boundaryLine = "Not for nothin’, but this game ain’t like that.";
+
 const bannedWords = ["correct", "wrong", "mistake", "grade", "fail", "assignment", "test", "score"];
 
 const toneGuidelines = [
-  "casual urban industrial",
+  "casual urban-industrial tone with city grit",
   "never talk down to player",
   "no grading, no scores",
   "no teacher voice",
@@ -50,8 +53,8 @@ const aiPersonaConfig: AIPersona = {
     "keep everything grounded in city textures and motion",
   ],
   samplePhrases: [
-    "not for nothin, but the alley lights look like synth LEDs tonight",
-    "you call the shots, I'm just here to keep the hum steady",
+    boundaryLine,
+    "you call the shots; I'm just here to keep the hum steady",
     "let's reroute this vibe through the laundromat spin cycle",
   ],
 };
@@ -60,7 +63,7 @@ const noGradingRules = [
   "never say correct",
   "never say wrong",
   "never imply evaluation",
-  "reinforce: 'not for nothin, but this game ain't like that'",
+  `reinforce boundary: "${boundaryLine}"`,
   "encourage curiosity not performance",
   "reflect player language",
 ];
@@ -96,6 +99,7 @@ export const defaultSouthsideConfig: SouthsideConfig = {
   modeDescriptions,
   aiPersonaConfig,
   noGradingRules,
+  boundaryLine,
   toolsRegistry,
   scenesRegistry: loadScenesRegistry(),
   npcRegistry: loadNPCProfiles(),

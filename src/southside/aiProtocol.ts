@@ -6,17 +6,19 @@ export class AIProtocol {
   private readonly bannedWords: string[];
   private readonly toneGuidelines: string[];
   private readonly noGradingRules: string[];
+  private readonly boundaryLine: string;
 
   constructor(config: SouthsideConfig = defaultSouthsideConfig) {
     this.persona = config.aiPersonaConfig;
     this.bannedWords = config.bannedWords;
     this.toneGuidelines = config.toneGuidelines;
     this.noGradingRules = config.noGradingRules;
+    this.boundaryLine = config.boundaryLine;
   }
 
   wrapPrompt(raw: string): string {
     const header = [
-      "Not for nothin’, but this game ain’t like that.",
+      this.boundaryLine,
       ...this.noGradingRules,
       ...this.toneGuidelines,
       `Persona: ${this.persona.name} — ${this.persona.voice}`,
@@ -52,6 +54,6 @@ export class AIProtocol {
   }
 
   reinforceBoundary(): string {
-    return "Not for nothin’, but this game ain’t like that.";
+    return this.boundaryLine;
   }
 }
