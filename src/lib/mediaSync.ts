@@ -14,6 +14,7 @@ export interface MediaStateSnapshot {
   isPlaying: boolean;
   currentTime: number;
   duration: number | null;
+  currentTrack?: string;
 }
 
 export type MediaEventHandler = (state: MediaStateSnapshot) => void;
@@ -48,6 +49,24 @@ export class MediaSync {
     this.visualizer = options?.visualizer;
     this.tickIntervalMs = options?.tickIntervalMs ?? 100;
     this.listeners = new Set();
+  }
+
+  public async init(): Promise<void> {
+    // Placeholder for future setup work (e.g., wiring analyzers or visualizers)
+  }
+
+  public getTimestamps(): number[] {
+    if (this.htmlMediaElement) {
+      return [this.htmlMediaElement.currentTime];
+    }
+
+    if (this.ytPlayer) {
+      // YouTube player exposes getCurrentTime asynchronously; fall back to last snapshot
+      // to avoid blocking the main render loop.
+      return [];
+    }
+
+    return [];
   }
 
   public onUpdate(handler: MediaEventHandler): void {

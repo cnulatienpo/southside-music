@@ -9,6 +9,8 @@ export interface CircuitsUIHooks {
   onRenderChoices(choices: CircuitChoice[]): void;
   onPlayerChosen(choice: CircuitChoice): void;
   onClear(): void;
+  onBackgroundRender?(): void;
+  onBackgroundClear?(): void;
 }
 
 const noop = () => {};
@@ -50,5 +52,13 @@ export class CircuitsUI implements CircuitsUIHooks {
 
   onClear(): void {
     (this.hooks.onClear ?? noop)();
+  }
+
+  onBackgroundRender(): void {
+    (this.hooks.onBackgroundRender ?? noop)();
+  }
+
+  onBackgroundClear(): void {
+    (this.hooks.onBackgroundClear ?? noop)();
   }
 }
