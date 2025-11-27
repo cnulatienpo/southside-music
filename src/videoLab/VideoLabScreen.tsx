@@ -16,6 +16,7 @@ import RhythmTapUI from "../ui/RhythmTapUI";
 import InspectorPanel from "../ui/InspectorPanel";
 import { DiaryEngine } from "../diary/DiaryEngine";
 import DiaryScreen from "../diary/DiaryScreen";
+import PachecoContractConsole from "../pacheco/components/PachecoContractConsole";
 
 const VideoLabScreen: React.FC = () => {
   const manager = useMemo(() => new PachecoStateManager(), []);
@@ -61,6 +62,7 @@ const VideoLabScreen: React.FC = () => {
         <RhythmTapUI engine={manager.rhythmEngine} onComplete={(fp) => diary.log(`rhythm recorded ${fp}`)} />
         <InspectorPanel events={snapshot.events} symbols={manager.library.getAll()} />
         <DiaryScreen diary={diary} />
+        <PachecoContractConsole />
       </div>
     </div>
   );
