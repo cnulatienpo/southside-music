@@ -1,0 +1,1041 @@
+{
+  "name": "Form Shapes",
+  "translation": {
+    "Form": "what happens first, what happens after that, and what happens last",
+    "examples_for_Form": [
+      "In the American Black hymn “Amazing Grace” by the Howard University Choir, the order is verse → verse → verse. The words change, but the sequence stays steady.",
+      "In the city-pop classic “Plastic Love” by Mariya Takeuchi, the song unfolds intro → verse → chorus → verse → chorus → instrumental break → chorus, creating a long, modern sequence."
+    ],
+    "Shapes": "the different ways you can choose that order",
+    "examples_for_Shapes": [
+      "In the mariachi favorite “El Son de la Negra” by Mariachi Vargas de Tecalitlán, the shape often repeats A → A → B → A, returning to the start each time.",
+      "In the medieval chant “Dies Irae” performed by Schola Cantorum, the melody repeats in one continuous shape without switching sections."
+    ],
+    "combined": "the different ways the song can go from start to end",
+    "examples_for_combined": [
+      "The Diné song “Shi Naasha” by Louie Gonnie moves call → group answer → repeated phrases, forming a clear beginning-to-end path.",
+      "“Anarchy in the U.K.” by the Sex Pistols races intro → verse → chorus → verse → chorus before stopping abruptly."
+    ]
+  },
+
+  "description": "The whole pathway of the song, like walking through different places in a certain order.",
+  "examples_for_description": [
+    "“Moonlight Sonata” (1st movement) by Beethoven moves calmly from introduction to development to return.",
+    "“Kaffir” by M’du blends chant-like vocals, room-shaking bass, and shifting grooves to form its strong pathway."
+  ],
+
+  "if_you_wanna_use_it": "Choose what your beginning, middle, and end are. Draw them as colored boxes and place them left to right.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “Old Red Old Red” by the Black Lodge Singers, the lead begins alone, then the group enters, then the pattern repeats—each can be its own box.",
+    "In the Bollywood hit “Chaiyya Chaiyya” by Sukhwinder Singh and Sapna Awasthi, intro → verse → chorus → dance break can each be a simple box."
+  ],
+
+  "tech_note": {
+    "main": "Different orders of large musical sections create different formal structures.",
+    "common_phrasings": [
+      "song form",
+      "formal structure"
+    ]
+  }
+}
+{
+  "name": "Section Functions",
+  "translation": {
+    "Section": "a group of things that happen together in the song",
+    "examples_for_Section": [
+      "In the bata piece “Oru Seco” performed by Los Muñequitos de Matanzas, one section belongs to the lead drummer’s calls and another to the ensemble’s responses.",
+      "In the Latin pop hit “Despacito” by Luis Fonsi and Daddy Yankee, the verse delivers the narrative while the chorus repeats the main hook."
+    ],
+    "Functions": "what that group is supposed to do",
+    "examples_for_Functions": [
+      "In the pansori performance “Simcheongga” by Ahn Sook-Sun, some sections explain plot while others heighten emotion through repeated cries.",
+      "In the gospel piece “Oh Happy Day” by the Edwin Hawkins Singers, one section encourages congregational participation while the next lifts energy through vocal flourishes."
+    ],
+    "combined": "what each group of events in the song is supposed to do",
+    "examples_for_combined": [
+      "In the Irish folk tune “The Wild Rover” by The Dubliners, verses tell the story while the refrain brings everyone together with repetition.",
+      "In “Ye” by Burna Boy, the verses handle laid-back storytelling while the hook bursts in with a bold repeated message."
+    ]
+  },
+
+  "description": "Each group of events has a job: explaining, repeating, building, or releasing.",
+  "examples_for_description": [
+    "In “Sicut Cervus” by Palestrina, one section introduces the text while another expands it in harmony.",
+    "In “Strings of Life” by Derrick May, one section sets the pulse while another releases energy with rising layers."
+  ],
+
+  "if_you_wanna_use_it": "Decide what each group of events should do: explain, repeat, shift mood, or finish the song.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “El Rey” by Vicente Fernández, verses carry the narrative and the refrain delivers its central message.",
+    "In “Butter” by BTS, the pre-chorus builds tension while the chorus bursts open with the main idea."
+  ],
+
+  "tech_note": {
+    "main": "Sections serve structural functions within overall form.",
+    "common_phrasings": [
+      "section roles",
+      "section purpose"
+    ]
+  }
+}
+{
+  "name": "Developmental Arcs",
+  "translation": {
+    "Developmental": "slow changes that happen over time",
+    "examples_for_Developmental": [
+      "In the raga “Yaman” performed by Ravi Shankar, the alap begins small and slow before growing into rapid, intricate lines.",
+      "In “What’s Going On” by Marvin Gaye, each repeat adds new instruments and colors until the whole mix blooms."
+    ],
+    "Arcs": "the shape of those changes from beginning to end",
+    "examples_for_Arcs": [
+      "In the Tibetan chant “Om Mani Padme Hum” by the Gyuto Monks, the sound rises from calm unison to rich overtones, then returns to quiet.",
+      "In “Smells Like Teen Spirit” by Nirvana, quiet verses explode into roaring choruses, forming a sharp rise-and-fall arc."
+    ],
+    "combined": "how the song slowly changes from beginning to middle to end",
+    "examples_for_combined": [
+      "In “Barco Negro” by Amália Rodrigues, the vocal begins soft, builds intensity, and then cools back down at the end.",
+      "In “SICKO MODE” by Travis Scott, each section shifts energy dramatically, forming a long-changing arc."
+    ]
+  },
+
+  "description": "How the music grows, shifts, peaks, or calms down over time.",
+  "examples_for_description": [
+    "In “Kaira” by Toumani Diabaté, the kora patterns begin sparse and gradually become faster and more decorated.",
+    "In the trance remix “Adagio for Strings” by Tiësto, layers build steadily until a massive break hits."
+  ],
+
+  "if_you_wanna_use_it": "Choose where things begin small, where they grow, where the peak is, and where they settle down.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “Intertribal” by the Black Lodge Singers, each push-up increases intensity before resolving softly.",
+    "In “Shake It Out” by Florence + The Machine, the final chorus holds the emotional peak."
+  ],
+
+  "tech_note": {
+    "main": "Development describes long-range growth and change.",
+    "common_phrasings": [
+      "the arc",
+      "the build"
+    ]
+  }
+}
+{
+  "name": "Large-Scale Symmetry vs Asymmetry",
+  "translation": {
+    "Large-Scale": "looking at the whole song, not tiny details",
+    "examples_for_Large-Scale": [
+      "Mozart’s “Eine kleine Nachtmusik” has movements that are similar in length and feel, creating balance.",
+      "In “Love Sosa” by Chief Keef, the intro is long while the verses are short, making the overall shape uneven."
+    ],
+    "Symmetry": "when both sides feel the same size or length",
+    "examples_for_Symmetry": [
+      "“Greensleeves” performed by Loreena McKennitt uses two equal-length phrases in a repeating pattern.",
+      "“Blinding Lights” by The Weeknd keeps verses and choruses almost exactly the same length."
+    ],
+    "Asymmetry": "when one side feels longer or different",
+    "examples_for_Asymmetry": [
+      "The joik “Ál'leluovttat” by Mari Boine alternates free long lines with short rhythmic bursts.",
+      "In “bad guy” by Billie Eilish, the beat switch creates an end section much longer than expected."
+    ],
+    "combined": "whether the whole song feels even or uneven when you look at all of it",
+    "examples_for_combined": [
+      "“Lux Aeterna” by Morten Lauridsen feels balanced because its choral phrases mirror each other.",
+      "“Get Got” by Death Grips feels uneven with abrupt changes and irregular section lengths."
+    ]
+  },
+
+  "description": "How balanced or unbalanced the full length of the song feels.",
+  "examples_for_description": [
+    "“Jesu, Joy of Man’s Desiring” by Bach repeats even-length phrases throughout.",
+    "“Maps” by Yeah Yeah Yeahs stretches the pre-chorus longer than expected for emotional pull."
+  ],
+
+  "if_you_wanna_use_it": "Check how long each major part is. Make them equal for a calm feel or unequal for surprise.",
+  "examples_for_if_you_wanna_use_it": [
+    "“La Bamba” by Ritchie Valens keeps a repeating symmetrical pattern.",
+    "“Bohemian Rhapsody” by Queen breaks symmetry with wildly uneven sections."
+  ],
+
+  "tech_note": {
+    "main": "Symmetry concerns proportional balance in form.",
+    "common_phrasings": [
+      "balanced structure",
+      "lopsided structure"
+    ]
+  }
+}
+{
+  "name": "Motivic Transformation Across Movements",
+  "translation": {
+    "Motivic": "a tiny idea that comes back later",
+    "examples_for_Motivic": [
+      "In “Kpanlogo” by the Ghanaian National Dance Ensemble, a short rhythm returns throughout the performance.",
+      "In Beethoven’s Fifth Symphony performed by the Berlin Philharmonic, the four-note motif appears across movements."
+    ],
+    "Transformation": "changing that tiny idea each time",
+    "examples_for_Transformation": [
+      "In “La Pollera Colorá” by Toto la Momposina, the main rhythm comes back with new accents or speed changes.",
+      "In John Williams’ “The Imperial March,” the motif returns slower, faster, or in new instrument colors."
+    ],
+    "Across Movements": "in different big stretches of the piece",
+    "examples_for_Across Movements": [
+      "In “Raga Jog” by Ravi Shankar, fragments reappear in alap, jor, and jhala with new shapes.",
+      "In “Carmina Burana” by Carl Orff, the main ideas show up in multiple movements of the cycle."
+    ],
+    "combined": "a small idea that returns in different parts of the song, changing a little each time",
+    "examples_for_combined": [
+      "In “Adiós Pueblo de Ayacucho” by Los Kjarkas, the lead melody returns decorated each time.",
+      "In “Paranoid Android” by Radiohead, earlier motifs reappear in transformed versions across the song."
+    ]
+  },
+
+  "description": "A tiny musical idea that keeps returning in new forms across different big sections.",
+  "examples_for_description": [
+    "In “The Firebird Suite” by Stravinsky, the main motif reappears in new shapes across several scenes.",
+    "In “One Love” by Bob Marley & The Wailers, the core melody returns with new harmonies later on."
+  ],
+
+  "if_you_wanna_use_it": "Pick a tiny idea—3 notes, a rhythm, a short shape. Bring it back later, but change something about it.",
+  "examples_for_if_you_wanna_use_it": [
+    "In the Haudenosaunee piece “Stomp Dance” by the Stomp Dance Singers, the main call returns with slight variations each cycle.",
+    "In “Harder, Better, Faster, Stronger” by Daft Punk, the motif returns with new filters, rhythms, and edits."
+  ],
+
+  "tech_note": {
+    "main": "Motivic development creates unity across movements or large sections.",
+    "common_phrasings": [
+      "developing the motif",
+      "motivic transformation"
+    ]
+  }
+}
+{
+  "name": "Pacing Structures",
+  "translation": {
+    "Pacing": "how fast or slow new things show up in the song",
+    "examples_for_Pacing": [
+      "In “Breathe” by Ministry from *The Mind Is a Terrible Thing to Taste*, new sounds slam in suddenly, creating a fast, aggressive pacing where ideas arrive hard and early.",
+      "In “Vivir Mi Vida” by Marc Anthony, ideas appear slowly and joyfully—first light vocals, then the rhythm section, then horns—creating a rising, steady pacing."
+    ],
+    "Structures": "the patterns of how that speed changes",
+    "examples_for_Structures": [
+      "In the gamelan piece “Ketawang Subakastawa,” layers enter in calm, measured patterns, forming a slow and predictable pacing structure.",
+      "In the EDM hit “Animals” by Martin Garrix, sections pile on rapidly then drop off suddenly, forming a sharp, high-speed pacing structure."
+    ],
+    "combined": "how often new things happen in the song and how that changes over time",
+    "examples_for_combined": [
+      "In the Inuit throat song “Katajjait,” new vocal patterns appear very quickly, creating a dense and rapid pacing.",
+      "In “Hallelujah” by Leonard Cohen, changes come slowly, giving the song a gentle pacing from start to finish."
+    ]
+  },
+
+  "description": "How busy or relaxed the flow of new ideas feels as the song moves forward.",
+  "examples_for_description": [
+    "In “Nuthin’ But a ‘G’ Thang” by Dr. Dre and Snoop Dogg, the pacing stays laid-back with very few new elements added.",
+    "In the metal track “Angel of Death” by Slayer, new riffs and drum patterns appear rapidly, creating relentless pacing."
+  ],
+
+  "if_you_wanna_use_it": "Decide how often something new should appear—slowly, steadily, or suddenly. Then choose spots where the pace should speed up or slow down.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “Tennessee” by Arrested Development, new layers appear slowly, so you could space out boxes to keep pacing calm.",
+    "In “Du Hast” by Rammstein, layers appear quickly in bursts, so you could put many boxes close together."
+  ],
+
+  "tech_note": {
+    "main": "Pacing controls the rate of new event introduction.",
+    "common_phrasings": [
+      "rate of change",
+      "event density flow"
+    ]
+  }
+}
+{
+  "name": "Long-Range Harmonic Plan",
+  "translation": {
+    "Long-Range": "over the whole song, not just one moment",
+    "examples_for_Long-Range": [
+      "In “So What” by Miles Davis, the harmony stays mostly in one mode for a long stretch, giving a wide, slow-moving long-range feeling.",
+      "In “Angel” by Shaggy, the harmony moves clearly from one familiar pattern to the next across the whole track."
+    ],
+    "Harmonic": "about which chords or home-notes the song uses",
+    "examples_for_Harmonic": [
+      "In “Zombie” by The Cranberries, the harmony sticks to a few chords that repeat across the whole song.",
+      "In the Bach chorale “O Haupt voll Blut und Wunden,” the harmony changes step by step through rich chord progressions."
+    ],
+    "Plan": "the map of when those chords change",
+    "examples_for_Plan": [
+      "In “Praise You” by Fatboy Slim, the harmony repeats the same loop every cycle, giving a simple harmonic plan.",
+      "In “Hurt” by Johnny Cash, the harmony changes slowly and deliberately, giving a very clear long-term harmonic map."
+    ],
+    "combined": "a map of how the chords move from beginning to end",
+    "examples_for_combined": [
+      "In “Vivir Mi Vida” by Marc Anthony, the harmony stays simple early on but blossoms as the arrangement grows, following a clear long-range plan.",
+      "In Tchaikovsky’s “Swan Lake Theme,” the harmony shifts from dark to bright across the whole arc of the melody."
+    ]
+  },
+
+  "description": "How the harmony travels across the full length of the song—where it wanders and where it comes home.",
+  "examples_for_description": [
+    "In “Creep” by Radiohead, the harmony walks through one loop that always returns home.",
+    "In “Samba de Uma Nota Só” by João Gilberto, the harmony wanders lightly but follows a clear long-range design."
+  ],
+
+  "if_you_wanna_use_it": "Choose your home chord. Decide where you’ll move away from it, and where you’ll return.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “No Woman, No Cry” by Bob Marley, you could keep the loop steady for a relaxed long-range plan.",
+    "In “Paranoid” by Black Sabbath, you could move between home and tension chords to build drama."
+  ],
+
+  "tech_note": {
+    "main": "Long-range harmonic planning shapes the tonal narrative.",
+    "common_phrasings": [
+      "harmonic journey",
+      "tonal roadmap"
+    ]
+  }
+}
+{
+  "name": "Phrase Types",
+  "translation": {
+    "Phrase": "a small musical thought that feels complete",
+    "examples_for_Phrase": [
+      "In “I Want to Hold Your Hand” by The Beatles, each line of the verse is a short phrase that answers the previous one.",
+      "In the Haudenosaunee song “Eagle Song” by The Six Nations Singers, each call from the leader is a phrase that stands on its own."
+    ],
+    "Types": "the different kinds of those musical thoughts",
+    "examples_for_Types": [
+      "In “Fields of Gold” by Sting, the first phrase feels like a question and the next feels like an answer.",
+      "In “Zombie” by Fela Kuti, longer phrases stretch and repeat before resolving."
+    ],
+    "combined": "the different kinds of small musical thoughts a song can use",
+    "examples_for_combined": [
+      "In “Smelter” by Ministry from *The Mind Is a Terrible Thing to Taste*, short shouted phrases contrast with longer instrumental bursts.",
+      "In the Andean song “El Cóndor Pasa” by Los Incas, gentle phrases rise and fall like short breaths."
+    ]
+  },
+
+  "description": "Small musical ideas that work like sentences: some ask, some answer, some sit still, some keep moving.",
+  "examples_for_description": [
+    "In “Respect” by Aretha Franklin, the call phrases and answer phrases bounce back and forth.",
+    "In “Nara” by E.S. Posthumus, long orchestral phrases sweep upward before resolving."
+  ],
+
+  "if_you_wanna_use_it": "Decide if this phrase should feel like asking, answering, repeating, or finishing.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “Oye Como Va” by Santana, the melody repeats short phrases that feel steady and relaxed.",
+    "In “The Star-Spangled Banner,” long phrases rise dramatically before settling."
+  ],
+
+  "tech_note": {
+    "main": "Phrases form the building blocks of musical sentences.",
+    "common_phrasings": [
+      "musical sentence types",
+      "phrase shapes"
+    ]
+  }
+}
+{
+  "name": "Phrase Length Logic",
+  "translation": {
+    "Phrase": "a small musical thought",
+    "examples_for_Phrase": [
+      "In “Three Little Birds” by Bob Marley, each melodic line is a short phrase that fits neatly into the rhythm.",
+      "In the Gregorian chant “Ubi Caritas,” phrases are long and flowing, each unfolding slowly."
+    ],
+    "Length": "how long that thought lasts",
+    "examples_for_Length": [
+      "In “99 Luftballons” by Nena, phrases are quick and tight, giving the song a fast-moving feel.",
+      "In “River” by Joni Mitchell, phrases stretch out to match the slow emotional flow."
+    ],
+    "Logic": "the reason for choosing that length",
+    "examples_for_Logic": [
+      "In “The Land of Rape and Honey” by Ministry, short aggressive phrases fit the industrial pulse.",
+      "In “Adagio for Strings” by Barber, long phrases support the dramatic emotional sweep."
+    ],
+    "combined": "why a musical thought lasts a certain amount of time",
+    "examples_for_combined": [
+      "In “Folsom Prison Blues” by Johnny Cash, short phrases match the steady train rhythm.",
+      "In “Halo” by Beyoncé, long soaring phrases match the emotional lift."
+    ]
+  },
+
+  "description": "Some ideas need only a moment; others need time to unfold. The length shapes the feeling.",
+  "examples_for_description": [
+    "In “Blue in Green” by Miles Davis, phrases drift slowly and breathe.",
+    "In “Hot Cross Buns” (children’s song), the phrases are tiny and quick."
+  ],
+
+  "if_you_wanna_use_it": "Pick how long your idea should last—short for speed, long for emotion.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “Tequila” by The Champs, short phrases keep it punchy.",
+    "In “Nessun Dorma,” long operatic phrases carry huge emotion."
+  ],
+
+  "tech_note": {
+    "main": "Phrase length affects pacing, breath, and structural balance.",
+    "common_phrasings": [
+      "phrase duration",
+      "phrase pacing"
+    ]
+  }
+}
+{
+  "name": "Phrase Cadences",
+  "translation": {
+    "Phrase": "a small musical thought",
+    "examples_for_Phrase": [
+      "In “Take Five” by Dave Brubeck, each saxophone idea forms a clear phrase.",
+      "In the Sámi song “Gula Gula” by Mari Boine, each vocal arc acts like a phrase."
+    ],
+    "Cadences": "how that thought ends—finished or unfinished",
+    "examples_for_Cadences": [
+      "In “Come Together” by The Beatles, the phrase endings often feel open, pushing into the next idea.",
+      "In “Hallelujah” by Jeff Buckley, many phrases land softly and feel finished."
+    ],
+    "combined": "the different ways a musical thought can end",
+    "examples_for_combined": [
+      "In “Cannibal Song” by Ministry, phrases often end abruptly, feeling unfinished and tense.",
+      "In the hymn “How Great Thou Art” performed by Carrie Underwood, phrases end in clear, stable cadences."
+    ]
+  },
+
+  "description": "The way a musical idea ends—either fully landing or leaning into the next idea.",
+  "examples_for_description": [
+    "In “Shape of You” by Ed Sheeran, many phrases end slightly open so the groove continues.",
+    "In “Ave Maria” by Schubert, phrases end in calm, closed cadences."
+  ],
+
+  "if_you_wanna_use_it": "Decide if you want the ending to feel done or to push forward.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “Back in Black” by AC/DC, phrase endings hit hard and closed.",
+    "In “Idioteque” by Radiohead, phrase endings feel restless and open."
+  ],
+
+  "tech_note": {
+    "main": "Cadences signal closure or continuation.",
+    "common_phrasings": [
+      "closed cadence",
+      "open cadence"
+    ]
+  }
+}
+{
+  "name": "Internal Tension and Release",
+  "translation": {
+    "Internal": "inside a small moment in the music",
+    "examples_for_Internal": [
+      "In “I’ll Take You There” by The Staple Singers, the Funk Brothers’ session grooves create little pockets inside each bar—mini-moments that rise and fall while staying within the same idea.",
+      "In “Sodade” by Cesária Évora, tension builds inside a single phrase as her voice leans forward, then softens into gentle release."
+    ],
+    "Tension": "a feeling of tightness or pull",
+    "examples_for_Tension": [
+      "In “Soul Finger” by The Bar-Kays, the horn stabs create bursts of tension that push the groove forward.",
+      "In “Requiem” (Dies Irae section) by Mozart, dissonant chords create sharp tension before resolving."
+    ],
+    "Release": "the relaxing or letting-go after the pull",
+    "examples_for_Release": [
+      "In “Mi Mayor Venganza” by La India, lines lean into emotional peaks and then melt into softer conclusions, giving clear release.",
+      "In “A Change Is Gonna Come” by Sam Cooke, long notes open into gentle release as the harmony settles."
+    ],
+    "combined": "tiny moments inside the music where it tightens and then relaxes",
+    "examples_for_combined": [
+      "In “Master of Puppets” by Metallica (produced by Flemming Rasmussen), riffs often tense up with fast, jagged picking before dropping into smoother release sections.",
+      "In the qawwali “Allah Hoo” by Nusrat Fateh Ali Khan, the singers build vocal tension before releasing into long, open notes."
+    ]
+  },
+
+  "description": "Small push-and-pull moments inside lines or beats that create life and motion.",
+  "examples_for_description": [
+    "In “Respect Yourself” by The Staple Singers, the Funk Brothers’ bass line builds tiny tensions before relaxing into the pocket.",
+    "In “Rolling in the Deep” by Adele, each phrase tightens rhythmically before releasing into the chorus."
+  ],
+
+  "if_you_wanna_use_it": "Inside your phrase, add a moment that leans forward, then relaxes it with a softer or calmer sound.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “Give It Up” by The Bar-Kays, short sharp horn hits create tension, while the smoother groove that follows releases it.",
+    "In “Hallelujah” by Jeff Buckley, long breathy releases follow tense melodic climbs."
+  ],
+
+  "tech_note": {
+    "main": "Tension-release cycles create expressive microstructures.",
+    "common_phrasings": [
+      "push and pull",
+      "micro tension cycle"
+    ]
+  }
+}
+{
+  "name": "Repetition Patterns",
+  "translation": {
+    "Repetition": "doing something again",
+    "examples_for_Repetition": [
+      "In “Stand by Me” by Ben E. King, the Funk Brothers’ backbeat repeats steadily under every phrase.",
+      "In “We Will Rock You” by Queen, the stomp-stomp-clap pattern repeats like a chant."
+    ],
+    "Patterns": "the way you choose when and how it repeats",
+    "examples_for_Patterns": [
+      "In “Mi Primera Rumba” by La India, rhythmic hooks return at planned points to drive dancers forward.",
+      "In “Around the World” by Daft Punk, the title line repeats in a strict pattern forming the whole structure."
+    ],
+    "combined": "the plan for when musical ideas repeat",
+    "examples_for_combined": [
+      "In “Hot Buttered Soul” by Isaac Hayes, themes repeat with slight changes, following a loose repetition pattern.",
+      "In the Japanese folk song “Soran Bushi,” the chorus repeats at predictable intervals to anchor the dance."
+    ]
+  },
+
+  "description": "Repeating ideas give the listener something to grab onto. The pattern decides *when* they return.",
+  "examples_for_description": [
+    "In “Soul Finger” by The Bar-Kays, the horn riff repeats every cycle as the main hook.",
+    "In “Blue Monday” by New Order, the drum machine pattern repeats with near-mechanical precision."
+  ],
+
+  "if_you_wanna_use_it": "Choose an idea, decide how often it repeats, and stick to that pattern.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “I’ll Be There” by La India, the main vocal hook repeats at key emotional points.",
+    "In “Billie Jean” by Michael Jackson, the bass line repeats as a constant anchor."
+  ],
+
+  "tech_note": {
+    "main": "Repetition patterns define internal form.",
+    "common_phrasings": [
+      "repeating motif",
+      "hook cycle"
+    ]
+  }
+}
+{
+  "name": "Melodic Contour Patterns",
+  "translation": {
+    "Melodic": "about the tune",
+    "examples_for_Melodic": [
+      "In “Mi Mayor Venganza” by La India, vocal lines rise steeply before falling with emotional weight.",
+      "In “Here Comes the Sun” by The Beatles, the melody gently climbs and dips."
+    ],
+    "Contour": "the up-and-down shape of the melody",
+    "examples_for_Contour": [
+      "In “Soul Finger” by The Bar-Kays, the horn lines move in short upward bursts.",
+      "In “Ave Maria” by Schubert, the melody flows in long arching shapes."
+    ],
+    "Patterns": "shapes that repeat",
+    "examples_for_Patterns": [
+      "In “Just My Imagination” by The Temptations, the melodic rises follow similar patterns each verse.",
+      "In “Sadeness Part I” by Enigma, the chant-like contours loop in repeated curves."
+    ],
+    "combined": "the shapes the melody makes when it goes up and down",
+    "examples_for_combined": [
+      "In “Thieves” by Ministry, the vocal lines stab upward in jagged shapes, repeating a harsh contour pattern.",
+      "In the folk song “Shenandoah,” the melody glides upward then smoothly falls each time."
+    ]
+  },
+
+  "description": "The tune draws shapes: steps up, leaps down, smooth arches, zig-zags. Those shapes repeat or change.",
+  "examples_for_description": [
+    "In “Girl from the North Country” by Bob Dylan, the melody gently rises and falls with speech-like contour.",
+    "In “Nessun Dorma” by Pavarotti, the melody climbs to dramatic peaks before dropping."
+  ],
+
+  "if_you_wanna_use_it": "Choose a shape—hill, wave, climb, fall—and let your melody follow it.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “Oye Como Va” by Santana, short rising shapes repeat throughout.",
+    "In “Summertime” by Ella Fitzgerald, long descending curves define the mood."
+  ],
+
+  "tech_note": {
+    "main": "Contour defines melodic identity.",
+    "common_phrasings": [
+      "melodic shape",
+      "tune contour"
+    ]
+  }
+}
+{
+  "name": "Motif Placement and Spacing",
+  "translation": {
+    "Motif": "a small idea that appears more than once",
+    "examples_for_Motif": [
+      "In “Green Onions” by Booker T. & the M.G.’s (featuring the Funk Brothers on the session), the organ riff is the central motif.",
+      "In “Oye Mi Canto” by La India, a short vocal figure returns throughout the choruses."
+    ],
+    "Placement": "where that idea appears",
+    "examples_for_Placement": [
+      "In “Soul Finger” by The Bar-Kays, the horn riff appears right at the top of each cycle.",
+      "In “Good Vibrations” by The Beach Boys (recorded by The Wrecking Crew), the cello-triplet motif appears at key transition points."
+    ],
+    "Spacing": "how far apart those appearances are",
+    "examples_for_Spacing": [
+      "In “All Day and All of the Night” by The Kinks, the main guitar idea appears frequently with tight spacing.",
+      "In “Adagio for Strings” by Barber, the main motif returns slowly with wide spacing."
+    ],
+    "combined": "where a small idea appears and how far apart its appearances are",
+    "examples_for_combined": [
+      "In “Breathe” by Ministry, jagged vocal motifs appear in short bursts with almost no spacing.",
+      "In “Cucurrucucú Paloma” by Caetano Veloso, the main melodic motif appears in widely spaced, gentle returns."
+    ]
+  },
+
+  "description": "Choosing where a tiny idea goes and how often it comes back.",
+  "examples_for_description": [
+    "In “I Heard It Through the Grapevine” by Marvin Gaye (Funk Brothers session), the bass motif repeats every cycle.",
+    "In “Walk On By” by Isaac Hayes, motifs return slowly with long instrumental spacing."
+  ],
+
+  "if_you_wanna_use_it": "Pick a small idea, decide where it should appear, and choose how close together or far apart those appearances are.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “California Dreamin’” by The Mamas & the Papas (Wrecking Crew session), the flute motif appears at carefully chosen spots.",
+    "In “Mi Gente” by Héctor Lavoe, short vocal motifs appear often to keep the energy high."
+  ],
+
+  "tech_note": {
+    "main": "Motif spacing reinforces identity and structure.",
+    "common_phrasings": [
+      "motif placement",
+      "motif spacing"
+    ]
+  }
+}
+{
+  "name": "Motif Construction",
+  "translation": {
+    "Motif": "a tiny idea used again and again",
+    "examples_for_Motif": [
+      "In “Soul Finger” by The Bar-Kays, the horn blast is a tiny idea that defines the entire track.",
+      "In “Mi Mayor Venganza” by La India, a small rhythmic-vocal idea returns as the anchor."
+    ],
+    "Construction": "how you build that tiny idea",
+    "examples_for_Construction": [
+      "In “Ain’t No Mountain High Enough” by Marvin Gaye & Tammi Terrell, the Funk Brothers build motifs from short bass and guitar figures.",
+      "In “Good Vibrations” by The Beach Boys, The Wrecking Crew builds motifs from short cello, theremin, and vocal fragments."
+    ],
+    "combined": "how you make a small musical idea in the first place",
+    "examples_for_combined": [
+      "In “Thieves” by Ministry, the motif is built from a few shouted notes and a harsh rhythmic shape.",
+      "In “Ave Verum Corpus” by Mozart, the motif is built from a gentle rising three-note idea."
+    ]
+  },
+
+  "description": "A motif is a little building block—2 to 5 notes or sounds—that you can reuse.",
+  "examples_for_description": [
+    "In “Soul Man” by Sam & Dave, the Funk Brothers’ guitar riff is a tiny motif that repeats across the song.",
+    "In “Bicycle Race” by Queen, short vocal motifs reappear throughout the verses."
+  ],
+
+  "if_you_wanna_use_it": "Choose 2–5 notes or sounds that feel like they belong together. That’s your motif.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “Mi Primera Rumba” by La India, a tiny rhythmic phrase becomes the recurring motif.",
+    "In “Enter Sandman” by Metallica (produced by Flemming Rasmussen), the opening guitar riff is a motif built from only a few notes."
+  ],
+
+  "tech_note": {
+    "main": "Motifs are the smallest recognizable musical units.",
+    "common_phrasings": [
+      "motif design",
+      "motif building"
+    ]
+  }
+}
+{
+  "name": "Motif Manipulation",
+  "translation": {
+    "Motif": "a small idea that shows up again later",
+    "examples_for_Motif": [
+      "In “Headhunter” by Front 242, the main synth stab is a tiny motif repeated across sections.",
+      "In “Can’t Take My Eyes Off You” by Frankie Valli, the short horn hits act as a recurring motif throughout the song."
+    ],
+    "Manipulation": "changing that small idea in different ways",
+    "examples_for_Manipulation": [
+      "In “Strings of Life” by Derrick May, the piano motif keeps returning but shifts in register, rhythm, and energy each time.",
+      "In “Conga” by Miami Sound Machine, the signature conga pattern reappears but changes intensity and decoration throughout the track."
+    ],
+    "combined": "changing a small musical idea while still keeping it recognizable",
+    "examples_for_combined": [
+      "In Ministry’s “Burning Inside,” the shouted motif appears in multiple distorted forms.",
+      "In the Andean tune “Sikuriadas,” the panpipe motif returns ornamented in new ways while staying recognizable."
+    ]
+  },
+
+  "description": "Take a tiny idea and bend it—higher, lower, faster, slower—without losing its identity.",
+  "examples_for_description": [
+    "In “Hotel California” by The Eagles, the guitar motifs reappear with altered shapes in the solos.",
+    "In “Hoppípolla” by Sigur Rós, motifs return bigger or smaller as the track grows."
+  ],
+
+  "if_you_wanna_use_it": "Pick a tiny idea, and modify it: flip it, stretch it, shrink it, or re-accent it.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “Just a Gigolo” by Louis Prima, the vocal motifs reappear with playful twists each time.",
+    "In “Conga,” the percussion motif gets extra notes and syncopation in later repeats."
+  ],
+
+  "tech_note": {
+    "main": "Motivic manipulation allows variation without losing identity.",
+    "common_phrasings": [
+      "motif variation",
+      "motif development"
+    ]
+  }
+}
+{
+  "name": "Local Harmonic Function",
+  "translation": {
+    "Local": "just in this small moment of the song",
+    "examples_for_Local": [
+      "In “Peaceful Easy Feeling” by The Eagles, each chord has a gentle local role in guiding the soft harmonic feel.",
+      "In “Headhunter” by Front 242, brief harmonic moves shift underneath the synth patterns in fast local cycles."
+    ],
+    "Harmonic": "about the chords being used",
+    "examples_for_Harmonic": [
+      "In “Big Girls Don’t Cry” by Frankie Valli & The Four Seasons, the chords support each vocal phrase step by step.",
+      "In “Scarborough Fair” by Simon & Garfunkel, modal harmony colors each small melodic moment."
+    ],
+    "Function": "what the chord is doing right now",
+    "examples_for_Function": [
+      "In “Conga” by Miami Sound Machine, the chords often act as steady support while the rhythm drives intensity.",
+      "In “Requiem in D minor” by Mozart, certain chords function to push tension forward in each small section."
+    ],
+    "combined": "what a chord is doing in a small moment—staying still, moving, or pulling",
+    "examples_for_combined": [
+      "In “Strings of Life,” some chord hits simply hold ground while others push the motion upward.",
+      "In “Landslide” by Fleetwood Mac, each chord gently leads to the next with clear local movement."
+    ]
+  },
+
+  "description": "At each tiny moment, a chord either rests, moves away, or pulls toward something.",
+  "examples_for_description": [
+    "In “Wasted Time” by The Eagles, chords glide gently from one function to another.",
+    "In “Hyperactive!” by Thomas Dolby, chords push forward rapidly."
+  ],
+
+  "if_you_wanna_use_it": "Label each chord as staying-still, moving-away, or pulling-home.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “Creep” by Radiohead, each chord in the loop plays a distinct local job.",
+    "In “Conga,” the stable chords give rhythmic room for the percussion to shine."
+  ],
+
+  "tech_note": {
+    "main": "Local function identifies tonic, predominant, and dominant roles within small spans.",
+    "common_phrasings": [
+      "harmonic roles",
+      "functional harmony"
+    ]
+  }
+}
+{
+  "name": "Point-Level Voice Leading",
+  "translation": {
+    "Point-Level": "note by note, one tiny step at a time",
+    "examples_for_Point-Level": [
+      "In “Hotel California” by The Eagles, many guitar lines move by small steps for smooth transitions.",
+      "In “Headhunter” by Front 242, synth lines often jump abruptly, showing minimal point-level smoothness."
+    ],
+    "Voice": "one musical line",
+    "examples_for_Voice": [
+      "In “Walk Like a Man” by Frankie Valli & The Four Seasons, the vocal lines weave together in smooth parallel motion.",
+      "In “Requiem” by Fauré, choir voices move independently with careful line-to-line clarity."
+    ],
+    "Leading": "how one note moves smoothly into the next",
+    "examples_for_Leading": [
+      "In “Conga,” the piano montuno moves with small stepwise changes for subtle motion.",
+      "In “Nocturne in E-flat major” by Chopin, the right hand glides between notes in smooth point-to-point motion."
+    ],
+    "combined": "moving each note to the next in the smoothest way possible",
+    "examples_for_combined": [
+      "In “Desperado” by The Eagles, the piano and voice transition gently with close voice-leading.",
+      "In “Strings of Life,” short piano stabs leap more than glide, creating rhythmic energy over smoothness."
+    ]
+  },
+
+  "description": "One note moves to the next in the smallest, calmest way—like tiny footsteps instead of big jumps.",
+  "examples_for_description": [
+    "In “Let It Be” by The Beatles, chord tones often move smoothly between chords.",
+    "In “Divenire” by Ludovico Einaudi, small motion connects each piano chord."
+  ],
+
+  "if_you_wanna_use_it": "Move each note to the closest next note instead of jumping far.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “Conga,” the montuno pattern keeps notes close to maintain groove.",
+    "In “The Sound of Silence” by Simon & Garfunkel, the vocal line steps gently from note to note."
+  ],
+
+  "tech_note": {
+    "main": "Voice leading minimizes motion for connection and clarity.",
+    "common_phrasings": [
+      "smooth motion",
+      "connected lines"
+    ]
+  }
+}
+{
+  "name": "Rhythmic Micro-Tension",
+  "translation": {
+    "Rhythmic": "about timing and beats",
+    "examples_for_Rhythmic": [
+      "In “Conga” by Miami Sound Machine, tiny syncopations create a playful tug on the beat.",
+      "In “Headhunter” by Front 242, rigid drum patterns create a sharp mechanical tension."
+    ],
+    "Micro": "very small",
+    "examples_for_Micro": [
+      "In “Sherry” by Frankie Valli & The Four Seasons, tiny rhythmic pushes in the vocals add brightness.",
+      "In “Inner City Blues” by Marvin Gaye, micro-delays in the vocals add emotional pull."
+    ],
+    "Tension": "a feeling of leaning forward or being pulled",
+    "examples_for_Tension": [
+      "In “Sweet Leilani” by Bing Crosby, soft rubato creates gentle tension before falling back in time.",
+      "In “Strings of Life,” the fast percussion pulses pull the whole groove forward."
+    ],
+    "combined": "small timing choices that make the rhythm feel tugged or excited",
+    "examples_for_combined": [
+      "In “Rip and Tear” by Ministry, staggered rhythms create tiny shocks inside each bar.",
+      "In “Conga,” layered percussion pulls and releases in microbursts."
+    ]
+  },
+
+  "description": "Little pushes or delays inside a beat that make the groove feel alive.",
+  "examples_for_description": [
+    "In “Kiss” by Prince, micro-timing in the guitar adds subtle swing.",
+    "In “Bad Romance” by Lady Gaga, tiny rhythmic accents create forward motion."
+  ],
+
+  "if_you_wanna_use_it": "Add tiny early hits or tiny late hits inside a beat.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “Conga,” the percussion lands slightly early or late for flavor.",
+    "In “Billie Jean,” micro-delays in the bass line create tension."
+  ],
+
+  "tech_note": {
+    "main": "Micro-timing variations produce rhythmic tension.",
+    "common_phrasings": [
+      "micro groove",
+      "beat displacement"
+    ]
+  }
+}
+{
+  "name": "Melodic Skeleton vs Decoration",
+  "translation": {
+    "Melodic Skeleton": "the simple main notes that hold the melody together",
+    "examples_for_Melodic Skeleton": [
+      "In “Take It to the Limit” by The Eagles, the core melody is simple and clear beneath the embellishments.",
+      "In “Headhunter” by Front 242, the vocal line stays minimal, forming a bare skeleton."
+    ],
+    "Decoration": "the small extra notes wrapped around the skeleton",
+    "examples_for_Decoration": [
+      "In “Mi Gente” by Héctor Lavoe, the singer adds flourishes around the main melody.",
+      "In “Sherry” by Frankie Valli, vocal ornaments decorate the basic tune."
+    ],
+    "combined": "the difference between the main notes and the fancy added notes",
+    "examples_for_combined": [
+      "In “Conga,” the melody stays simple while percussion adds swirling decorations.",
+      "In “Ave Maria” by Beyoncé, the basic melody is clear but decorated with R&B runs."
+    ]
+  },
+
+  "description": "A melody has a backbone and optional ornaments around it.",
+  "examples_for_description": [
+    "In “Imagine” by John Lennon, the skeleton is plain and unornamented.",
+    "In “Livin’ on a Prayer” by Bon Jovi, the melody is decorated with bends and scoops."
+  ],
+
+  "if_you_wanna_use_it": "Write your main notes first. Add small notes around them only if they help the emotion.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “Conga,” the melody stays steady while decorations stay in percussion.",
+    "In “My Way” by Frank Sinatra, small melodic decorations come at emotional peaks."
+  ],
+
+  "tech_note": {
+    "main": "Skeleton notes are structural; decorations are ornamental.",
+    "common_phrasings": [
+      "core melody",
+      "melodic embellishment"
+    ]
+  }
+}
+{
+  "name": "Functional Harmony",
+  "translation": {
+    "Functional": "doing a job or having a purpose",
+    "examples_for_Functional": [
+      "In “Cuts You Up” by Peter Murphy, each chord has a clear job—some hold the mood steady, others push into the next line.",
+      "In “Da Perculator” by Cajmere, the few chords used each perform a rhythmic-support job rather than emotional storytelling."
+    ],
+    "Harmony": "the chords used in the song",
+    "examples_for_Harmony": [
+      "In “Why” by Annie Lennox, the soft shifting chords shape the emotional story of each line.",
+      "In “You Can’t Stop the House” by Thompson & Lenoire, harmony stays extremely simple, allowing rhythm to lead."
+    ],
+    "combined": "chords that act like home, travel, or pull, each with a clear job",
+    "examples_for_combined": [
+      "In “Every Breath You Take” by The Police, chords gently move from home to away and back, creating a steady path.",
+      "In the Bach chorale “Wachet Auf,” each chord performs a precise function in a classical progression."
+    ]
+  },
+
+  "description": "Chords behave like characters: some rest, some wander, some pull everything home.",
+  "examples_for_description": [
+    "In “Why” by Annie Lennox, certain chords create tension under her soaring voice before relaxing.",
+    "In “Creep” by Radiohead, the four-chord loop moves through a clear home–away–pull–home pattern."
+  ],
+
+  "if_you_wanna_use_it": "Label each chord as home, moving-away, or pulling-back.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “Cuts You Up,” the verses often stay near home chords while choruses move outward.",
+    "In “Da Perculator,” the harmony stays mostly on one wheel, serving as home for repetition."
+  ],
+
+  "tech_note": {
+    "main": "Functional harmony is based on tonic, predominant, and dominant behaviors.",
+    "common_phrasings": [
+      "harmonic jobs",
+      "functional roles"
+    ]
+  }
+}
+{
+  "name": "Modal Harmony",
+  "translation": {
+    "Modal": "using one special flavor of notes",
+    "examples_for_Modal": [
+      "In “Cuts You Up” by Peter Murphy, many sections lean into a modal flavor instead of strict major/minor chords.",
+      "In the Irish traditional tune “The Foggy Dew,” the melody and harmony sit in a Dorian-flavored mode."
+    ],
+    "Harmony": "the chords built from that flavor",
+    "examples_for_Harmony": [
+      "In “Why” by Annie Lennox, some phrases lean toward modal color even inside a pop harmony world.",
+      "In the raga “Yaman” by Ravi Shankar, harmony (even lightly implied) is built entirely from the mode."
+    ],
+    "combined": "chords made from one special set of notes that give the song its mood",
+    "examples_for_combined": [
+      "In “Seven Nation Army” by The White Stripes, the riff and harmony stick to a tight modal feel.",
+      "In the Andean piece “El Cóndor Pasa” by Los Incas, the harmony flows from a distinct pentatonic mode."
+    ]
+  },
+
+  "description": "Using one note-flavor as the home for chords, giving the song a unified color.",
+  "examples_for_description": [
+    "In “Why” by Annie Lennox, modal colorings tint the emotional mood of the verses.",
+    "In “Kothbiro” by Ayub Ogada, the melody and accompaniment stay inside a modal world."
+  ],
+
+  "if_you_wanna_use_it": "Pick a mode and build your chords from its notes.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “Cuts You Up,” many guitar lines stick closely to a repeated modal center.",
+    "In “El Cóndor Pasa,” the
+{
+  {
+  "name": "Static Harmony",
+  "translation": {
+    "Static": "not moving much or staying the same",
+    "examples_for_Static": [
+      "In “Da Perculator” by Cajmere, the harmony barely shifts—the focus is entirely on rhythm.",
+      "In the Navajo song “Shi Naasha,” the melodic-harmonic center stays constant throughout the performance."
+    ],
+    "Harmony": "the chords in the song",
+    "examples_for_Harmony": [
+      "In “You Can’t Stop the House” by Thompson & Lenoire, harmony sits in place while repetition does the heavy lifting.",
+      "In “Tomorrow Never Knows” by The Beatles, the harmony stays mostly static under swirling textures."
+    ],
+    "combined": "when the chords stay the same while other parts change",
+    "examples_for_combined": [
+      "In “Conga” by Miami Sound Machine, the groove changes constantly while the harmony stays simple underneath.",
+      "In “Koyaanisqatsi” by Philip Glass, harmony holds steady while patterns shift above it."
+    ]
+  },
+
+  "description": "Harmony stays put while rhythm, melody, or texture move around it.",
+  "examples_for_description": [
+    "In “Da Perculator,” the harmonic center never changes, letting the beat dominate.",
+    "In “One Note Samba” by João Gilberto, the chords repeat tightly under the melodic play."
+  ],
+
+  "if_you_wanna_use_it": "Hold one chord or two chords and change everything else above them.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “You Can’t Stop the House,” the static harmony frees the rhythm to stay relentless.",
+    "In “Tomorrow Never Knows,” the static drone supports all the psychedelic elements."
+  ],
+
+  "tech_note": {
+    "main": "Static harmony uses minimal chord movement.",
+    "common_phrasings": [
+      "pedal harmony",
+      "drone-based harmony"
+    ]
+  }
+}
+{
+  "name": "Chromatic Strategy",
+  "translation": {
+    "Chromatic": "using notes that don’t belong to the main set",
+    "examples_for_Chromatic": [
+      "In “Why” by Annie Lennox, emotional lift comes from subtle chromatic notes sneaking into vocal lines.",
+      "In “Headhunter” by Front 242, synth lines often use outside notes to create harsh, metallic tension."
+    ],
+    "Strategy": "a plan for when to use them",
+    "examples_for_Strategy": [
+      "In “Cuts You Up,” chromatic tones appear at dramatic lyric moments to bend the harmony.",
+      "In the tango “Libertango” by Astor Piazzolla, chromatic runs intensify the drama before returning home."
+    ],
+    "combined": "a plan for adding outside notes or chords to spice things up",
+    "examples_for_combined": [
+      "In “Creep” by Radiohead, the unexpected major lift in the chorus is a chromatic strategy moment.",
+      "In the jazz standard “Body and Soul,” chromatic chords enrich each phrase deeply."
+    ]
+  },
+
+  "description": "Use extra notes outside the usual scale to add color, tension, or surprise.",
+  "examples_for_description": [
+    "In “Why,” chromatic shifts help Annie Lennox bend emotional meaning.",
+    "In “Round Midnight” by Thelonious Monk, chromatic chords define the mood."
+  ],
+
+  "if_you_wanna_use_it": "Stay in your main scale, then slip in an outside note at a key emotional point.",
+  "examples_for_if_you_wanna_use_it": [
+      "In “Cuts You Up,” chromatic notes appear at lyric peaks to create emphasis.",
+      "In “Blue in Green” by Miles Davis, chromatic tones slide elegantly into the harmony."
+  ],
+
+  "tech_note": {
+    "main": "Chromatic notes alter or extend harmonic color.",
+    "common_phrasings": [
+      "chromatic color",
+      "borrowed tones"
+    ]
+  }
+}
+{
+  "name": "Modulation Types",
+  "translation": {
+    "Modulation": "changing the home key of the song",
+    "examples_for_Modulation": [
+      "In “Why” by Annie Lennox, the song gently modulates upward during emotional lift moments.",
+      "In “Cuts You Up” by Peter Murphy, shifts happen more subtly as textures change around the tonal center."
+    ],
+    "Types": "different ways to make that change",
+    "examples_for_Types": [
+      "In Whitney Houston’s “I Will Always Love You,” the key change happens suddenly for dramatic lift.",
+      "In Bach’s “Cello Suite No. 1 (Prelude),” modulation happens gradually through shared chords."
+    ],
+    "combined": "the different ways a song can switch to a new home",
+    "examples_for_combined": [
+      "In “Man in the Mirror” by Michael Jackson, the sudden lift into a higher key brightens the ending.",
+      "In “You Can’t Stop the House” by Thompson & Lenoire, modulation is nearly absent because the track relies on repetition and groove."
+    ]
+  },
+
+  "description": "Changing the musical 'home base'—either suddenly or smoothly—to shift emotion.",
+  "examples_for_description": [
+    "In “Living on a Prayer” by Bon Jovi, the late key change boosts the final chorus.",
+    "In “Moonlight Sonata,” smooth modulations unfold across the piece."
+  ],
+
+  "if_you_wanna_use_it": "Decide if your key change should be shocking or gentle.",
+  "examples_for_if_you_wanna_use_it": [
+    "A sudden lift like in “I Will Always Love You” creates huge emotional impact.",
+    "A gentle shift like in Annie Lennox’s “Why” slides the harmony to a new home."
+  ],
+
+  "tech_note": {
+    "main": "Modulation can be direct, pivot-based, or common-tone.",
+    "common_phrasings": [
+      "key change",
+      "tonal shift"
+    ]
+  }
+}
