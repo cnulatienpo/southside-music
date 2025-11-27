@@ -4,10 +4,11 @@ import LoopStation from "./components/LoopStation";
 import QuizLauncher from "./components/QuizLauncher";
 import { TheoryCardContent } from "./components/TheoryCard";
 import cards from "./data/theoryCards.json";
+import VideoLabScreen from "./videoLab/VideoLabScreen";
 
 const theoryCards = cards as TheoryCardContent[];
 
-type ExperienceMode = "learn" | "quiz" | "studio";
+type ExperienceMode = "learn" | "quiz" | "studio" | "pacheco";
 
 const App: React.FC = () => {
   const [activeCardId, setActiveCardId] = useState<string>(theoryCards[0]?.id ?? "");
@@ -38,6 +39,9 @@ const App: React.FC = () => {
           Explore rhythm, groove, and feel. Read the lesson, listen with focused
           ears, reflect on what you heard, and unlock the next studio mission.
         </p>
+        <div className="app__headerActions">
+          <button type="button" onClick={() => setMode("pacheco")}>Pacheco Video Lab</button>
+        </div>
       </header>
 
       <main className="app__main">
@@ -85,6 +89,21 @@ const App: React.FC = () => {
                 )}
               </header>
               <LoopStation />
+              <div className="app__studioActions">
+                <button type="button" onClick={handleReturnToLesson}>
+                  Back to Lessons
+                </button>
+              </div>
+            </div>
+          )}
+
+          {mode === "pacheco" && (
+            <div className="app__studioShell">
+              <header className="app__studioHeader">
+                <h2>Pacheco Video Lab</h2>
+                <p>Perceptual notation workspace.</p>
+              </header>
+              <VideoLabScreen />
               <div className="app__studioActions">
                 <button type="button" onClick={handleReturnToLesson}>
                   Back to Lessons
