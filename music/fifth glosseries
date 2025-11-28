@@ -1,0 +1,344 @@
+[
+  {
+    "name": "Eighth Note",
+    "translation": {
+      "Eighth": "half of one beat — two of them fit inside one pulse",
+      "examples_for_Eighth": [
+        "In Mötley Crüe’s “Kickstart My Heart,” the main guitar chug often hits steady eighth notes — chka-chka-chka-chka — between the kicks, making the riff feel like a revving engine.",
+        "In Ratt’s “Round and Round,” the picked guitar patterns use constant eighth-note picking to keep the verse tight and buzzing."
+      ],
+      "Note": "a sound that lasts half a beat",
+      "examples_for_Note": [
+        "Nikki Sixx’s bass in “Kickstart My Heart” often drives in straight eighths, giving the song its motorcycle-heartbeat feel.",
+        "Ratt’s rhythm guitars slice the bar into eighth notes so the groove never feels lazy."
+      ],
+      "combined": "a fast, half-beat note that makes music feel driving and energetic",
+      "examples_for_combined": [
+        "Crüe’s eighth-note chugs are what make the song feel like it’s always accelerating.",
+        "Ratt’s eighth-note picking keeps the verses wired and tense."
+      ]
+    },
+    "description": "Eighth notes are how hair metal turns a simple riff into a relentless machine — more hits per bar, more forward push.",
+    "examples_for_description": [
+      "Mötley Crüe use eighths to make the guitars feel like engine pistons.",
+      "Ratt use eighths so even simple chords feel busy and alive."
+    ],
+    "if_you_wanna_use_it": "Split each beat into two hits — count 1-&-2-&-3-&-4-& and play on both the numbers and the &’s.",
+    "examples_for_if_you_wanna_use_it": [
+      "Chug eighth-note palm mutes like “Kickstart My Heart” to make your riff sound fast without changing tempo.",
+      "Use constant eighth-note picking like “Round and Round” for that tight ‘80s crunch."
+    ],
+    "tech_note": {
+      "main": "An eighth note has half the duration of a quarter note; in 4/4, eight eighth notes fill a measure.",
+      "common_phrasings": [
+        "straight eighths",
+        "8th-note chugs"
+      ]
+    }
+  },
+  {
+    "name": "Eighth Rest",
+    "translation": {
+      "Eighth": "half a beat of time",
+      "examples_for_Eighth": [
+        "In Warrant’s “Cherry Pie,” the rhythm guitar occasionally drops out for a half-beat gap before a hit — that tiny hole is an eighth-note rest in feel.",
+        "In Dokken’s “Dream Warriors,” the drums sometimes skip a half-beat between kicks or snares to make the accents punch harder."
+      ],
+      "Rest": "a silence instead of a sound",
+      "examples_for_Rest": [
+        "Those tiny gaps in “Cherry Pie” make the next chord sound bigger — the rest is doing work.",
+        "Dokken’s drummer uses eighth rests to create syncopated punches, letting the snare land like a surprise."
+      ],
+      "combined": "a half-beat of silence that makes the next hit feel bigger",
+      "examples_for_combined": [
+        "Warrant use half-beat gaps so the chorus hits feel like fireworks.",
+        "Dokken use short rests like missing teeth in the groove, so the bite feels nastier."
+      ]
+    },
+    "description": "Eighth-note rests are micro-pauses — just long enough to yank the floor away before slamming it back.",
+    "examples_for_description": [
+      "“Cherry Pie” feels more dramatic because of those little stop-start half-beat breaks.",
+      "“Dream Warriors” feels more aggressive because the drummer leaves tiny holes for the guitars to explode through."
+    ],
+    "if_you_wanna_use_it": "Mute everything for half a beat, then come back in hard on the next ‘&’ or number.",
+    "examples_for_if_you_wanna_use_it": [
+      "Cut your riff for a half-beat before a big chord like Warrant to make the hit land harder.",
+      "Use half-beat drum gaps like Dokken to create snap and surprise."
+    ],
+    "tech_note": {
+      "main": "An eighth rest indicates silence for half the duration of a quarter note.",
+      "common_phrasings": [
+        "short break",
+        "half-beat gap"
+      ]
+    }
+  },
+  {
+    "name": "Half Step",
+    "translation": {
+      "Half": "the smallest step between two notes in standard tuning",
+      "examples_for_Half": [
+        "In “Little Wing” (Hendrix, but copied by every L.A. shredder), half-step bends — bending just one fret’s worth — add that crying, vocal feel to the guitar line.",
+        "In Poison’s “Every Rose Has Its Thorn,” the solo uses half-step bends and slides to tug at the harmony, giving the ballad its weepy, country-blues flavor."
+      ],
+      "Step": "the distance between one fret and the next",
+      "examples_for_Step": [
+        "Hendrix-influenced players in L.A. constantly bend one half-step up or down to create tiny sighs between notes.",
+        "C.C. DeVille’s solo in “Every Rose Has Its Thorn” leans on half-step motion to sound emotional rather than purely flashy."
+      ],
+      "combined": "the tiniest pitch move you can make on a fretted guitar",
+      "examples_for_combined": [
+        "Half-step bends are the difference between a sterile line and a human one.",
+        "Poison’s half-step slides make the solo feel like it’s talking, not just running scales."
+      ]
+    },
+    "description": "Half steps are the emotional cracks between the ‘clean’ notes — perfect for hair-metal sob solos.",
+    "examples_for_description": [
+      "Hendrix-inspired half-step bends gave L.A. players their crying, vocal tone.",
+      "Poison uses half-step moves so the solo feels like a drunk confession."
+    ],
+    "if_you_wanna_use_it": "Bend or slide just one fret at a time — don’t leap, just nudge.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use tiny half-step bends at the ends of phrases to make your guitar sound more like a voice.",
+      "Slide half a step into a target note for that ‘80s ballad ache, like “Every Rose Has Its Thorn.”"
+    ],
+    "tech_note": {
+      "main": "A half step (semitone) is the smallest interval between adjacent pitches in 12-TET tuning.",
+      "common_phrasings": [
+        "semitone",
+        "one fret"
+      ]
+    }
+  },
+  {
+    "name": "Time Signature",
+    "translation": {
+      "Time": "how the beats are grouped in each bar",
+      "examples_for_Time": [
+        "Mötley Crüe’s “Kickstart My Heart” is classic 4/4 — four steady beats a bar, perfect for headbanging and double-bass rides.",
+        "Ratt’s “Round and Round” also sits in 4/4, but uses syncopation inside that grid to make the riff feel twisty and slick."
+      ],
+      "Signature": "the symbol at the start that tells you that grouping",
+      "examples_for_Signature": [
+        "“Kickstart My Heart” would be notated with a 4 over 4 — four quarter-note beats per measure.",
+        "“Round and Round” uses the same 4/4 signature, proving how different songs can be with the same time box."
+      ],
+      "combined": "the fraction that tells you how many beats per bar and what kind of beat they are",
+      "examples_for_combined": [
+        "Crüe use 4/4 to keep the song feeling like a pure adrenaline march.",
+        "Ratt use 4/4 as a framework for choppy, syncopated guitar lines."
+      ]
+    },
+    "description": "Time signature is the cage your groove lives in — hair metal mostly uses 4/4 cages built for stomping.",
+    "examples_for_description": [
+      "Mötley Crüe rely on straight 4/4 to keep the whole arena moving together.",
+      "Ratt use the same 4/4 grid but decorate the inside differently."
+    ],
+    "if_you_wanna_use_it": "Decide how many beats fit into each bar, then design riffs that line up with that pattern.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use 4/4 like Crüe for pure, easy-to-follow drive.",
+      "Experiment with syncopation inside 4/4 like Ratt for more sophistication."
+    ],
+    "tech_note": {
+      "main": "A time signature indicates beats per measure (top number) and beat unit (bottom).",
+      "common_phrasings": [
+        "meter",
+        "4/4 rock feel"
+      ]
+    }
+  },
+  {
+    "name": "Pitch",
+    "translation": {
+      "Pitch": "how high or low a note sounds",
+      "examples_for_Pitch": [
+        "In Dokken’s “Dream Warriors,” Don Dokken’s vocal pitch climbs into high tenor territory on the chorus, making it feel like he’s screaming into the sky.",
+        "In Poison’s “Every Rose Has Its Thorn,” Bret Michaels sings in a mid-range pitch most of the time, but jumps up for certain words (“thorn”) to twist the emotional knife."
+      ],
+      "combined": "the height of the sound — low growl or high scream",
+      "examples_for_combined": [
+        "Dokken’s high pitch on the chorus gives the song its nightmare-hero energy.",
+        "Poison’s shifts in pitch mark the most painful words in the lyric."
+      ]
+    },
+    "description": "Pitch is where your emotion sits — low for threat or intimacy, high for desperation or release.",
+    "examples_for_description": [
+      "Don Dokken’s high pitches sound like horror-movie hero shots.",
+      "Bret’s higher notes feel like his voice is cracking under the weight of the memory."
+    ],
+    "if_you_wanna_use_it": "Decide which emotions live in your low notes and which live in your high ones, then target pitch on purpose.",
+    "examples_for_if_you_wanna_use_it": [
+      "Keep verses low and intimate, then raise the pitch in the chorus like Dokken for maximum release.",
+      "Use small pitch jumps on key words like Poison to highlight the hurt."
+    ],
+    "tech_note": {
+      "main": "Pitch is determined by frequency; higher frequency = higher perceived note.",
+      "common_phrasings": [
+        "in tune/high/low",
+        "hit that note"
+      ]
+    }
+  }
+]
+[
+  {
+    "name": "Slur (Arena-Rock Variant)",
+    "translation": {
+      "Slur": "connecting notes with no break between them",
+      "examples_for_Slur": [
+        "In Bon Jovi’s “Livin’ On a Prayer,” Jon slurs through the phrase “take my hand” so the words melt into each other — one breath, one emotional push.",
+        "In Bob Seger’s “Against the Wind,” Seger slurs the ends of his lines (“agaaaaainst the wiiiiind…”) to make the vocal feel tired, drifting, worn down."
+      ],
+      "combined": "singing several notes as one long sweep",
+      "examples_for_combined": [
+        "Bon Jovi use slurs to make the chorus feel like one big plea.",
+        "Seger uses long slurred vowels to create that exhausted, reflective tone."
+      ]
+    },
+    "description": "Slurs make rock vocals feel emotional instead of mechanical — the line spills instead of stepping.",
+    "examples_for_description": [
+      "Jon Bon Jovi slurs on the emotional words so they feel like he’s begging.",
+      "Seger slurs to add road-weariness and nostalgia."
+    ],
+    "if_you_wanna_use_it": "Sing (or play) like you’re sliding between notes instead of hopping.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use Jon’s slurred phrasing when you want a chorus to feel like a shout across a crowd.",
+      "Use Seger-style slurs for reflective, storyteller moments."
+    ],
+    "tech_note": {
+      "main": "A slur indicates legato phrasing across multiple notes.",
+      "common_phrasings": [
+        "one-breath line",
+        "smooth connection"
+      ]
+    }
+  },
+  {
+    "name": "Chromatic",
+    "translation": {
+      "Chromatic": "notes that move in half-steps",
+      "examples_for_Chromatic": [
+        "Van Halen’s “Ain’t Talkin’ ’Bout Love” uses chromatic descending guitar riffs — Eddie slides downward one fret at a time to create grit and menace.",
+        "Bon Jovi’s talkbox riff in “Livin’ On a Prayer” includes chromatic neighbor tones that make the pattern feel slippery and alive."
+      ],
+      "combined": "using one-fret-at-a-time movement for tension",
+      "examples_for_combined": [
+        "Eddie Van Halen’s chromatic riffs feel like a staircase collapsing one step at a time.",
+        "Jon’s talkbox uses chromatic flickers to make the riff wiggle under the melody."
+      ]
+    },
+    "description": "Chromatic lines feel dirty, sneaky, and dangerous — perfect for hard rock hooks.",
+    "examples_for_description": [
+      "Van Halen use chromatic drops to make riffs feel like they’re melting.",
+      "Bon Jovi use chromatic touches to give the talkbox hook attitude."
+    ],
+    "if_you_wanna_use_it": "Move one fret at a time — either sliding or picking each half-step.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use Eddie-style chromatic descents for aggression.",
+      "Use chromatic talkbox embellishments to animate a riff."
+    ],
+    "tech_note": {
+      "main": "Chromatic motion uses adjacent semitone steps irrespective of key.",
+      "common_phrasings": [
+        "half-step run",
+        "chromatic lick"
+      ]
+    }
+  },
+  {
+    "name": "Melody",
+    "translation": {
+      "Melody": "the tune — the part you can hum",
+      "examples_for_Melody": [
+        "In “Against the Wind,” Seger writes a clean, rising melody in the chorus that feels like someone lifting a weight off their chest.",
+        "Van Halen’s “Panama” has a shouted, anthemic melody built from simple steps and jumps — easy to sing even in a stadium."
+      ],
+      "combined": "the line that carries the story and emotion",
+      "examples_for_combined": [
+        "Seger’s melody rises and falls like someone remembering their whole life.",
+        "Van Halen’s melody lands right on power syllables, perfect for screaming along."
+      ]
+    },
+    "description": "Melody is the emotional handwriting of the song — the part your brain holds onto forever.",
+    "examples_for_description": [
+      "Seger’s melody feels nostalgic and wide-open.",
+      "Van Halen’s melody feels loud, simple, and born for crowds."
+    ],
+    "if_you_wanna_use_it": "Pick a small set of notes and make a line that rises, falls, or circles — but feels like a sentence.",
+    "examples_for_if_you_wanna_use_it": [
+      "Write Seger-style rising melodies for bittersweet emotion.",
+      "Write simple, bold melodies like Van Halen for arena punch."
+    ],
+    "tech_note": {
+      "main": "A melody is a sequence of pitches forming a recognizable musical idea.",
+      "common_phrasings": [
+        "the tune",
+        "the top line"
+      ]
+    }
+  },
+  {
+    "name": "Range (Guitar Hero Variant)",
+    "translation": {
+      "Range": "how high or low your notes can go",
+      "examples_for_Range": [
+        "In “Panama,” Eddie Van Halen jumps from low fretboard riffs to screaming high-register squeals — huge guitar range in one phrase.",
+        "In Bon Jovi’s “Wanted Dead or Alive,” Richie Sambora switches between low cowboy-pluck lines and soaring high string bends."
+      ],
+      "combined": "how much vertical space you cover in pitch",
+      "examples_for_combined": [
+        "Eddie’s massive range shifts make the riff feel wild and acrobatic.",
+        "Sambora uses range changes to make every new section feel like a bigger sky."
+      ]
+    },
+    "description": "Range is how large your musical canvas is — wide range = big, cinematic feeling.",
+    "examples_for_description": [
+      "Van Halen use insane range jumps to make the guitar scream like fireworks.",
+      "Sambora uses wide range to make the verses intimate and the choruses epic."
+    ],
+    "if_you_wanna_use_it": "Travel across the fretboard — low notes for grounding, high notes for emotion.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use Eddie-style high screams for dramatic peaks.",
+      "Use Sambora’s low-to-high jumps for musical storytelling."
+    ],
+    "tech_note": {
+      "main": "Range refers to the span between the lowest and highest playable pitches.",
+      "common_phrasings": [
+        "the highs and lows",
+        "how far you can climb"
+      ]
+    }
+  },
+  {
+    "name": "Tie",
+    "translation": {
+      "Tie": "connecting two identical notes into one longer note",
+      "examples_for_Tie": [
+        "In Bon Jovi’s “Livin’ On a Prayer,” the chorus uses tied synth pads to create long, continuous harmony walls under the vocals.",
+        "In Bob Seger’s “Against the Wind,” Seger holds certain vowels across beat-lines — musically that’s a tie, stretching the emotion over the bar."
+      ],
+      "combined": "two notes acting like one long held moment",
+      "examples_for_combined": [
+        "Bon Jovi tie background chords to create an unbroken sonic sky.",
+        "Seger ties his sustained tones so the line feels like it’s drifting forever."
+      ]
+    },
+    "description": "A tie is emotional elongation — the note refuses to stop when the bar ends.",
+    "examples_for_description": [
+      "Bon Jovi use ties in the synth pads to make the chorus feel endless.",
+      "Seger uses tied notes to stretch time and memory."
+    ],
+    "if_you_wanna_use_it": "Hold your note across the next beat or bar without re-hitting it.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use tied pads behind your vocal like Bon Jovi for lift.",
+      "Use tied vocal peaks like Seger for lyrical weight."
+    ],
+    "tech_note": {
+      "main": "A tie connects identical pitches to combine their durations.",
+      "common_phrasings": [
+        "hold it over",
+        "don’t reattack"
+      ]
+    }
+  }
+]
