@@ -342,3 +342,1506 @@
     }
   }
 ]
+[
+  {
+    "name": "Adagio",
+    "translation": {
+      "Adagio": "slow, relaxed, unhurried tempo",
+      "examples_for_Adagio": [
+        "In Janis Joplin’s “Kozmic Blues,” some of the verse phrases settle into an adagio feel — slow enough that every gritty vowel has time to ache.",
+        "In the gospel classic “Walk Around Heaven,” the choir holds an adagio pace so each harmony feels like a prayer unfolding."
+      ],
+      "combined": "music moving at a slow, thoughtful pace",
+      "examples_for_combined": [
+        "Janis uses an adagio feel when she leans into long, emotional wails.",
+        "Gospel choirs use adagio pacing to make the moment feel reverent and wide-open."
+      ]
+    },
+    "description": "Adagio is the slow, weighted emotional tempo — the musical equivalent of someone sitting down and really talking to you.",
+    "examples_for_description": [
+      "Joplin uses adagio pacing to let her voice break open in slow motion.",
+      "Gospel adagio creates room for breath, faith, and community."
+    ],
+    "if_you_wanna_use_it": "Pull your tempo back until every word or note feels intentional.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use adagio pacing like Janis when you want a raw, confessional feel.",
+      "Use gospel-style adagio when you want harmonies to bloom slowly."
+    ],
+    "tech_note": {
+      "main": "Adagio indicates a slow tempo, typically 66–76 BPM.",
+      "common_phrasings": [
+        "slowly, with feeling",
+        "easy pace"
+      ]
+    }
+  },
+  {
+    "name": "Alto",
+    "translation": {
+      "Alto": "a medium-high female voice — lower than soprano, higher than contralto",
+      "examples_for_Alto": [
+        "In En Vogue’s soul hit “Hold On,” Cindy Herron often sings in alto range — strong, warm, and centered in the middle of the harmony stack.",
+        "In Irish rock band The Cranberries’ “Linger,” Dolores O’Riordan’s mid-range lines often sit right in an alto zone, giving the melody soft strength without pushing high."
+      ],
+      "combined": "a warm mid-high female register",
+      "examples_for_combined": [
+        "En Vogue’s alto voices give the harmonies their honeyed middle layer.",
+        "Dolores’ alto lines in “Linger” create emotional softness instead of sharp brightness."
+      ]
+    },
+    "description": "Alto is the voice that carries depth and warmth — the middle color of a harmony rainbow.",
+    "examples_for_description": [
+      "En Vogue use alto parts to keep the harmony grounded and rich.",
+      "Irish rock uses alto lines for emotional sincerity."
+    ],
+    "if_you_wanna_use_it": "Keep the melody in a comfortable mid-zone — not high drama, not low smokiness.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use alto phrasing like En Vogue for smooth, rich texture.",
+      "Use alto warmth like Dolores for emotional vulnerability."
+    ],
+    "tech_note": {
+      "main": "Alto is the second-highest female vocal range, roughly F3–D5.",
+      "common_phrasings": [
+        "mid-high female voice",
+        "warm high register"
+      ]
+    }
+  },
+  {
+    "name": "Aria",
+    "translation": {
+      "Aria": "a dramatic solo moment — a singer stepping into the spotlight",
+      "examples_for_Aria": [
+        "In Annie Lennox’s ‘80s pop-soul performance of “Why,” her soaring bridge acts like a modern aria — one long, emotional solo moment.",
+        "In gospel performances like “Total Praise” by Richard Smallwood, the lead singer often takes a brief aria-like moment where the choir drops and the solo voice soars."
+      ],
+      "combined": "a spotlight vocal moment that carries the whole emotion",
+      "examples_for_combined": [
+        "Lennox’s aria-like bridge feels like an entire confession in one breath.",
+        "Gospel music uses aria-style breaks to let the lead pour everything out."
+      ]
+    },
+    "description": "An aria is the emotional monologue — the moment when one voice rises above everything and tells the truth.",
+    "examples_for_description": [
+      "Pop-soul divas use aria moments for dramatic release.",
+      "Gospel leads use aria moments to testify."
+    ],
+    "if_you_wanna_use_it": "Let everything drop except the voice — give the singer one huge, uninterrupted emotional arc.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use a Lennox-style aria for emotional climax.",
+      "Use a gospel-style aria to make a single voice feel holy."
+    ],
+    "tech_note": {
+      "main": "An aria is a solo vocal piece, traditionally from opera, emphasizing melodic expression.",
+      "common_phrasings": [
+        "solo moment",
+        "spotlight vocal"
+      ]
+    }
+  },
+  {
+    "name": "Breath Mark",
+    "translation": {
+      "Breath": "a quick inhale — a tiny pause",
+      "examples_for_Breath": [
+        "In Janis Joplin’s “Piece of My Heart,” you can hear tiny breath marks before her screams — she grabs fast air to power the next explosion.",
+        "In Miami freestyle like Exposé’s “Point of No Return,” singers take small breath marks right before rapid-fire lines to keep the phrasing clean over the fast beat."
+      ],
+      "Mark": "the symbol showing where to breathe",
+      "examples_for_Mark": [
+        "Janis’ audible breaths act like emotional markers — each inhale is a warning that something huge is coming.",
+        "Freestyle singers mark breaths mentally so they don’t crash during fast dance phrasing."
+      ],
+      "combined": "a tiny moment to breathe that shapes how the phrase lands",
+      "examples_for_combined": [
+        "Janis uses breath marks as emotional punctuation.",
+        "Freestyle vocalists use breath marks to survive rapid syllables."
+      ]
+    },
+    "description": "Breath marks aren’t just for air — they’re emotional commas, shaping phrasing and drama.",
+    "examples_for_description": [
+      "Joplin’s breath marks feel like gasps between confessions.",
+      "Freestyle breath marks keep the vocal aerodynamic."
+    ],
+    "if_you_wanna_use_it": "Insert a small pause before big notes or fast lines.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use Janis-style breath grabs before screams.",
+      "Use freestyle-style breath marks before machine-gun syllables."
+    ],
+    "tech_note": {
+      "main": "A breath mark (∧ or ‘comma’) indicates a brief lift for inhalation.",
+      "common_phrasings": [
+        "take air here",
+        "lift for breath"
+      ]
+    }
+  },
+  {
+    "name": "Coda",
+    "translation": {
+      "Coda": "the ending — a special tag that finishes the song",
+      "examples_for_Coda": [
+        "In Bob Seger’s “Against the Wind,” the repeated outro section acts like a coda — a reflective add-on that feels like driving into the sunset.",
+        "In Irish rock band U2’s “With or Without You,” the extended final vamp acts like a modern coda, repeating one idea until it dissolves."
+      ],
+      "combined": "a final section added to end the song with purpose",
+      "examples_for_combined": [
+        "Seger’s coda feels like a long goodbye.",
+        "U2’s coda feels like a mantra fading into the dark."
+      ]
+    },
+    "description": "A coda is the closing statement — the emotional aftertaste the song leaves behind.",
+    "examples_for_description": [
+      "Seger uses a coda to keep the story lingering.",
+      "U2 use a coda to build trance-like repetition at the finish."
+    ],
+    "if_you_wanna_use_it": "Write a special ending that repeats or expands one idea after the main form is done.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use a Seger-style coda for reflective fade-out emotion.",
+      "Use a U2-style coda to stretch a final mood for as long as it needs."
+    ],
+    "tech_note": {
+      "main": "A coda is a designated final section that concludes a piece beyond the regular form.",
+      "common_phrasings": [
+        "the tag",
+        "the outro"
+      ]
+    }
+  }
+]
+[
+  {
+    "name": "Double Bar",
+    "translation": {
+      "Double": "two lines together",
+      "examples_for_Double": [
+        "In Janis Joplin’s live versions of “Ball and Chain,” the band uses natural stopping points that feel like double bars — big, clear breaks between emotional sections.",
+        "In Miami freestyle like Shannon’s “Let the Music Play,” producers treat the moment between verse and chorus like a double bar — everything shifts cleanly in one big jump."
+      ],
+      "Bar": "a boundary or divider in the music",
+      "examples_for_Bar": [
+        "Joplin’s band hits strong chord stops that divide sections like printed bar lines.",
+        "Freestyle uses drum drop-outs as bar markers to cue the hook."
+      ],
+      "combined": "two vertical lines marking the end of a section",
+      "examples_for_combined": [
+        "Joplin’s dramatic pauses feel exactly like double-bar endings.",
+        "Freestyle transitions slam like a double bar leading to the chorus."
+      ]
+    },
+    "description": "Double bars mark the end of one “chapter” of the song and the start of the next.",
+    "examples_for_description": [
+      "Janis uses them as emotional cliff edges before the next shout.",
+      "Freestyle producers use them as snap-shut doors between sections."
+    ],
+    "if_you_wanna_use_it": "Put one dramatic pause, stop, or reset between big sections.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use a Joplin-style big chord stop before your bridge.",
+      "Use freestyle-style drum-drop transitions before your hook."
+    ],
+    "tech_note": {
+      "main": "A double bar is two lines marking the end of a section or whole piece.",
+      "common_phrasings": [
+        "section boundary",
+        "the big divider"
+      ]
+    }
+  },
+  {
+    "name": "Downbeat",
+    "translation": {
+      "Down": "the strong beat that lands first",
+      "examples_for_Down": [
+        "In U2’s “Where the Streets Have No Name” (Irish rock world), the bass and drums lock tightly to the downbeat when the band finally enters — that hit feels like sunrise.",
+        "In “Rhythm of the Night” by DeBarge (80s pop-soul adjacent), the downbeat is clean and bright, making the groove instantly danceable."
+      ],
+      "Beat": "the pulse you feel in your body",
+      "examples_for_Beat": [
+        "U2’s downbeat entrance is a tidal wave of sound after a long build.",
+        "DeBarge’s downbeat-centered groove tells dancers exactly where to step."
+      ],
+      "combined": "the strongest beat in the cycle, usually beat 1",
+      "examples_for_combined": [
+        "U2 use the downbeat like a cinematic reveal.",
+        "DeBarge use downbeats to keep the room moving together."
+      ]
+    },
+    "description": "The downbeat is gravity — everything in the song falls toward it.",
+    "examples_for_description": [
+      "U2 hold the downbeat back until the band arrives, creating impact.",
+      "80s pop grooves keep the downbeat bright so dancers never lose the 1."
+    ],
+    "if_you_wanna_use_it": "Make beat 1 your strongest, cleanest hit.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use a dramatic downbeat drop like U2 to kick the door in.",
+      "Use a tight pop-soul downbeat like DeBarge for dance clarity."
+    ],
+    "tech_note": {
+      "main": "The downbeat is the first beat of a measure and usually the point of strongest emphasis.",
+      "common_phrasings": [
+        "the 1",
+        "hit the downbeat"
+      ]
+    }
+  },
+  {
+    "name": "Fifth",
+    "translation": {
+      "Fifth": "the note five steps above the root — strong and powerful",
+      "examples_for_Fifth": [
+        "In “Piece of My Heart,” Janis Joplin’s melody often leaps to the fifth to shout emotional power into a line.",
+        "In Miami freestyle like Stevie B’s “Spring Love,” the synth bass jumps to the fifth to make the groove bounce without changing chords."
+      ],
+      "combined": "the strong interval that feels stable and open",
+      "examples_for_combined": [
+        "Joplin uses the fifth to make her high notes sound fierce, not fragile.",
+        "Freestyle uses the fifth to create joyful lift without complicating the harmony."
+      ]
+    },
+    "description": "The fifth is the backbone of rock, soul, and freestyle — open, bold, and instantly satisfying.",
+    "examples_for_description": [
+      "Joplin hits the fifth when she wants to roar.",
+      "Freestyle basslines ride the fifth to stay dancey and bright."
+    ],
+    "if_you_wanna_use_it": "Use the fifth for moments that need strength, confidence, or uplift.",
+    "examples_for_if_you_wanna_use_it": [
+      "Hit the fifth like Janis for vocal fireworks.",
+      "Use freestyle-style fifth jumps for bouncy basslines."
+    ],
+    "tech_note": {
+      "main": "A fifth spans five scale degrees (seven semitones), forming one of the most stable intervals.",
+      "common_phrasings": [
+        "perfect fifth",
+        "power interval"
+      ]
+    }
+  },
+  {
+    "name": "Fourth",
+    "translation": {
+      "Fourth": "the note four steps above the root",
+      "examples_for_Fourth": [
+        "In Irish rock like Thin Lizzy’s “Dancing in the Moonlight,” the vocal pushes into the fourth for a yearning, suspended feeling.",
+        "In gospel classics like “Total Praise,” the harmony often lifts to the fourth for that signature uplifting release."
+      ],
+      "combined": "a suspended, reaching interval",
+      "examples_for_combined": [
+        "Thin Lizzy use the fourth to create emotional climb.",
+        "Gospel choirs use the fourth to lift the harmony into light."
+      ]
+    },
+    "description": "The fourth feels like reaching upward — a hand extended toward something bigger.",
+    "examples_for_description": [
+      "Irish melodies use the fourth for yearning.",
+      "Gospel choirs use the fourth for spiritual lift."
+    ],
+    "if_you_wanna_use_it": "Use the fourth when you want tension without sadness.",
+    "examples_for_if_you_wanna_use_it": [
+      "Reach for it like Irish rock for bittersweet longing.",
+      "Use it like gospel to elevate the harmony toward joy."
+    ],
+    "tech_note": {
+      "main": "A fourth spans four scale degrees (five semitones). The perfect fourth is stable but slightly tense when resolving to the third.",
+      "common_phrasings": [
+        "perfect fourth",
+        "suspended sound"
+      ]
+    }
+  },
+  {
+    "name": "Frequency",
+    "translation": {
+      "Frequency": "how fast a sound wave vibrates — higher is higher pitch, lower is lower pitch",
+      "examples_for_Frequency": [
+        "In 80s pop like A-ha’s “Take On Me,” the insanely high chorus uses extremely fast frequencies — the wave vibrates faster, so the pitch is high and bright.",
+        "In gospel baritone leads like the Mighty Clouds of Joy, the low booming notes use slow frequencies — deep waves that shake your chest."
+      ],
+      "combined": "the speed of vibration that decides pitch",
+      "examples_for_combined": [
+        "A-ha’s high tenor lines soar because the frequency is racing.",
+        "Gospel low notes rumble because the frequency is slow, heavy."
+      ]
+    },
+    "description": "Frequency is the engine under every pitch — fast vibration = high note, slow vibration = low note.",
+    "examples_for_description": [
+      "A-ha ride the fast frequencies into the stratosphere.",
+      "Gospel singers use slow-wave low notes for thunder."
+    ],
+    "if_you_wanna_use_it": "Think of pitch as speed — faster for higher, slower for lower.",
+    "examples_for_if_you_wanna_use_it": [
+      "Hit high frequencies for 80s pop drama.",
+      "Use slow, low frequencies for gospel depth and authority."
+    ],
+    "tech_note": {
+      "main": "Frequency is measured in Hertz (Hz): cycles per second; pitch perception correlates to vibrational speed.",
+      "common_phrasings": [
+        "vibrations per second",
+        "how fast the pitch is"
+      ]
+    }
+  }
+]
+[
+  {
+    "name": "Grand Staff",
+    "translation": {
+      "Grand": "big, joined together",
+      "examples_for_Grand": [
+        "In gospel performances like Kirk Franklin’s arrangements, the piano part spans both hands — left on bass clef, right on treble clef — forming a grand staff.",
+        "In 80s pop ballads like Whitney Houston’s “Greatest Love of All,” piano players read a grand staff to cover full, lush chords across the whole keyboard."
+      ],
+      "Staff": "the lines music is written on",
+      "examples_for_Staff": [
+        "Gospel pianists use both staves to hit low roots and high sparkle notes at the same time.",
+        "80s pop piano arrangers use the two staves for wide, dramatic voicings."
+      ],
+      "combined": "two staves (treble + bass) used together for piano or big-range instruments",
+      "examples_for_combined": [
+        "Gospel keys use the grand staff to control bass, harmony, and sparkle at once.",
+        "Pop ballads rely on the grand staff for cinematic keyboard textures."
+      ]
+    },
+    "description": "The grand staff is the full map of the piano — low world on the bottom, high world on top.",
+    "examples_for_description": [
+      "Gospel pianists stride between hands across the whole staff.",
+      "Pop keyboardists use both staves for warm, widescreen chords."
+    ],
+    "if_you_wanna_use_it": "Think of music across two worlds: left-hand lows, right-hand highs.",
+    "examples_for_if_you_wanna_use_it": [
+      "Write gospel-style parts that hit deep bass and bright highs together.",
+      "Use pop-ballad grand staff shapes for full emotional impact."
+    ],
+    "tech_note": {
+      "main": "A grand staff joins treble and bass staves with a brace, used for keyboard notation.",
+      "common_phrasings": [
+        "piano staff",
+        "two-staff system"
+      ]
+    }
+  },
+  {
+    "name": "Half Note",
+    "translation": {
+      "Half": "a note that lasts two beats",
+      "examples_for_Half": [
+        "In Bob Seger–style blues-rock (similar to Janis Joplin concerts), the band often holds certain chords as half notes to let the groove breathe before the next punch.",
+        "In Irish rock ballads like U2’s “One,” the guitar sometimes holds half-note chords so vocal lines can glide over the top."
+      ],
+      "Note": "a sound held for a specific length",
+      "examples_for_Note": [
+        "Joplin’s band uses half-note holds to let her voice scream over sustained harmony.",
+        "U2’s half-note guitar sustains give Bono’s melody room to float."
+      ],
+      "combined": "a two-beat-long sound",
+      "examples_for_combined": [
+        "Janis’s band uses half notes to create space for emotional improvisation.",
+        "U2 uses half notes to keep the harmony steady under long vocal phrases."
+      ]
+    },
+    "description": "A half note is a long, steady hold — perfect for emotional space.",
+    "examples_for_description": [
+      "Joplin’s band holds half notes so the vocal fire can spread.",
+      "Irish rock uses half notes to make melodies feel suspended."
+    ],
+    "if_you_wanna_use_it": "Hold a chord for two beats — let the emotion ring before moving on.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use half-note holds before a scream like Janis.",
+      "Use half-note guitar sustains like U2 for dramatic calm."
+    ],
+    "tech_note": {
+      "main": "A half note equals two beats in 4/4 time.",
+      "common_phrasings": [
+        "long hold",
+        "two-count note"
+      ]
+    }
+  },
+  {
+    "name": "Intonation",
+    "translation": {
+      "Intonation": "how perfectly in-tune your notes are",
+      "examples_for_Intonation": [
+        "In gospel choirs like The Clark Sisters, intonation is razor-sharp — every harmony locks like a laser into pitch.",
+        "In Miami freestyle acts like Exposé, the tight, bright pop vocals depend on clean intonation so the harmonies don’t wobble over the fast dance beat."
+      ],
+      "combined": "how true your pitch is — dead-on or slightly off",
+      "examples_for_combined": [
+        "Gospel singers use flawless intonation to make harmonies shine.",
+        "Freestyle pop uses crisp intonation so layered vocals sound glossy."
+      ]
+    },
+    "description": "Intonation is the difference between a song sounding heavenly or a little drunk.",
+    "examples_for_description": [
+      "Gospel singers treat intonation like a sacred responsibility.",
+      "Freestyle vocalists need tight intonation so tight harmonies sparkle."
+    ],
+    "if_you_wanna_use_it": "Listen carefully and adjust pitch until you and the band are perfectly aligned.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use gospel-style pitch discipline for huge stacked harmonies.",
+      "Use freestyle-style clean pitch for polished pop hooks."
+    ],
+    "tech_note": {
+      "main": "Intonation refers to pitch accuracy relative to a reference pitch or harmony.",
+      "common_phrasings": [
+        "in tune",
+        "pitch accuracy"
+      ]
+    }
+  },
+  {
+    "name": "Key",
+    "translation": {
+      "Key": "the musical home — the set of notes the song keeps coming back to",
+      "examples_for_Key": [
+        "In Bob Seger’s “Against the Wind,” the key gives the song its warm, nostalgic color — every chord returns home eventually.",
+        "In 80s pop like Cyndi Lauper’s “Time After Time,” the entire melody and harmony revolve around a gentle major key that feels safe and intimate."
+      ],
+      "combined": "the center of gravity for all the notes",
+      "examples_for_combined": [
+        "Seger’s key keeps the song grounded while he roams emotionally.",
+        "Lauper’s melody always returns to the key’s home note for comfort."
+      ]
+    },
+    "description": "The key is home base — the place the song belongs emotionally.",
+    "examples_for_description": [
+      "Seger’s key makes the chorus feel like coming home after a long drive.",
+      "80s pop uses strong keys to make melodies feel warm and memorable."
+    ],
+    "if_you_wanna_use_it": "Choose a key that matches the emotion: major for bright, minor for longing.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use Seger-style keys for reflective storytelling.",
+      "Use 80s-pop major keys for soft, emotional glow."
+    ],
+    "tech_note": {
+      "main": "A key is the tonal center and the scale structure that defines pitch relationships.",
+      "common_phrasings": [
+        "home note",
+        "tonal center"
+      ]
+    }
+  },
+  {
+    "name": "Largo",
+    "translation": {
+      "Largo": "very slow, broad, spacious tempo",
+      "examples_for_Largo": [
+        "In Janis Joplin’s “Maybe,” the slow, aching verses move with a largo feeling — time stretches around her voice like a slow-burning candle.",
+        "In gospel hymns like “Precious Lord, Take My Hand,” largo pacing creates a deep sense of reverence and emotional weight."
+      ],
+      "combined": "extremely slow, wide-open tempo",
+      "examples_for_combined": [
+        "Joplin’s largo moments feel like she’s tearing her heart open slowly.",
+        "Gospel largo makes the choir sound enormous and timeless."
+      ]
+    },
+    "description": "Largo is musical gravity — everything moves slowly, pulling emotion out drop by drop.",
+    "examples_for_description": [
+      "Janis uses largo pacing for pure heartbreak.",
+      "Gospel uses largo to create cathedral-like emotional space."
+    ],
+    "if_you_wanna_use_it": "Pull your tempo way back and let each note feel heavy and meaningful.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use Joplin-style largo for soul-crushing vulnerability.",
+      "Use gospel largo when you want harmonies to fill every corner of the room."
+    ],
+    "tech_note": {
+      "main": "Largo indicates a very slow tempo, around 40–60 BPM.",
+      "common_phrasings": [
+        "broadly",
+        "slow and grand"
+      ]
+    }
+  }
+]
+[
+  {
+    "name": "Lento",
+    "translation": {
+      "Lento": "slow, even heavier than adagio — like time is dragging its feet",
+      "examples_for_Lento": [
+        "In Prince’s “The Beautiful Ones,” the opening verse and synth pads move at a lento feel — every chord change feels like it arrives in slow motion.",
+        "In Bill Withers’ “Ain’t No Sunshine,” the verses creep forward at a lento pace, letting each line land like a quiet blow."
+      ],
+      "combined": "a very slow, heavy tempo that gives every note extra weight",
+      "examples_for_combined": [
+        "Prince’s lento verses feel like he’s suspended in a moment he can’t escape.",
+        "Withers’ lento pacing makes the silence between lines feel almost as loud as the words."
+      ]
+    },
+    "description": "Lento is when the song doesn’t just go slow — it *feels* slow inside your body. The weight of each beat is intentional.",
+    "examples_for_description": [
+      "Prince uses lento to turn the first half of “The Beautiful Ones” into a slow emotional boil.",
+      "Bill Withers uses lento to make “Ain’t No Sunshine” feel like you’re stuck in a long, empty evening."
+    ],
+    "if_you_wanna_use_it": "Drop your tempo low and resist the urge to rush. Give notes and lyrics room to hang in the air.",
+    "examples_for_if_you_wanna_use_it": [
+      "Shape a ballad intro like Prince: lento first, then speed up or intensify later.",
+      "Use a Withers-style lento groove when you want listeners to sit with the pain instead of running past it."
+    ],
+    "tech_note": {
+      "main": "Lento indicates a very slow tempo, typically similar to or slightly slower than Largo (around 40–60 BPM), with a sense of weight.",
+      "common_phrasings": [
+        "very slow",
+        "heavy slow"
+      ]
+    }
+  },
+  {
+    "name": "Mezzo Forte",
+    "translation": {
+      "Mezzo": "kind of / medium",
+      "examples_for_Mezzo": [
+        "In U2’s “With or Without You,” Bono sings the verses at a mezzo forte — not whispering, not belting, just steady and present over the band’s build.",
+        "In Anita Baker’s “Sweet Love,” the first verse and early chorus sit around mezzo forte — warm and supported, but she’s not at full power yet."
+      ],
+      "Forte": "loud, strong",
+      "examples_for_Forte": [
+        "Bono pushes toward full forte only at the emotional peaks (‘and you give yourself away’), but he lives at mezzo forte for most of the track.",
+        "Anita Baker saves true forte for later ad-libs; her main melody rides a controlled mezzo forte."
+      ],
+      "combined": "a medium-strong volume — clear and strong but not shouting",
+      "examples_for_combined": [
+        "“With or Without You” uses mezzo forte to keep the verses intimate but still big enough for a stadium.",
+        "“Sweet Love” uses mezzo forte as the base level so there’s room to grow later."
+      ]
+    },
+    "description": "Mezzo forte is your default ‘song voice’ — strong enough to carry, gentle enough to stay beautiful.",
+    "examples_for_description": [
+      "Bono’s mezzo forte keeps the song emotional without turning every line into a scream.",
+      "Anita Baker’s mezzo forte lets her tone stay silky and controlled while still filling the room."
+    ],
+    "if_you_wanna_use_it": "Support your sound and aim for confidence, not attack — like talking to the back row without yelling.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use Bono-style mezzo forte for verses you want the whole crowd to feel but still sound personal.",
+      "Use Anita’s mezzo forte to keep your tone rich and warm before you go for big runs."
+    ],
+    "tech_note": {
+      "main": "Mezzo forte (mf) indicates a moderately loud dynamic level, between mezzo piano (mp) and forte (f).",
+      "common_phrasings": [
+        "medium loud",
+        "comfortably strong"
+      ]
+    }
+  },
+  {
+    "name": "Pianissimo",
+    "translation": {
+      "Pianissimo": "very, very soft",
+      "examples_for_Pianissimo": [
+        "In Whitney Houston’s “I Will Always Love You,” the a cappella intro sits near pianissimo — incredibly soft, almost like she’s singing just to herself.",
+        "In an Irish rock ballad like The Cranberries’ “Dreams,” Dolores O’Riordan drops some lines down to pianissimo in the verses, barely brushing the microphone."
+      ],
+      "combined": "singing or playing as quietly as possible while staying in control",
+      "examples_for_combined": [
+        "Whitney’s pianissimo at the start makes the later explosion feel twice as powerful.",
+        "Dolores’ pianissimo lines feel like secrets shared in the dark."
+      ]
+    },
+    "description": "Pianissimo is whisper-level musical honesty — you’re letting the listener lean in instead of blasting them.",
+    "examples_for_description": [
+      "Whitney uses pianissimo to make the opening feel fragile and intimate.",
+      "The Cranberries use pianissimo to create a dreamy, distant quality in the verses."
+    ],
+    "if_you_wanna_use_it": "Back off your volume until it feels like you’re barely disturbing the air — but keep pitch and tone steady.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use Whitney-style pianissimo intros when you want maximum contrast with later power.",
+      "Use Dolores-style pianissimo phrases when you want the line to feel like an almost-private thought."
+    ],
+    "tech_note": {
+      "main": "Pianissimo (pp) indicates a very soft dynamic level.",
+      "common_phrasings": [
+        "very soft",
+        "whisper quiet"
+      ]
+    }
+  },
+  {
+    "name": "Quarter Rest",
+    "translation": {
+      "Quarter": "one beat of time",
+      "examples_for_Quarter": [
+        "In Michael Jackson’s “Billie Jean” (80s pop), the drum pattern sometimes leaves a tiny gap where other songs would fill — a quarter-rest sensation that makes the groove extra tight.",
+        "In Miami freestyle like Lisa Lisa & Cult Jam’s “I Wonder If I Take You Home,” the drum machine occasionally drops a full beat of silence before a fill, a functional quarter rest that adds drama."
+      ],
+      "Rest": "silence instead of sound",
+      "examples_for_Rest": [
+        "Those one-beat gaps in “Billie Jean” let the snare and bass drum hits pop harder when they come back.",
+        "Freestyle producers use quarter rests before fills so the next hit feels like a jump scare."
+      ],
+      "combined": "one full beat of silence",
+      "examples_for_combined": [
+        "“Billie Jean” uses implied quarter rests to create negative space in the groove.",
+        "Freestyle gaps feel like the floor drops out for exactly one beat before the beat slams back."
+      ]
+    },
+    "description": "A quarter rest is a full-beat breath — enough silence to snap your attention back in.",
+    "examples_for_description": [
+      "MJ’s arrangement uses tiny one-beat holes to keep the groove sharp and lean.",
+      "Freestyle uses quarter-beat drops to set up big drum or synth hits."
+    ],
+    "if_you_wanna_use_it": "Mute everything for exactly one beat, then return with a strong hit.",
+    "examples_for_if_you_wanna_use_it": [
+      "Drop your band for one beat before the chorus for a ‘Billie Jean’-style pop.",
+      "Use a one-beat silence before a drum fill like 80s freestyle tracks to make the drop feel bigger."
+    ],
+    "tech_note": {
+      "main": "A quarter rest indicates silence for one beat in 4/4 time.",
+      "common_phrasings": [
+        "one-beat break",
+        "full-beat pause"
+      ]
+    }
+  },
+  {
+    "name": "Scale",
+    "translation": {
+      "Scale": "a staircase of notes in order",
+      "examples_for_Scale": [
+        "In Mariah Carey’s “Vision of Love” (90s but pure scale work), her runs are built from walking up and down scale steps — she’s just moving quickly through that staircase.",
+        "In gospel songs like “I Need You Now” by Smokie Norful, the piano and vocal often walk up and down simple scale patterns to build tension or release."
+      ],
+      "combined": "a set of notes you climb up or down to make melodies",
+      "examples_for_combined": [
+        "Mariah’s melismas are just scales turned into fireworks.",
+        "Smokie’s gospel lines use scale climbs to sound like reaching toward heaven."
+      ]
+    },
+    "description": "A scale is the toolbox of notes you’re allowed to use in a song — the ladder melodies climb.",
+    "examples_for_description": [
+      "Mariah uses scale shapes to design her vocal runs.",
+      "Gospel pianists use scale motions to connect chords and lead the choir."
+    ],
+    "if_you_wanna_use_it": "Pick a scale (major, minor, pentatonic) and build your melody by walking along it, step by step or in leaps.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use a simple major scale to write an 80s-style singable hook.",
+      "Use a minor or gospel-flavored scale to create soulful stepwise lines."
+    ],
+    "tech_note": {
+      "main": "A scale is an ordered collection of pitches, typically spanning an octave and defining a key’s pitch inventory.",
+      "common_phrasings": [
+        "note ladder",
+        "scale pattern"
+      ]
+    }
+  }
+]
+[
+  {
+    "name": "Dot",
+    "translation": {
+      "Dot": "a tiny mark that makes a note last longer",
+      "examples_for_Dot": [
+        "In Janis Joplin’s “Cry Baby,” the band often holds certain chords just a *little* longer than one beat — the feel is exactly like a dotted quarter note stretching the groove.",
+        "In Miami freestyle like Debbie Deb’s “Lookout Weekend,” synth stabs hit with dotted rhythms — each note lasts one-and-a-half beats, giving the track its bounce."
+      ],
+      "combined": "a dot adds half the note’s value to itself",
+      "examples_for_combined": [
+        "Joplin’s slightly stretched hits feel exactly like dotted notes pulling time open.",
+        "Debbie Deb’s dotted synth hits create that signature freestyle hop."
+      ]
+    },
+    "description": "A dot is rhythmic seasoning — a little extra length that makes the groove feel unexpected or lifted.",
+    "examples_for_description": [
+      "Janis uses dot-like stretches to drag the beat in bluesy ways.",
+      "Freestyle uses dotted synths to create forward-tilting momentum."
+    ],
+    "if_you_wanna_use_it": "Take any note and add half its value — it suddenly has swagger.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use dotted-quarter guitar hits like Joplin to make your groove lean.",
+      "Use dotted synth stabs like freestyle producers to make a beat hop."
+    ],
+    "tech_note": {
+      "main": "A dot adds 50% of the original note’s duration to its length.",
+      "common_phrasings": [
+        "dotted rhythm",
+        "add half the value"
+      ]
+    }
+  },
+  {
+    "name": "Dominant",
+    "translation": {
+      "Dominant": "the chord that creates tension — it wants to go home",
+      "examples_for_Dominant": [
+        "In U2’s Irish-rock anthem “With or Without You,” the V chord (dominant) quietly pulls the progression forward even though the band disguises it inside the repeating four-chord loop.",
+        "In soul music like Sam Cooke’s “A Change Is Gonna Come,” the dominant chord under ‘It’s been a long…’ creates the emotional lift that makes the line soar."
+      ],
+      "combined": "the tension chord that pushes toward the home chord",
+      "examples_for_combined": [
+        "U2 soften their dominant but it still ‘pulls’ the loop emotionally.",
+        "Sam Cooke leans on the dominant to brighten and dramatize the line."
+      ]
+    },
+    "description": "The dominant is the chord that *begs* for resolution — the musical inhale before the exhale.",
+    "examples_for_description": [
+      "Irish rock uses the dominant to make long, yearning lines.",
+      "Soul singers use it to set up big emotional releases."
+    ],
+    "if_you_wanna_use_it": "Use the dominant when you want anticipation — the sense that something big is about to happen.",
+    "examples_for_if_you_wanna_use_it": [
+      "Let your dominant hang before the chorus like U2.",
+      "Sing into the dominant like Sam Cooke to prepare a huge moment."
+    ],
+    "tech_note": {
+      "main": "The dominant is the V chord in a key, containing tendency tones that resolve to the tonic.",
+      "common_phrasings": [
+        "the V chord",
+        "the tension chord"
+      ]
+    }
+  },
+  {
+    "name": "Fine",
+    "translation": {
+      "Fine": "the place where the music officially ends",
+      "examples_for_Fine": [
+        "In Irish folk-rock like The Pogues’ “Fairytale of New York,” traditional arrangements often mark the *Fine* at the end of a repeated section — even if the singers keep ad-libbing past it.",
+        "In 80s pop like Cyndi Lauper’s “Time After Time,” the recorded form ends cleanly on a Fine-style cadence even though live versions sometimes loop the chorus before landing."
+      ],
+      "combined": "a marked ending spot — the true finish line",
+      "examples_for_combined": [
+        "Irish tunes often repeat big sections before landing on the Fine.",
+        "Lauper’s studio ending acts like an invisible Fine: a clean, satisfying close."
+      ]
+    },
+    "description": "The Fine is where the story ends — even if the music takes detours to get back to it.",
+    "examples_for_description": [
+      "Irish arrangements treat the Fine like the end of a dance pattern.",
+      "Pop producers treat Fine as the clean, radio-friendly finish."
+    ],
+    "if_you_wanna_use_it": "Mark a clear ending spot that feels final — even if you loop or repeat sections before it.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use Irish-style Fine markings for clean ends after repeats.",
+      "Use pop-style Fine endings for polished, tidy closings."
+    ],
+    "tech_note": {
+      "main": "Fine marks the end of a piece when used with D.C. or D.S. navigation.",
+      "common_phrasings": [
+        "the real ending",
+        "end here"
+      ]
+    }
+  },
+  {
+    "name": "Fugue",
+    "translation": {
+      "Fugue": "a musical chase — one voice starts, others copy it",
+      "examples_for_Fugue": [
+        "In gospel choir arrangements (e.g., Hezekiah Walker’s “Souled Out”), call-and-repeat lines stack in staggered entrances — a fugue-like layering where each section enters with the same theme.",
+        "In 80s pop like Queen’s “Another One Bites the Dust,” the bass motif gets imitated by guitar and vocals at different times — simplified fugue-style imitation inside a groove."
+      ],
+      "combined": "a structure where voices enter one at a time copying the same idea",
+      "examples_for_combined": [
+        "Gospel choirs often build fugue-like layers when different sections echo each other.",
+        "Queen uses imitation entries like a funk-fugue on top of a dance beat."
+      ]
+    },
+    "description": "A fugue is musical multiplication — one idea splits into many voices chasing each other across the arrangement.",
+    "examples_for_description": [
+      "Gospel call-and-response often behaves like a joyful, church-born fugue.",
+      "Pop and rock bands use fugue imitation to build complexity inside a simple groove."
+    ],
+    "if_you_wanna_use_it": "Start one musical idea, then have other parts enter later with the same idea — at different pitches or rhythms.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use a choir-style fugue entrance like gospel sections echoing each other.",
+      "Use a bass riff fugue-style by having guitar or synth imitate the line later."
+    ],
+    "tech_note": {
+      "main": "A fugue is a contrapuntal form featuring subject entries in multiple voices with staggered entrances.",
+      "common_phrasings": [
+        "subject entry",
+        "voice imitation"
+      ]
+    }
+  },
+  {
+    "name": "Mezzo Forte",
+    "translation": {
+      "Mezzo": "medium",
+      "examples_for_Mezzo": [
+        "In Prince’s “I Would Die 4 U,” the verses sit around mezzo forte — strong, forward, but not belted.",
+        "In Gloria Estefan’s Miami-soul crossover “Anything for You,” her verse delivery is mezzo forte: confident but warm."
+      ],
+      "Forte": "loud",
+      "examples_for_Forte": [
+        "Prince only breaks into full forte on high ad-libs later in the track.",
+        "Estefan saves her true forte for the climactic last chorus."
+      ],
+      "combined": "medium-loud — strong without pushing",
+      "examples_for_combined": [
+        "Prince uses mezzo forte for emotional steadiness.",
+        "Estefan uses mezzo forte to keep the vocal rich without shouting."
+      ]
+    },
+    "description": "Mezzo forte is the comfort-zone volume — big enough to lead, small enough to feel intimate.",
+    "examples_for_description": [
+      "Prince uses it as his controlled, dance-friendly vocal weight.",
+      "Estefan uses it to keep warmth while still carrying the melody forward."
+    ],
+    "if_you_wanna_use_it": "Aim for a supported, confident sound that isn’t strained.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use Prince-style mezzo forte to stay strong over a groove.",
+      "Use Estefan-style mezzo forte when you want sincerity without yelling."
+    ],
+    "tech_note": {
+      "main": "Mezzo forte (mf) indicates moderately loud volume.",
+      "common_phrasings": [
+        "medium loud",
+        "strong but not pushed"
+      ]
+    }
+  }
+]
+[
+  {
+    "name": "Staff",
+    "translation": {
+      "Staff": "the five lines where music is written so you can see which notes to play",
+      "examples_for_Staff": [
+        "If you wrote out The Beatles’ “Let It Be” for piano, the right hand melody and chords would sit on a treble staff — five lines showing each note’s height.",
+        "In film scores for something like John Williams’ “Star Wars Main Title,” every instrument has its own staff, so the conductor can see who plays what and when."
+      ],
+      "combined": "the five-line ladder that shows how high or low each note is",
+      "examples_for_combined": [
+        "“Let It Be” could be read directly off a staff for piano or voice instead of being learned by ear.",
+        "The “Star Wars” brass fanfare is carefully notated on staves so the entire orchestra can recreate the exact sound every time."
+      ]
+    },
+    "description": "The staff is the visual grid of pitch — higher up the staff = higher sound, lower = lower sound.",
+    "examples_for_description": [
+      "Beatles songs in piano books use the staff to show which keys to press and which notes to sing.",
+      "Big movie scores stack multiple staves vertically so every section of the orchestra lines up in time."
+    ],
+    "if_you_wanna_use_it": "Imagine your song as notes sitting on five lines — if it goes up on the staff, it goes up in sound.",
+    "examples_for_if_you_wanna_use_it": [
+      "Sketch your melody on a staff to see where it climbs and falls, like the vocal in “Let It Be.”",
+      "Use stacked staves if you’re arranging for more than one instrument, like a mini movie score for your band."
+    ],
+    "tech_note": {
+      "main": "A staff consists of five horizontal lines and four spaces used to notate pitch and rhythm.",
+      "common_phrasings": [
+        "music lines",
+        "notation ladder"
+      ]
+    }
+  },
+  {
+    "name": "Tenor",
+    "translation": {
+      "Tenor": "a high male voice — above baritone, below falsetto/soprano",
+      "examples_for_Tenor": [
+        "In Sam Cooke’s “A Change Is Gonna Come,” most of his lead vocal sits in a rich tenor range — high enough to soar, low enough to stay warm.",
+        "In Queen’s “We Are the Champions,” Freddie Mercury’s main melody lines are classic rock-tenor: bright, ringing, and powerful in the upper male range."
+      ],
+      "combined": "a strong, high male range used for emotional, ringing melodies",
+      "examples_for_combined": [
+        "Sam Cooke’s tenor lets him sound pleading and hopeful at the same time.",
+        "Freddie’s tenor turns simple lines into arena-sized statements."
+      ]
+    },
+    "description": "Tenor is the go-to range for most rock and soul leads — it cuts through the band but still feels human and warm.",
+    "examples_for_description": [
+      "Cooke uses tenor to carry long, smooth phrases without strain.",
+      "Freddie uses tenor to belt over loud guitars and still sound clear."
+    ],
+    "if_you_wanna_use_it": "Aim your vocal in the upper-middle male zone — not low and rumbly, not shrieked, just bright and supported.",
+    "examples_for_if_you_wanna_use_it": [
+      "Sing like Sam Cooke in your mid-to-high chest voice for soulful tenor lines.",
+      "Shape melodies like Queen’s choruses that sit where a tenor can really shine."
+    ],
+    "tech_note": {
+      "main": "Tenor is the highest standard adult male voice type, typically spanning about C3–B4 (with variations).",
+      "common_phrasings": [
+        "high male voice",
+        "tenor range"
+      ]
+    }
+  },
+  {
+    "name": "Presto",
+    "translation": {
+      "Presto": "very fast tempo — like the music is sprinting",
+      "examples_for_Presto": [
+        "Metallica’s “Battery” opens and then locks into a near-presto feel — rapid sixteenth-note picking and drums racing forward like a runaway train.",
+        "In classical music, the finale of Mozart’s “Rondo Alla Turca” when taken at performance speed is a textbook presto: the notes fly by almost faster than you can count."
+      ],
+      "combined": "a speed where the music feels breathless and high-adrenaline",
+      "examples_for_combined": [
+        "“Battery” uses a presto-like pace to make the riff feel like a chainsaw.",
+        "Mozart’s presto creates a sense of virtuoso fireworks and playful chaos."
+      ]
+    },
+    "description": "Presto is when the song stops walking or running and starts *sprinting* — everything feels urgent.",
+    "examples_for_description": [
+      "Thrash metal uses near-presto tempos so riffs feel violent and unstoppable.",
+      "Classical showpieces use presto to show off extreme technical skill."
+    ],
+    "if_you_wanna_use_it": "Push the BPM high enough that playing or singing it feels like a challenge, not a cruise.",
+    "examples_for_if_you_wanna_use_it": [
+      "Write a riff in a “Battery”-style tempo if you want listeners to feel slammed with energy.",
+      "Use a Mozart-style presto section as a brief burst of speed inside an otherwise slower piece."
+    ],
+    "tech_note": {
+      "main": "Presto indicates a very fast tempo, roughly 168–200 BPM or higher.",
+      "common_phrasings": [
+        "crazy fast",
+        "full sprint"
+      ]
+    }
+  },
+  {
+    "name": "Sonata",
+    "translation": {
+      "Sonata": "a multi-part piece, usually for one or two instruments, built from themes that return and change",
+      "examples_for_Sonata": [
+        "Beethoven’s “Moonlight Sonata” (Piano Sonata No. 14) starts with a slow, haunted movement, then moves into faster, more turbulent ones — all sharing a connected emotional world.",
+        "You can think of Metallica’s “One” like a rock sonata: clean, brooding intro theme → heavier middle section → frantic machine-gun bridge → final distorted recapitulation of the main idea."
+      ],
+      "combined": "a structured journey of themes across multiple sections or movements",
+      "examples_for_combined": [
+        "Beethoven’s sonata evolves one core mood across several movements.",
+        "Metallica’s “One” evolves one core idea from fragile to apocalyptic."
+      ]
+    },
+    "description": "A sonata is less a “song” and more a **journey format** — one or two instruments exploring and transforming a theme in stages.",
+    "examples_for_description": [
+      "“Moonlight Sonata” takes you from quiet mourning into full emotional storm.",
+      "“One” starts like a wounded lullaby and ends like artillery fire on the same idea."
+    ],
+    "if_you_wanna_use_it": "Plan your piece in acts — quiet introduction, development and conflict, then a transformed return.",
+    "examples_for_if_you_wanna_use_it": [
+      "Write a piano or guitar piece that introduces a theme softly, then reworks it faster and louder the way Beethoven does.",
+      "Structure a rock track like “One”: intro theme, heavier development, extreme climax, then a final echo of the original idea."
+    ],
+    "tech_note": {
+      "main": "Sonata refers both to a multi-movement work and to a specific internal form (exposition, development, recapitulation) used for thematic development.",
+      "common_phrasings": [
+        "sonata form",
+        "sonata piece"
+      ]
+    }
+  },
+  {
+    "name": "Opera",
+    "translation": {
+      "Opera": "a big staged story told mostly by singing",
+      "examples_for_Opera": [
+        "Bizet’s “Carmen” is a classic opera — characters sing everything, from love to jealousy to murder, with arias like the famous “Habanera” as emotional peaks.",
+        "Queen’s “Bohemian Rhapsody” is not literally an opera, but the middle “mama mia / Galileo” section is straight-up rock-opera energy: multiple characters, dramatic shifts, stacked voices."
+      ],
+      "combined": "a dramatic story where music, not speech, does most of the talking",
+      "examples_for_combined": [
+        "“Carmen” uses full orchestra and voices to act out a tragic narrative.",
+        "“Bohemian Rhapsody” borrows opera logic to turn a rock track into a mini-theatre piece."
+      ]
+    },
+    "description": "Opera is music as theater — costumes, staging, drama, with singers carrying the entire narrative on melody and text.",
+    "examples_for_description": [
+      "In “Carmen,” every character’s mood is expressed in the music, not just in words.",
+      "Queen mimics opera by shifting voices, textures, and perspectives inside one song."
+    ],
+    "if_you_wanna_use_it": "Think in scenes, characters, and big emotional swings — not just verses and choruses.",
+    "examples_for_if_you_wanna_use_it": [
+      "Design sections like characters arguing, like Queen did in the operatic middle of “Bohemian Rhapsody.”",
+      "Borrow Carmen-style dramatic arias: one big solo moment that defines a character, even inside a rock or pop context."
+    ],
+    "tech_note": {
+      "main": "Opera is a dramatic genre in which music (singing + orchestra) is the primary vehicle for storytelling.",
+      "common_phrasings": [
+        "music drama",
+        "sung theatre"
+      ]
+    }
+  }
+]
+[
+  {
+    "name": "Notation",
+    "translation": {
+      "Notation": "writing music down so players know the pitch and rhythm",
+      "examples_for_Notation": [
+        "If you wrote Janis Joplin’s “Try (Just a Little Bit Harder)” onto a page, her melody would appear as notes on a staff with rhythms showing where each scream and slide belongs.",
+        "In Lisa Lisa & Cult Jam’s “All Cried Out,” the piano intro could be notated as simple right-hand chords with left-hand octaves — the written shape tells a pianist exactly how to recreate that mood."
+      ],
+      "combined": "the system of symbols that shows how a song should sound",
+      "examples_for_combined": [
+        "Janis’ vocal line, once notated, becomes a roadmap of pitch and phrasing.",
+        "Freestyle ballads like “All Cried Out” translate cleanly into notation for live bands."
+      ]
+    },
+    "description": "Notation is the written language of music — the visual version of everything you hear.",
+    "examples_for_description": [
+      "Janis’ big melodic jumps become visible when you draw them on the staff.",
+      "Piano-driven ballads use notation so other musicians can perform them live."
+    ],
+    "if_you_wanna_use_it": "Picture your melody or riff on paper: high dots for high notes, low dots for low notes, shapes for rhythm.",
+    "examples_for_if_you_wanna_use_it": [
+      "Sketch a Janis-style melody to understand how her leaps look as symbols.",
+      "Write down a freestyle intro to see how the chords line up on the grid."
+    ],
+    "tech_note": {
+      "main": "Notation uses symbols (notes, rests, clefs, time signatures) to represent pitch and rhythm visually.",
+      "common_phrasings": [
+        "written music",
+        "the score"
+      ]
+    }
+  },
+  {
+    "name": "Note",
+    "translation": {
+      "Note": "a single musical sound — one pitch, one moment",
+      "examples_for_Note": [
+        "In U2’s “I Will Follow,” The Edge plays sharp, clear single notes that cut through the mix — each note is a bright point in the rhythm grid.",
+        "In Aretha Franklin’s “A Natural Woman,” her vocal opening starts with a single held note that sets the emotional temperature immediately."
+      ],
+      "combined": "one sound at one height, held for a chosen length",
+      "examples_for_combined": [
+        "The Edge builds entire riffs out of crisp, ringing single notes.",
+        "Aretha turns a single note into a full emotional statement."
+      ]
+    },
+    "description": "Notes are the atoms of music — every melody, chord, or riff is built from them.",
+    "examples_for_description": [
+      "U2’s guitar sound is just a lot of single notes arranged with purpose.",
+      "Aretha can break your heart with one perfectly placed note."
+    ],
+    "if_you_wanna_use_it": "Focus on one pitch at a time; make each note count.",
+    "examples_for_if_you_wanna_use_it": [
+      "Hit clear single-note lines like The Edge for bright, rhythmic riffs.",
+      "Hold a single Aretha-style note to create emotional focus."
+    ],
+    "tech_note": {
+      "main": "A note defines a pitch and duration within musical notation.",
+      "common_phrasings": [
+        "tone",
+        "single pitch"
+      ]
+    }
+  },
+  {
+    "name": "Overtone",
+    "translation": {
+      "Overtone": "the extra, quieter pitches hiding inside one note",
+      "examples_for_Overtone": [
+        "In The Beach Boys’ “God Only Knows,” the vocal blend produces rich overtones — faint upper pitches created when multiple voices resonate perfectly together.",
+        "In Janis Joplin’s raspy belts on “Try,” her distorted tone produces strong overtones — extra high frequencies that make the note feel raw and electric."
+      ],
+      "combined": "the hidden harmonic colors that live inside every note",
+      "examples_for_combined": [
+        "The Beach Boys’ harmonies shimmer because the overtones stack together.",
+        "Janis’ scream-like tone is full of overtones that give her voice its wild edge."
+      ]
+    },
+    "description": "Overtones are the secret ingredients that make notes feel rich, bright, gritty, or warm — the tone behind the tone.",
+    "examples_for_description": [
+      "Beach Boys harmonies work because the overtone blend feels like sunlight.",
+      "Janis’ vocal rasp comes from strong overtone distortion vibrating above the main pitch."
+    ],
+    "if_you_wanna_use_it": "Shape your tone — smoother technique reduces overtones, rougher technique brings more of them out.",
+    "examples_for_if_you_wanna_use_it": [
+      "Sing cleanly like The Beach Boys to create angelic overtone blends.",
+      "Use Janis-style rasp to unleash powerful upper overtones."
+    ],
+    "tech_note": {
+      "main": "Overtones are higher-frequency resonances above a fundamental pitch, forming a harmonic series.",
+      "common_phrasings": [
+        "harmonics",
+        "upper partials"
+      ]
+    }
+  },
+  {
+    "name": "Piano (dynamic marking)",
+    "translation": {
+      "Piano": "soft, gentle volume — quiet but clear",
+      "examples_for_Piano": [
+        "In Lionel Richie’s “Hello,” the intro is sung at piano dynamic — soft enough to feel intimate, like talking directly into someone’s ear.",
+        "In The Cure’s “Pictures of You,” Robert Smith’s vocal often sits at piano level in the verse — breathy and subdued, letting emotion soak into the room."
+      ],
+      "combined": "playing or singing softly, with tenderness",
+      "examples_for_combined": [
+        "Richie’s piano dynamic makes the opening feel vulnerable.",
+        "The Cure’s piano verses feel like quiet confessions."
+      ]
+    },
+    "description": "Piano dynamic is where emotion whispers — soft enough to feel private, strong enough to stay on pitch.",
+    "examples_for_description": [
+      "Lionel uses piano to create a gentle, trusting mood.",
+      "The Cure uses piano dynamics so the verses feel like memories."
+    ],
+    "if_you_wanna_use_it": "Lower your volume but keep your tone steady — like a soft conversation.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use Richie-style piano singing for emotional openings.",
+      "Use piano dynamics in verses like The Cure to contrast with louder choruses."
+    ],
+    "tech_note": {
+      "main": "Piano (p) indicates a soft dynamic level, quieter than mezzo piano.",
+      "common_phrasings": [
+        "soft",
+        "gentle"
+      ]
+    }
+  },
+  {
+    "name": "Polyphony",
+    "translation": {
+      "Polyphony": "many voices or melodies happening at once",
+      "examples_for_Polyphony": [
+        "In The Beach Boys’ “God Only Knows,” the ending builds into pure polyphony — multiple independent vocal melodies weaving around each other.",
+        "In Irish rock like U2’s early track “I Will Follow,” the guitar and bass often create separate melodic lines that move independently — light polyphony inside punk energy."
+      ],
+      "combined": "two or more melodies playing at the same time, each with its own shape",
+      "examples_for_combined": [
+        "Beach Boys polyphony feels like braided sunlight — all voices equal and interlocking.",
+        "U2’s polyphonic lines make the groove feel bigger than a simple power trio."
+      ]
+    },
+    "description": "Polyphony feels like multiple characters speaking at once — not arguing, just telling the story together.",
+    "examples_for_description": [
+      "The Beach Boys use polyphony to create a sonic tapestry in the outro.",
+      "U2 uses mild polyphony so every instrument carries melodic weight."
+    ],
+    "if_you_wanna_use_it": "Write more than one melody and let them move independently but harmonically compatible.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use Beach Boys–style layered vocals for lush, heavenly polyphony.",
+      "Use U2-style guitar vs. bass melodic counterlines to thicken your sound."
+    ],
+    "tech_note": {
+      "main": "Polyphony involves simultaneous independent melodic lines, contrasted with homophony.",
+      "common_phrasings": [
+        "multiple melodies",
+        "independent lines"
+      ]
+    }
+  }
+]
+[
+  {
+    "name": "Register",
+    "translation": {
+      "Register": "the low, middle, or high ‘zone’ a sound lives in",
+      "examples_for_Register": [
+        "In Nirvana’s “Something in the Way,” Kurt sings almost entirely in low register — breathy, quiet, and pressed against the bottom of his range to sound defeated.",
+        "In Aretha Franklin’s “Ain’t No Way,” she climbs into high register only at emotional peaks, using the upper zone to tear the sky open."
+      ],
+      "combined": "which height of sound is being used — low, middle, or high",
+      "examples_for_combined": [
+        "Nirvana stay low-register to create a crushed, intimate mood.",
+        "Aretha switches into high register to deliver explosive emotional payoff."
+      ]
+    },
+    "description": "Register is about altitude — low register feels intimate or dark, high register feels intense or dramatic.",
+    "examples_for_description": [
+      "Kurt’s low register makes the song feel hollow and fragile.",
+      "Aretha’s high register moments sound like a soul eruption."
+    ],
+    "if_you_wanna_use_it": "Choose your register for emotion: low for quiet truth, mid for storytelling, high for catharsis.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use low-register delivery like Nirvana for vulnerability.",
+      "Use high-register blasts like Aretha for climaxes."
+    ],
+    "tech_note": {
+      "main": "Register divides the total pitch range into functional zones for expressive control.",
+      "common_phrasings": [
+        "low/mid/high",
+        "which range it's in"
+      ]
+    }
+  },
+  {
+    "name": "Rhythm",
+    "translation": {
+      "Rhythm": "the pattern of long, short, and accented sounds in time",
+      "examples_for_Rhythm": [
+        "In The Strokes’ “Last Nite,” the rhythm guitar uses a tight, choppy rhythm that makes the whole song feel like a restless conversation.",
+        "In Daft Punk’s “One More Time,” the rhythm of the synth stab pattern defines the entire groove — repeating syncopated hits that force your body to respond."
+      ],
+      "combined": "how notes are spaced and accented over the beat",
+      "examples_for_combined": [
+        "The Strokes’ rhythm guitar creates that downtown, urgent feel.",
+        "Daft Punk’s rhythmic synth hits make the track feel like a party engine."
+      ]
+    },
+    "description": "Rhythm is the personality of time — how a song walks, marches, struts, or floats.",
+    "examples_for_description": [
+      "The Strokes use rhythm to feel jangly, impatient, alive.",
+      "Daft Punk use rhythm to create club hypnosis."
+    ],
+    "if_you_wanna_use_it": "Decide whether your rhythm is straight, choppy, loose, tight, or syncopated.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use Strokes-style choppy rhythms for raw rock energy.",
+      "Use Daft Punk’s locked rhythmic loops for dance momentum."
+    ],
+    "tech_note": {
+      "main": "Rhythm organizes durations and accents within meter to shape groove and movement.",
+      "common_phrasings": [
+        "the groove",
+        "time-feel"
+      ]
+    }
+  },
+  {
+    "name": "Ternary Form",
+    "translation": {
+      "Ternary": "three-part shape: A section, B section, then A again",
+      "examples_for_Ternary": [
+        "In classical music, Bach’s “Brandenburg Concerto No. 3” uses clear A–B–A ternary motion — lively theme → contrasting middle → return of the opening.",
+        "In modern rock, Radiohead’s “Everything In Its Right Place” behaves like ternary form in performance: atmospheric A section → distorted contrasting B → return to the original A."
+      ],
+      "Form": "the big architecture of the song",
+      "examples_for_Form": [
+        "Bach uses ternary form to give listeners a home, a journey, and a homecoming.",
+        "Radiohead uses ternary logic to reset the mood after an experimental break."
+      ],
+      "combined": "A three-part form where the first idea comes back at the end",
+      "examples_for_combined": [
+        "Brandenburg No. 3’s return of the opening music completes the circle.",
+        "Radiohead’s live ternary shape restores the original sound world at the end."
+      ]
+    },
+    "description": "Ternary form is a musical boomerang — you go away, explore, then return where you started.",
+    "examples_for_description": [
+      "Bach uses it for elegance and balance.",
+      "Radiohead uses it for emotional symmetry after chaos."
+    ],
+    "if_you_wanna_use_it": "Write a section, contrast it with something different, then return to the first idea.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use Bach’s ternary shape for classical clarity.",
+      "Use Radiohead’s A–B–A for modern emotional arcs."
+    ],
+    "tech_note": {
+      "main": "Ternary form is a three-part structure (A–B–A) emphasizing contrast and return.",
+      "common_phrasings": [
+        "A–B–A",
+        "three-part form"
+      ]
+    }
+  },
+  {
+    "name": "Bass",
+    "translation": {
+      "Bass": "the lowest musical voice — the foundation under everything",
+      "examples_for_Bass": [
+        "In The White Stripes’ “Seven Nation Army,” the bass-line-on-guitar acts as the entire skeleton of the song — one riff holding the universe up.",
+        "In Daft Punk’s “Around the World,” the repeating synth-bass pattern is the engine of the groove — everything else dances around it."
+      ],
+      "combined": "the low pitch role that supports harmony and drives the groove",
+      "examples_for_combined": [
+        "“Seven Nation Army” is basically one immortal bass line with dressing around it.",
+        "Daft Punk’s bass hook controls the dancers like a heartbeat."
+      ]
+    },
+    "description": "Bass is gravity. It tells your body where the ground is.",
+    "examples_for_description": [
+      "Jack White uses a bass-like line to anchor the entire track.",
+      "Daft Punk use bass to hypnotize the dancefloor."
+    ],
+    "if_you_wanna_use_it": "Write a simple low riff that repeats — let rhythm and harmony sit on top of it.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use a White Stripes–style single bass riff to define the whole song.",
+      "Use a Daft Punk–style loop for endless dance power."
+    ],
+    "tech_note": {
+      "main": "Bass refers to the lowest pitched musical role in a texture, grounding harmony and rhythm.",
+      "common_phrasings": [
+        "low end",
+        "the root"
+      ]
+    }
+  },
+  {
+    "name": "Vivace",
+    "translation": {
+      "Vivace": "fast, bright, and lively — more playful than presto",
+      "examples_for_Vivace": [
+        "In Vivaldi’s “Spring” from *The Four Seasons*, the opening violin line is vivace — zipping, sparkling, full of energy like birds taking flight.",
+        "In The Killers’ “Mr. Brightside,” the verse guitar riff has a vivace feel — fast and jittery without feeling frantic or aggressive."
+      ],
+      "combined": "a lively, energetic pace that feels vibrant",
+      "examples_for_combined": [
+        "Vivaldi’s vivace creates springtime joy in pure sound.",
+        "The Killers use a modern vivace-like pulse to power the song’s anxiety and excitement."
+      ]
+    },
+    "description": "Vivace is fast with personality — speed that feels alive, not stressed.",
+    "examples_for_description": [
+      "Vivaldi uses vivace for musical sunlight.",
+      "The Killers use vivace pacing for emotional urgency."
+    ],
+    "if_you_wanna_use_it": "Push your tempo upward, but keep everything bouncing and lively — not tense.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use a Vivaldi-style vivace riff for bright, sparkling energy.",
+      "Use a Killers-style vivace guitar pattern for modern urgency."
+    ],
+    "tech_note": {
+      "main": "Vivace is a very lively tempo, typically in the 140–160 BPM range.",
+      "common_phrasings": [
+        "lively",
+        "bright fast"
+      ]
+    }
+  }
+]
+[
+  {
+    "name": "Beat (Basic)",
+    "translation": {
+      "Beat": "the steady pulse you can tap your foot to",
+      "examples_for_Beat": [
+        "In Fleetwood Mac’s “Dreams,” the beat is that calm, hypnotic pulse the drums hold from start to finish — thump… thump… thump… thump.",
+        "In Ramones’ “Sheena Is a Punk Rocker,” the beat is fast and relentless — a straight-ahead pulse that never stops driving."
+      ],
+      "combined": "the heartbeat of the music",
+      "examples_for_combined": [
+        "“Dreams” lives on a smooth, laid-back beat.",
+        "Ramones blast through a fast, energetic beat that pushes everything forward."
+      ]
+    },
+    "description": "Beat is the spine of the song — the thing you feel in your chest whether the band is whispering or screaming.",
+    "examples_for_description": [
+      "Fleetwood Mac ride a soft beat to create a drifting feel.",
+      "Ramones use a fast beat to create wild, pogo energy."
+    ],
+    "if_you_wanna_use_it": "Decide how your song *walks* — slow beat, medium beat, fast beat.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use a slow beat for gentle emotion like “Dreams.”",
+      "Use a fast beat for rush and rebellion like the Ramones."
+    ],
+    "tech_note": {
+      "main": "Beat is the fundamental time unit underlying tempo and meter.",
+      "common_phrasings": [
+        "the pulse",
+        "the 1-2-3-4"
+      ]
+    }
+  },
+  {
+    "name": "Meter (Basic)",
+    "translation": {
+      "Meter": "how beats are grouped together",
+      "examples_for_Meter": [
+        "In Paramore’s “Still Into You,” the meter is 4/4 — four beats per group, which makes the groove feel square and energetic.",
+        "In Otis Redding’s “Dock of the Bay,” the same 4/4 meter gives the song its relaxed sway — just four steady beats per cycle."
+      ],
+      "combined": "the pattern of how beats repeat — like 1-2-3-4 or 1-2-3",
+      "examples_for_combined": [
+        "Paramore’s driving 4/4 meter makes the verses upbeat and punchy.",
+        "Otis Redding’s gentle 4/4 makes the song feel like rocking on water."
+      ]
+    },
+    "description": "Meter is the container the beat lives in — the repeating pattern that tells you where you are in the groove.",
+    "examples_for_description": [
+      "Paramore use meter to make the music feel like a dance.",
+      "Otis uses meter to make the song feel like a calm tide."
+    ],
+    "if_you_wanna_use_it": "Choose a repeating pattern of beats — most songs use groups of 4.",
+    "examples_for_if_you_wanna_use_it": [
+      "Keep everything in clear 4/4 for rocking motion like Paramore.",
+      "Use simple 4/4 for relaxed soul like Otis."
+    ],
+    "tech_note": {
+      "main": "Meter organizes beats into repeating cycles, typically written as a time signature.",
+      "common_phrasings": [
+        "4/4 time",
+        "beat grouping"
+      ]
+    }
+  },
+  {
+    "name": "Scale (Basic)",
+    "translation": {
+      "Scale": "a lineup of notes in order — like steps on a staircase",
+      "examples_for_Scale": [
+        "In Daft Punk’s “Instant Crush,” the melody mostly walks up and down the major scale — simple steps that feel smooth and nostalgic.",
+        "In Fleetwood Mac’s “Dreams,” Stevie Nicks’ chorus melody uses clean scale movement that rises gently before falling back down."
+      ],
+      "combined": "a set of notes you climb up or down to make melodies",
+      "examples_for_combined": [
+        "Daft Punk’s melodic lines float because they follow the scale cleanly.",
+        "Stevie Nicks’ chorus feels dreamy because the scale steps rise and fall naturally."
+      ]
+    },
+    "description": "A scale is your note palette — the set of notes that define your song’s world.",
+    "examples_for_description": [
+      "Daft Punk use scale shapes to create that bittersweet electronic glow.",
+      "Fleetwood Mac use gentle scale steps to make the chorus flow like water."
+    ],
+    "if_you_wanna_use_it": "Pick a scale — major for bright, minor for moody — then build your melody from its notes.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use major-scale steps like Daft Punk for warm, nostalgic hooks.",
+      "Use simple up-then-down scale shapes like Stevie Nicks for smooth phrasing."
+    ],
+    "tech_note": {
+      "main": "A scale is an ordered sequence of pitches forming the basis of melody and harmony.",
+      "common_phrasings": [
+        "note ladder",
+        "the scale pattern"
+      ]
+    }
+  },
+  {
+    "name": "Staff (Basic)",
+    "translation": {
+      "Staff": "the five lines where written music lives",
+      "examples_for_Staff": [
+        "If you wrote out The Beach Boys’ “God Only Knows,” the vocal melody would sit on the treble staff — the five lines showing the exact height of each pitch.",
+        "If you transcribed Billie Eilish’s “When the Party’s Over,” her soft melody lines would float on the staff like tiny lanterns drifting upward and downward."
+      ],
+      "combined": "five lines showing how high or low notes go",
+      "examples_for_combined": [
+        "Beach Boys’ harmonies would stack across multiple staves for clarity.",
+        "Billie’s whisper-soft melody still sits exactly on the treble staff when written."
+      ]
+    },
+    "description": "The staff is the blueprint for pitch — if it moves up on the staff, it moves up in sound.",
+    "examples_for_description": [
+      "Beach Boys use multiple staves for rich, layered harmony notation.",
+      "Modern pop melodies drawn on the staff show their contour instantly."
+    ],
+    "if_you_wanna_use_it": "Imagine your melody as dots on five lines: higher dot = higher pitch.",
+    "examples_for_if_you_wanna_use_it": [
+      "Sketch harmonies like the Beach Boys to see how lines interact.",
+      "Plot a Billie Eilish melody on the staff to see how sparse it really is."
+    ],
+    "tech_note": {
+      "main": "The staff consists of five horizontal lines where notes are placed to notate pitch.",
+      "common_phrasings": [
+        "notation lines",
+        "the five-line grid"
+      ]
+    }
+  },
+  {
+    "name": "Tenor (Basic)",
+    "translation": {
+      "Tenor": "the high male voice — bright but not falsetto",
+      "examples_for_Tenor": [
+        "In The Weeknd’s “Blinding Lights,” he sings the verses and chorus in clear tenor range — high, bright, and forward.",
+        "In The Killers’ “When You Were Young,” Brandon Flowers belts high tenor notes that cut through the band effortlessly."
+      ],
+      "combined": "a male voice that lives in the upper-middle range",
+      "examples_for_combined": [
+        "The Weeknd uses tenor for glossy, emotional pop lines.",
+        "Brandon Flowers uses tenor to make the chorus soar above guitars."
+      ]
+    },
+    "description": "Tenor is the emotional spotlight range for men — expressive, ringing, powerful, but not scream-level.",
+    "examples_for_description": [
+      "The Weeknd uses tenor to carve clean lines through synth-heavy production.",
+      "Brandon Flowers uses tenor for anthemic rock intensity."
+    ],
+    "if_you_wanna_use_it": "Place your melody high enough to shine but low enough to keep the chest voice engaged.",
+    "examples_for_if_you_wanna_use_it": [
+      "Use Weeknd-style tenor lines for warm, floating pop.",
+      "Use Killers-style tenor belts for emotional rock climaxes."
+    ],
+    "tech_note": {
+      "main": "Tenor is the highest standard male vocal range, typically C3–B4.",
+      "common_phrasings": [
+        "high male",
+        "tenor zone"
+      ]
+    }
+  }
+]
