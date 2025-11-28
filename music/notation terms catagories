@@ -1,0 +1,369 @@
+we’re not teaching “music theory.”
+we’re teaching how to write those 214 concepts on a page.
+
+that means we need a system that does three jobs:
+
+1. classify each term as either:
+
+A notatable symbol (flat, staccato, trill, barline, etc.)
+
+A concept that maps to a notatable behavior (syncopation, cadence delay, motif, interval, etc.)
+
+A concept that has no symbol and must be expressed with layout, text, or structure (genre rules, arrangement map, EDM build-drop, etc.)
+
+2. convert every concept into one of four notation outputs:
+
+glyph
+
+marking
+
+pattern
+
+layout rule
+
+3. build lessons that teach the player how to notate THAT category.
+
+not all terms need a symbol—many need a notation strategy.
+
+so the first thing we do is divide the 214 terms into the correct buckets.
+once they’re in buckets, we build the teaching system for each bucket.
+
+I’ll show you how this works by doing the first pass:
+we classify your entire list into the correct notation category.
+
+STEP 1 — THE NOTATION BUCKET SYSTEM
+
+every musical idea can be notated using only 8 buckets:
+
+BUCKET A — single symbols
+
+these are things with real, existing notation glyphs.
+
+accidental
+
+flat
+
+natural
+
+sharp
+
+marcato
+
+staccato
+
+slur
+
+tie
+
+trill
+
+fermata
+
+rest
+
+whole note
+
+quarter note
+
+eighth note
+
+eighth rest
+
+ledger line
+
+bar (measure)
+
+treble clef
+
+bass clef
+
+cut time
+
+forte
+
+mezzo piano
+
+sforzando
+
+etc.
+
+BUCKET B — annotated text markings
+
+concept = word appears above/below the staff.
+
+Allegro
+
+Andante
+
+Moderato
+
+Rubato
+
+Vibrato
+
+Pizzicato
+
+Tutti
+
+Tempo Marking
+
+Dynamic Micro-Inflection (text)
+
+Articulation variants (text)
+
+Soprano / Baritone / Contralto (range labels)
+
+Drone (text)
+
+Drone Bass (text)
+
+Octave (8va, 8vb)
+
+BUCKET C — pattern-based notation
+
+concept = notated through repeated shapes, accents, spacing, beams, or groupings.
+
+Arpeggio
+
+Glissando
+
+Call-and-Response
+
+Motif Construction
+
+Motif Manipulation
+
+Groove Types
+
+Syncopation Systems
+
+Subdivision Logic
+
+Ostinato
+
+Pivot Riff
+
+Counterpoint Behavior
+
+Contrary Motion
+
+Harmonic Rhythm
+
+Interlocking Rhythms
+
+Repetition Patterns
+
+Rhythmic Density Curves
+
+Tremolo / trill-like lines
+
+BUCKET D — structural layout
+
+concept = notated through the shape of the score, form sections, spacing, and big markers.
+
+Arrangement Map
+
+Classical Form Grammar
+
+Pop Form Grammar
+
+Phrase Types
+
+Phrase Length Logic
+
+Section Functions
+
+Hyper-Metric Reset
+
+Metric Fake-Out
+
+Texture Types
+
+Texture Swaps
+
+Texture Shifts as Form Markers
+
+Developmental Arcs
+
+Density vs Volume
+
+Large-Scale Symmetry vs Asymmetry
+
+Cyclic Motif Return
+
+BUCKET E — harmonic symbols / numeric notation
+
+concept = notated through chord symbols, Roman numerals, accidentals.
+
+Augmented
+
+Diminished
+
+Major
+
+Minor
+
+Triad
+
+Tritone
+
+Figured Bass
+
+Local Harmonic Function
+
+Functional Harmony
+
+Modal Harmony
+
+Modulation Types
+
+Key Signature
+
+Transposition
+
+Whole Step
+
+Half Step
+
+Interval
+
+Chromatic
+
+Chromatic Strategy
+
+BUCKET F — dynamic contour notation
+
+concept = notated with hairpins, cresc/decresc, sfz behavior.
+
+Cresc and Decresc Placement
+
+Dynamic Fake-Outs
+
+Micro Dynamic Shaping
+
+Macro Dynamic Arc
+
+Sforzando Variants
+
+Forte (Soul-Belt Variant)
+
+Mezzo Piano
+
+Dynamic Micro-Inflection
+
+BUCKET G — special technique notation
+
+concept = written with special symbols, articulations, text, or hybrid glyphs.
+
+Appoggiatura
+
+Staccato (Funk Variant)
+
+Legato (Soul Glide Variant)
+
+Slur Variants
+
+Ghost Notes
+
+Ghost Chorus
+
+Vibrato
+
+Tremolo
+
+Glissando
+
+Tuning
+
+Pizzicato
+
+Attack Types
+
+Timbre Distortion
+
+Timbre Layering Grammar
+
+Timbre as Section Signal
+
+BUCKET H — cannot be notated directly (meta-ideas)
+
+concept = explained through analysis, arrangement, or descriptive text, not symbols.
+
+these still get taught, but not through notation glyphs:
+
+Architectural Analogy
+
+Diegesis
+
+Mimesis
+
+Genre (Cross-Pollination Logic)
+
+Hip-Hop Structural Grammar
+
+Dance–Music Relationship
+
+EDM Build–Drop Grammar
+
+Metal Riff Grammar
+
+Soul-Pop Allegro Variant
+
+House Variants
+
+Narrative–Music Mapping
+
+Visual Rhythm Mapping
+
+Prosody Alignment
+
+Game-Logic Equivalents
+
+Instrument Roles
+
+Orchestration Patterns
+
+Sectional Energy Anchors
+
+Mix Energy Curves
+
+Layering Strategy
+
+Track Stacking Rules
+
+Band Interaction Structure
+
+STEP 2 — every bucket will get its own teaching system
+
+I’ll show you the first.
+take BUCKET A — single symbols.
+
+these get taught like this:
+
+1. show the actual symbol (glyph)
+
+♭ ♯ ♮ 𝄐 𝄞 𝄢 𝄶 etc.
+
+2. show the “structural rule”
+
+like:
+♭ lowers a note by one half-step.
+𝄐 holds a note beyond its written duration.
+
+3. show the “visual behavior”
+
+where it sits, how it attaches, how it affects nearby symbols.
+
+4. give a puzzle
+
+you drag symbols to notes to satisfy conditions.
+
+5. give production
+
+you draw or place the symbol yourself.
+
+6. give interpretation
+
+you read a line with those symbols and answer questions.
+
+the entire lesson is form → behavior → use → verify → apply.
