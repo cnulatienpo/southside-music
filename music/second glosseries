@@ -1,0 +1,2195 @@
+{
+  "name": "Harmonic Rhythm",
+  "translation": {
+    "Harmonic": "about the chords in the song",
+    "examples_for_Harmonic": [
+      "In “Sweet Love” by Anita Baker, the chords glide in warm progressions that change at a steady, soulful pace.",
+      "In “Drift Away” by Dobie Gray, the chords follow a smooth, predictable loop that supports the relaxed vocals."
+    ],
+    "Rhythm": "how quickly or slowly those chords change",
+    "examples_for_Rhythm": [
+      "In “Long Haired Country Boy” by Charlie Daniels, the chords change slowly, giving the lyrics room to breathe.",
+      "In “Trista Peña” by the Gipsy Kings, chord changes come faster, creating momentum for the flamenco-driven groove."
+    ],
+    "combined": "how often the chords change—slow steps or fast steps",
+    "examples_for_combined": [
+      "In “Why Not Me” by The Judds, harmonic rhythm stays calm and steady, matching the country ballad feel.",
+      "In “Smells Like Teen Spirit” by Nirvana, chord changes hit quickly and forcefully to match the energy."
+    ]
+  },
+
+  "description": "Some songs change chords slowly, some quickly. The speed of those changes shapes how the music feels.",
+  "examples_for_description": [
+    "In “Sweet Love,” slow harmonic rhythm gives the melody space to soar.",
+    "In “Trista Peña,” faster chord movement powers the lively dance feel."
+  ],
+
+  "if_you_wanna_use_it": "Decide how often the chords should change—rarely for calm, often for excitement.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use slow changes like in “Drift Away” for a laid-back feel.",
+    "Use fast changes like in “Trista Peña” to build constant motion."
+  ],
+
+  "tech_note": {
+    "main": "Harmonic rhythm sets structural pacing.",
+    "common_phrasings": [
+      "rate of chord change",
+      "chord turnover"
+    ]
+  }
+}
+{
+  "name": "Cadential Grammar",
+  "translation": {
+    "Cadential": "about musical endings",
+    "examples_for_Cadential": [
+      "In “Sweet Love,” Anita Baker lands many phrases on warm, satisfying endings that feel complete.",
+      "In “Long Haired Country Boy,” Charlie Daniels often lets lines trail into looser, open-feeling endings."
+    ],
+    "Grammar": "the rules for how those endings work",
+    "examples_for_Grammar": [
+      "In “Why Not Me” by The Judds, choruses end with a clear, settled cadence that tells your ear the phrase is done.",
+      "In “Trista Peña,” the Gipsy Kings often use fast, bright cadences that push right into the next section."
+    ],
+    "combined": "the different ways a musical idea can end",
+    "examples_for_combined": [
+      "In “Drift Away,” verses often end in soft, closed cadences that settle comfortably.",
+      "In “Headhunter” by Front 242, many phrase endings feel abrupt and unfinished, pushing forward."
+    ]
+  },
+
+  "description": "A phrase can end like a period or a comma. Different ending rules shape the flow.",
+  "examples_for_description": [
+    "In “Sweet Love,” cadences close smoothly and warmly.",
+    "In “Why” by Annie Lennox, some cadences intentionally feel unresolved."
+  ],
+
+  "if_you_wanna_use_it": "Choose whether your phrase should land firmly or lean forward into the next part.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “Why Not Me,” the phrase endings land firmly to support the chorus lift.",
+    "In “Long Haired Country Boy,” you can model open phrase endings for a looser feel."
+  ],
+
+  "tech_note": {
+    "main": "Cadences define closure or continuation.",
+    "common_phrasings": [
+      "closed cadence",
+      "open cadence"
+    ]
+  }
+}
+{
+  "name": "Meter",
+  "translation": {
+    "Meter": "how beats are grouped into boxes of 2, 3, or 4 steps",
+    "examples_for_Meter": [
+      "In “Drift Away” by Dobie Gray, the meter is a steady four-count that flows evenly throughout the verses.",
+      "In the waltz “Blue Danube” by Johann Strauss II, the meter is in groups of three, giving its classic swing."
+    ],
+    "combined": "the way beats are organized into repeating groups",
+    "examples_for_combined": [
+      "In “Sweet Love,” Anita Baker sings over steady four-beat groupings that anchor the groove.",
+      "In “Trista Peña” by the Gipsy Kings, the meter feels quick and dance-ready, emphasizing a lively four-count feel."
+    ]
+  },
+
+  "description": "Meter is how music counts: 1-2-3-4 or 1-2-3 or other repeated patterns of beats.",
+  "examples_for_description": [
+    "In “Why Not Me” by The Judds, the steady country meter supports simple strumming patterns.",
+    "In “Take Five” by The Dave Brubeck Quartet, the unusual five-beat meter creates a special groove."
+  ],
+
+  "if_you_wanna_use_it": "Pick a beat pattern—groups of 2, 3, or 4—and keep it steady.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use a steady four-beat feel like “Drift Away.”",
+    "Try a three-beat feel like Strauss waltzes for a more circular motion."
+  ],
+
+  "tech_note": {
+    "main": "Meter is the recurring organization of beats.",
+    "common_phrasings": [
+      "time signature",
+      "beat grouping"
+    ]
+  }
+}
+{
+  "name": "Subdivision Logic",
+  "translation": {
+    "Subdivision": "how each beat is split into smaller pieces",
+    "examples_for_Subdivision": [
+      "In “Sweet Love,” the beat often splits evenly into two, giving a smooth R&B flow.",
+      "In “Trista Peña” by the Gipsy Kings, beats are often split into quick flamenco-style bursts."
+    ],
+    "Logic": "the reason for choosing how to split them",
+    "examples_for_Logic": [
+      "In “Why Not Me” by The Judds, simple subdivisions support a gentle country ballad feel.",
+      "In “Da Perculator” by Cajmere, subdivisions multiply rapidly to create a frantic house groove."
+    ],
+    "combined": "why each beat is divided into twos or threes or faster",
+    "examples_for_combined": [
+      "In “Drift Away,” subdivisions stay simple to keep the easygoing feel.",
+      "In West African drumming pieces like “Kpanlogo,” beats split into complex layered subdivisions."
+    ]
+  },
+
+  "description": "Beats can split evenly, unevenly, or into many pieces. That changes how the rhythm feels.",
+  "examples_for_description": [
+    "In “Sweet Love,” smooth subdivisions support warm phrasing.",
+    "In “Conga,” quick subdivisions give it its driving energy."
+  ],
+
+  "if_you_wanna_use_it": "Decide if your beat breaks into 2, 3, or many smaller hits.",
+  "examples_for_if_you_wanna_use_it": [
+    "Split beats simply like in “Why Not Me.”",
+    "Split beats into rapid bursts like in “Trista Peña.”"
+  ],
+
+  "tech_note": {
+    "main": "Subdivision defines rhythmic resolution.",
+    "common_phrasings": [
+      "beat division",
+      "subdividing the beat"
+    ]
+  }
+}
+{
+  "name": "Groove Types",
+  "translation": {
+    "Groove": "the overall feel of the rhythm",
+    "examples_for_Groove": [
+      "In “Drift Away” by Dobie Gray, the groove is slow and relaxed, built on steady backbeat strumming.",
+      "In “Trista Peña” by Gipsy Kings, the groove is fast, bright, and flamenco-driven."
+    ],
+    "Types": "different ways that feel can be shaped",
+    "examples_for_Types": [
+      "In “Sweet Love,” the groove is silky and smooth, shaped by soft R&B drumming.",
+      "In “Long Haired Country Boy,” the groove is rougher and looser, shaped by country guitar picking."
+    ],
+    "combined": "the different basic rhythms that make the song feel straight, bouncy, or swung",
+    "examples_for_combined": [
+      "In “Why Not Me,” the groove is straight and gentle, matching the vocal warmth.",
+      "In “Da Perculator,” the groove is mechanical, punchy, and dance-focused."
+    ]
+  },
+
+  "description": "Groove is the heartbeat of the song. Straight, swung, smooth, rigid—each type changes everything.",
+  "examples_for_description": [
+    "“Sweet Love” uses a silky slow-jam groove.",
+    "“Headhunter” by Front 242 uses a sharp industrial groove."
+  ],
+
+  "if_you_wanna_use_it": "Pick a groove type—smooth, tight, bouncy, rigid—and match all parts to it.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use a smooth groove like Anita Baker for romantic warmth.",
+    "Use a rigid groove like Cajmere for club intensity."
+  ],
+
+  "tech_note": {
+    "main": "Groove is created by rhythmic placement and articulation.",
+    "common_phrasings": [
+      "feel",
+      "rhythmic attitude"
+    ]
+  }
+}
+{
+  "name": "Pattern Architecture",
+  "translation": {
+    "Pattern": "a small group of sounds that repeats",
+    "examples_for_Pattern": [
+      "In “The Days of Swine & Roses” by My Life With the Thrill Kill Kult, the repeating synth-and-drum figure acts like a dark mechanical pattern that loops through the whole track.",
+      "In “More Than a Woman” by the Bee Gees, the repeating disco guitar-and-bass lines create the track’s smooth dance pattern."
+    ],
+    "Architecture": "how that repeating group is built",
+    "examples_for_Architecture": [
+      "In “Latest, Greatest Inspiration” by Teddy Pendergrass, the repeating rhythm section pattern is built from lush strings and gentle drums that stack in a soft, supportive structure.",
+      "In the 1971 “I’d Like to Buy the World a Coke” commercial by The Hillside Singers, the pattern is built from a simple, repetitive acoustic strum supporting the choir-like vocals."
+    ],
+    "combined": "how a repeating rhythm is put together and used as the base",
+    "examples_for_combined": [
+      "In “Good Times” by Chic, the bass-and-guitar pattern forms the foundation of the entire track.",
+      "In the Japanese folk tune “Sakura,” the repeating koto pattern forms the calm structural base."
+    ]
+  },
+
+  "description": "A pattern is a loop. Its architecture is the collection of parts that make that loop feel solid, catchy, or hypnotic.",
+  "examples_for_description": [
+    "In “The Days of Swine & Roses,” the dark industrial loop is built from sharp synth hits and pounding drums.",
+    "In “More Than a Woman,” the disco loop is built from silky bass and bright rhythm guitar."
+  ],
+
+  "if_you_wanna_use_it": "Pick a short loop. Decide which instruments play it, and how they stack.",
+  "examples_for_if_you_wanna_use_it": [
+    "In “Latest, Greatest Inspiration,” you could model a pattern with soft strings and warm drums.",
+    "In the Coke commercial, build a pattern with simple guitar strums and clean group vocals."
+  ],
+
+  "tech_note": {
+    "main": "Pattern architecture defines the construction of repeating rhythmic cells.",
+    "common_phrasings": [
+      "loop design",
+      "pattern structure"
+    ]
+  }
+}
+{
+  "name": "Syncopation Systems",
+  "translation": {
+    "Syncopation": "putting sounds where your body does not expect them",
+    "examples_for_Syncopation": [
+      "In “More Than a Woman” by the Bee Gees, the bass and guitar add light syncopation that makes the groove dance.",
+      "In “The Days of Swine & Roses,” the industrial drum hits land in unexpected spots to create harsh, jagged syncopation."
+    ],
+    "Systems": "a repeating plan for doing that",
+    "examples_for_Systems": [
+      "In “Latest, Greatest Inspiration,” soft syncopated string accents reappear in each verse, forming a gentle system.",
+      "In Afro-Cuban rumba pieces like “La Negra Tomasa,” syncopated hand-drum patterns form a traditional system repeated across songs."
+    ],
+    "combined": "a steady plan for putting sounds in surprising places",
+    "examples_for_combined": [
+      "In “Conga” by Miami Sound Machine, the drums use repeating syncopation systems that feel lively and familiar.",
+      "In “Idioteque” by Radiohead, electronic syncopation systems create anxious forward motion."
+    ]
+  },
+
+  "description": "Syncopation is shifting emphasis away from the obvious beat. A system is the pattern of where those shifts happen.",
+  "examples_for_description": [
+    "In “More Than a Woman,” syncopated accents make the groove lighter and more fluid.",
+    "In “The Days of Swine & Roses,” syncopation makes the beat feel glitchy and confrontational."
+  ],
+
+  "if_you_wanna_use_it": "Pick which off-beat hits return every cycle and repeat them consistently.",
+  "examples_for_if_you_wanna_use_it": [
+    "Borrow the light, repeated off-beat strums from the Bee Gees.",
+    "Borrow the sharp, aggressive off-beats from industrial dance tracks like Thrill Kill Kult."
+  ],
+
+  "tech_note": {
+    "main": "Syncopation systems create rhythmic tension through patterned displacement.",
+    "common_phrasings": [
+      "off-beat pattern",
+      "syncopated grid"
+    ]
+  }
+}
+{
+  "name": "Ostinato Logic",
+  "translation": {
+    "Ostinato": "a tiny pattern that repeats many times",
+    "examples_for_Ostinato": [
+      "In “More Than a Woman,” the rhythmic guitar scratch is a light ostinato that repeats almost nonstop.",
+      "In “The Days of Swine & Roses,” the dark synth loop functions as a hard-edged ostinato driving the track."
+    ],
+    "Logic": "the reason for using that pattern",
+    "examples_for_Logic": [
+      "In “Latest, Greatest Inspiration,” warm repeated patterns support the emotional growth of Teddy Pendergrass’ vocal lines.",
+      "In the Coke commercial, the repeating strum is used because it’s simple enough for many voices to join in easily."
+    ],
+    "combined": "why you choose a tiny repeating pattern and keep looping it",
+    "examples_for_combined": [
+      "In “Around the World” by Daft Punk, the repeated hook is used because it’s hypnotic and easy to build on.",
+      "In African mbira music like “Nhemamusasa,” ostinatos create a meditative, layered texture."
+    ]
+  },
+
+  "description": "A short repeating figure forms a stable base while everything else changes above it.",
+  "examples_for_description": [
+    "In “More Than a Woman,” the repeating disco groove supports all vocals and strings.",
+    "In “The Days of Swine & Roses,” the industrial loop anchors the chaotic textures."
+  ],
+
+  "if_you_wanna_use_it": "Pick a short idea and loop it without changing it. Build the rest of the song around it.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use a gentle loop like in “Latest, Greatest Inspiration” to support emotional vocals.",
+    "Use a tense loop like in Thrill Kill Kult for gritty energy."
+  ],
+
+  "tech_note": {
+    "main": "Ostinatos provide structural stability.",
+    "common_phrasings": [
+      "repeating cell",
+      "loop foundation"
+    ]
+  }
+}
+{
+  "name": "Rhythmic Density Curves",
+  "translation": {
+    "Rhythmic": "about beats and timing",
+    "examples_for_Rhythmic": [
+      "In “More Than a Woman,” rhythmic layers stay smooth and light at first before filling out in the chorus.",
+      "In “The Days of Swine & Roses,” rhythmic layers stack into thick, noisy textures as the track intensifies."
+    ],
+    "Density": "how many sounds are happening close together",
+    "examples_for_Density": [
+      "In “Latest, Greatest Inspiration,” density is low at the start and gradually increases with strings.",
+      "In the bhangra classic “Mundian To Bach Ke” by Panjabi MC, density rises when dhol and tumbi weave together."
+    ],
+    "Curves": "how that amount grows or shrinks over time",
+    "examples_for_Curves": [
+      "In “Why Not Me” by The Judds, rhythmic density grows slightly in the chorus then softens again.",
+      "In “Trista Peña,” rhythmic density spikes during the fast palm-muted guitar runs."
+    ],
+    "combined": "how busy or empty the rhythm gets as the song moves forward",
+    "examples_for_combined": [
+      "In “Sweet Love” by Anita Baker, density curves gently upward into the chorus.",
+      "In “The Days of Swine & Roses,” density rises sharply in aggressive bursts."
+    ]
+  },
+
+  "description": "The number of rhythmic events rises and falls to shape tension and release.",
+  "examples_for_description": [
+    "In the Coke commercial, density stays low so voices can shine.",
+    "In flamenco pieces like “Trista Peña,” density surges during energetic strums."
+  ],
+
+  "if_you_wanna_use_it": "Decide where your rhythm should get busier or calmer. Let that shape emotional peaks.",
+  "examples_for_if_you_wanna_use_it": [
+    "Raise density in your chorus like the Bee Gees.",
+    "Drop density suddenly like Thrill Kill Kult for shock."
+  ],
+
+  "tech_note": {
+    "main": "Density curves track rhythmic event quantity over time.",
+    "common_phrasings": [
+      "rhythmic thickness",
+      "event density"
+    ]
+  }
+}
+{
+  "name": "Temporal Displacement",
+  "translation": {
+    "Temporal": "about time",
+    "examples_for_Temporal": [
+      "In “The Days of Swine & Roses,” repeated synth hits sometimes shift slightly ahead or behind, creating a warped sense of timing.",
+      "In “More Than a Woman,” rhythmic hits rarely shift; everything stays tightly in time."
+    ],
+    "Displacement": "moving something earlier or later than expected",
+    "examples_for_Displacement": [
+      "In “Latest, Greatest Inspiration,” small pushes in background vocals create soft emotional displacement.",
+      "In Afrobeat tracks like “Water No Get Enemy” by Fela Kuti, horn hits often land slightly before or after the beat."
+    ],
+    "combined": "sliding a repeating pattern forward or backward while the beat stays steady",
+    "examples_for_combined": [
+      "In “Da Perculator,” repetitive stabs sometimes shift tiny amounts, creating dance-floor tension.",
+      "In Indian tabla solos, motifs may intentionally start slightly early for dramatic effect."
+    ]
+  },
+
+  "description": "Take a pattern and move it a little earlier or later while the underlying beat stays fixed.",
+  "examples_for_description": [
+    "In footwork tracks like “Teklife” cuts, patterns slide unpredictably against the beat.",
+    "In “Trista Peña,” some guitar accents jump slightly ahead to intensify the flamenco push."
+  ],
+
+  "if_you_wanna_use_it": "Shift a loop forward or backward by a tiny amount to create tension or surprise.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use tiny forward shifts like Cajmere for club tension.",
+    "Use delayed vocal entries like Teddy Pendergrass for emotional pull."
+  ],
+
+  "tech_note": {
+    "main": "Temporal displacement offsets patterns against the grid.",
+    "common_phrasings": [
+      "pushing the beat",
+      "dragging the beat"
+    ]
+  }
+}
+{
+  "name": "Contour Archetypes",
+  "translation": {
+    "Contour": "the up-and-down shape of a melody",
+    "examples_for_Contour": [
+      "In “Midnight Rider” by The Allman Brothers Band, the vocal melody stays low and steady before gently rising, creating a smooth, road-worn contour.",
+      "In “Drug Against War” by KMFDM, shouted lines jump sharply up and down, creating an aggressive, jagged contour shape."
+    ],
+    "Archetypes": "the basic shapes that show up a lot",
+    "examples_for_Archetypes": [
+      "In “River” by Joni Mitchell, long arching contours rise beautifully then fall back like waves.",
+      "In “Rebel Girl” by Bikini Kill, contours stay mostly flat and punchy, matching the punk attitude."
+    ],
+    "combined": "the main shapes melodies make when they rise and fall",
+    "examples_for_combined": [
+      "In “You Brought the Sunshine” by The Clark Sisters, the melody rises upward with gospel lift before settling downward again.",
+      "In the Japanese children’s song “Kaeru no Uta,” the contour climbs step by step in a simple staircase shape."
+    ]
+  },
+
+  "description": "Melodies can climb, fall, wave, zig-zag, or stay flat. Those shapes define their character.",
+  "examples_for_description": [
+    "In “River,” soaring climbs followed by soft falls define the entire emotional landscape.",
+    "In “Drug Against War,” sharp contour spikes match the frantic industrial shouting."
+  ],
+
+  "if_you_wanna_use_it": "Choose a basic shape—hill, wave, ramp, dip—and make your melody follow it.",
+  "examples_for_if_you_wanna_use_it": [
+    "Follow a gentle wave shape like Joni Mitchell to create emotional flow.",
+    "Choose a harsh zig-zag contour like KMFDM for explosive energy."
+  ],
+
+  "tech_note": {
+    "main": "Contour archetypes categorize recurring melodic shapes.",
+    "common_phrasings": [
+      "melodic shape",
+      "contour pattern"
+    ]
+  }
+}
+{
+  "name": "Interval Behavior",
+  "translation": {
+    "Interval": "the distance between two notes",
+    "examples_for_Interval": [
+      "In “Midnight Rider,” the melody mostly moves by small steps, giving it a laid-back feel.",
+      "In “Rebel Girl” by Bikini Kill, the melody uses bold jumps that match the song’s rebellious punch."
+    ],
+    "Behavior": "how that distance acts in the melody",
+    "examples_for_Behavior": [
+      "In “River,” Joni Mitchell often leaps upward boldly before stepping down gently.",
+      "In “Drug Against War,” intervals jump aggressively without much smooth stepping."
+    ],
+    "combined": "how big or small steps between notes are used in the melody",
+    "examples_for_combined": [
+      "In “You Brought the Sunshine,” the Clark Sisters use upward leaps for excitement and small steps for emotional release.",
+      "In the Gregorian chant “Ubi Caritas,” almost all intervals are small steps that flow smoothly."
+    ]
+  },
+
+  "description": "Melodies move in steps or jumps. Steps sound smooth; jumps sound bold or dramatic.",
+  "examples_for_description": [
+    "In “Midnight Rider,” gentle stepwise motion matches the reflective tone.",
+    "In “Rebel Girl,” interval jumps match its defiant spirit."
+  ],
+
+  "if_you_wanna_use_it": "Use small steps for calm; use bigger jumps for intensity.",
+  "examples_for_if_you_wanna_use_it": [
+    "Write stepwise lines like Joni Mitchell for emotional subtlety.",
+    "Use big leaps like Bikini Kill for raw power."
+  ],
+
+  "tech_note": {
+    "main": "Interval behavior describes motion size and expressive shape.",
+    "common_phrasings": [
+      "step vs. leap",
+      "melodic interval motion"
+    ]
+  }
+}
+{
+  "name": "Melodic Gravity",
+  "translation": {
+    "Melodic": "about the melody",
+    "examples_for_Melodic": [
+      "In “You Brought the Sunshine,” the melody lifts upward and then settles into warm landing points.",
+      "In “Drug Against War,” many vocal lines ignore traditional melody and shout rhythmically instead."
+    ],
+    "Gravity": "how some notes feel pulled toward calmer notes",
+    "examples_for_Gravity": [
+      "In “River,” Joni Mitchell’s high notes often fall into soft lower notes that feel stable.",
+      "In “Midnight Rider,” melodic lines settle on comfortable mid-range tones that feel like home."
+    ],
+    "combined": "how certain notes feel like they want to move to calmer ones",
+    "examples_for_combined": [
+      "In “Sweet Love” by Anita Baker, tension notes melt downward into warm, stable tones.",
+      "In the Tongan hymn “Siasi Si’i,” high notes lean downward into the softer, home-feeling tones."
+    ]
+  },
+
+  "description": "Some notes feel unstable, wanting to fall into others. That pull creates emotional motion.",
+  "examples_for_description": [
+    "In “River,” bright high notes sink into beautiful, stable resting points.",
+    "In “Rebel Girl,” melodies often avoid traditional gravity, staying raw and flat on purpose."
+  ],
+
+  "if_you_wanna_use_it": "Let high or tense notes fall into calmer notes for emotional release.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use soft downward resolutions like the Clark Sisters.",
+    "Avoid resolution like KMFDM if you want aggression and unrest."
+  ],
+
+  "tech_note": {
+    "main": "Melodic gravity shapes resolution tendencies.",
+    "common_phrasings": [
+      "tendency tones",
+      "resolution pull"
+    ]
+  }
+}
+{
+  "name": "Range Management",
+  "translation": {
+    "Range": "how high or low the melody goes",
+    "examples_for_Range": [
+      "In “You Brought the Sunshine,” the Clark Sisters use a wide vocal range, climbing high for emotional lift.",
+      "In “Rebel Girl,” the range stays tight and mid-level, matching the punk delivery."
+    ],
+    "Management": "controlling how far up or down it travels",
+    "examples_for_Management": [
+      "In “River,” Joni Mitchell carefully expands and contracts the vocal range for expression.",
+      "In “Drug Against War,” vocal lines stay in a narrow range because shouting is the focus."
+    ],
+    "combined": "choosing how high or low the melody is allowed to go",
+    "examples_for_combined": [
+      "In “Midnight Rider,” the melody stays in a low comfortable pocket to match the mood.",
+      "In Whitney Houston’s “I Will Always Love You,” the range expands dramatically for emotional impact."
+    ]
+  },
+
+  "description": "Where the melody sits — low, middle, or high — affects comfort, drama, and intensity.",
+  "examples_for_description": [
+    "In “You Brought the Sunshine,” high notes explode with joy.",
+    "In “Rebel Girl,” mid-range lines keep the delivery grounded and raw."
+  ],
+
+  "if_you_wanna_use_it": "Pick your lowest and highest notes, then stay mostly inside that zone.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use a tight range like Bikini Kill to create punch.",
+    "Use a wide range like the Clark Sisters for emotional uplift."
+  ],
+
+  "tech_note": {
+    "main": "Range affects register, comfort, and expressive space.",
+    "common_phrasings": [
+      "vocal range",
+      "melodic span"
+    ]
+  }
+}
+{
+  "name": "Melodic Symmetry vs Asymmetry",
+  "translation": {
+    "Symmetry": "when the melody’s up and down moves feel balanced",
+    "examples_for_Symmetry": [
+      "In “Midnight Rider,” many vocal lines rise and fall in even, steady shapes.",
+      "In “I’d Like to Buy the World a Coke,” the melody balances its stepwise rises and falls in tidy symmetry."
+    ],
+    "Asymmetry": "when the melody’s moves feel uneven",
+    "examples_for_Asymmetry": [
+      "In “Rebel Girl,” the melody often jumps suddenly without mirroring the motion afterward.",
+      "In “Drug Against War,” vocally shouted lines have almost no melodic symmetry at all."
+    ],
+    "combined": "whether the tune’s motions feel balanced or lopsided",
+    "examples_for_combined": [
+      "In “You Brought the Sunshine,” symmetrical melodic arcs give the chorus its uplifting smoothness.",
+      "In “River,” asymmetrical jumps and falls reflect emotional turbulence."
+    ]
+  },
+
+  "description": "Some melodies rise and fall evenly; others twist, jump, or lean more in one direction.",
+  "examples_for_description": [
+    "In “Midnight Rider,” symmetry matches the relaxed storytelling.",
+    "In “Rebel Girl,” asymmetry matches the raw, urgent attitude."
+  ],
+
+  "if_you_wanna_use_it": "Choose if your melody should flow evenly or bend unpredictably.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use symmetry like The Allman Brothers for calmness.",
+    "Use asymmetry like Bikini Kill for fire and edge."
+  ],
+
+  "tech_note": {
+    "main": "Symmetry compares directional contour balance.",
+    "common_phrasings": [
+      "balanced contour",
+      "irregular contour"
+    ]
+  }
+}
+{
+  "name": "Melodic Repetition vs Variation",
+  "translation": {
+    "Repetition": "doing the same melody again",
+    "examples_for_Repetition": [
+      "In “99 Problems” by Jay-Z, the main vocal rhythm repeats in tight loops, giving the track its hook-like drive even without heavy melodic content.",
+      "In “Mandy” by Barry Manilow, the verse melody repeats its shape across lines, helping the emotion build gradually."
+    ],
+    "Variation": "changing it a little each time",
+    "examples_for_Variation": [
+      "In “Barcelona Nights” by Ottmar Liebert, the guitar repeats its themes but ornaments them differently each time with flamenco flourishes.",
+      "In “The Wizard” by Black Sabbath, vocal and harmonica lines return with small rhythmic or contour twists to keep the song lively."
+    ],
+    "combined": "when the melody stays the same versus when it changes slightly",
+    "examples_for_combined": [
+      "In “Mandy,” repeated melodic shapes mix with gentle variations to keep the ballad moving.",
+      "In West African kora pieces like Toumani Diabaté’s “Kaira,” melodies repeat, then vary with subtle ornamentation."
+    ]
+  },
+
+  "description": "Melodies repeat to make ideas stick and vary to keep things interesting.",
+  "examples_for_description": [
+    "In “99 Problems,” the vocal delivery repeats rhythmic shapes relentlessly.",
+    "In “Barcelona Nights,” guitar motifs vary with new textures and ornaments."
+  ],
+
+  "if_you_wanna_use_it": "Repeat the part that matters most, and vary the part that needs life.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use steady repetition like Jay-Z to create a hard rhythmic backbone.",
+    "Use gentle variation like Ottmar Liebert to keep returning ideas fresh."
+  ],
+
+  "tech_note": {
+    "main": "Repetition provides identity; variation prevents stagnation.",
+    "common_phrasings": [
+      "melodic looping",
+      "melodic development"
+    ]
+  }
+}
+{
+  "name": "Motivic Anchoring",
+  "translation": {
+    "Motivic": "about a small musical idea",
+    "examples_for_Motivic": [
+      "In “Mandy,” the rising piano figure becomes a recognizable motif that returns throughout the chorus.",
+      "In “The Wizard,” the harmonica riff acts as a repeated motif anchoring the song’s identity."
+    ],
+    "Anchoring": "using it to hold the melody together",
+    "examples_for_Anchoring": [
+      "In “Barcelona Nights,” Ottmar Liebert returns to one guitar hook repeatedly, anchoring the performance.",
+      "In “99 Problems,” a consistent vocal phrasing motif anchors the track even without strong melody."
+    ],
+    "combined": "using one small idea again and again so the melody feels connected",
+    "examples_for_combined": [
+      "In “Mandy,” recurring piano and vocal motifs make the chorus instantly recognizable.",
+      "In Japanese folk songs like “Sakura,” the main motif returns in almost every phrase, anchoring the entire tune."
+    ]
+  },
+
+  "description": "A tiny musical idea repeats across the song so your ear always knows where home is.",
+  "examples_for_description": [
+    "In “The Wizard,” the harmonica motif acts like the song’s fingerprint.",
+    "In “Barcelona Nights,” recurring guitar motifs bind the whole track together."
+  ],
+
+  "if_you_wanna_use_it": "Pick a small idea and plant it in every important place.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use anchoring like Barry Manilow for emotional memorability.",
+    "Use anchoring like Black Sabbath for gritty identity."
+  ],
+
+  "tech_note": {
+    "main": "Motif recurrence binds disparate sections.",
+    "common_phrasings": [
+      "anchor motif",
+      "theme marker"
+    ]
+  }
+}
+{
+  "name": "Scale Palette",
+  "translation": {
+    "Scale": "a set of notes that belong together",
+    "examples_for_Scale": [
+      "In “Barcelona Nights,” Ottmar Liebert often plays within flamenco-leaning scales that give the piece its Spanish flavor.",
+      "In “Mandy,” the scale stays inside soft pop major, giving a stable emotional tone."
+    ],
+    "Palette": "a group of choices you pick from",
+    "examples_for_Palette": [
+      "In “99 Problems,” the track uses a narrow pitch palette, letting rhythm take center stage.",
+      "In “The Wizard,” the harmonica and guitar lean into blues-rock palettes built on pentatonic sets."
+    ],
+    "combined": "the set of notes you choose to use for the melody",
+    "examples_for_combined": [
+      "In “River” by Joni Mitchell, shifting palette choices give the verses their icy, floating color.",
+      "In Andean panpipe tunes like “El Condor Pasa,” the limited pentatonic palette shapes the cultural sound."
+    ]
+  },
+
+  "description": "Your palette is the note-set you decide to keep returning to. It defines the flavor of the song.",
+  "examples_for_description": [
+    "In Ottmar Liebert’s playing, scale palettes define the Mediterranean warmth.",
+    "In Jay-Z’s “99 Problems,” limited pitch palette keeps focus on the beat."
+  ],
+
+  "if_you_wanna_use_it": "Pick a set of notes and stick to them most of the time.",
+  "examples_for_if_you_wanna_use_it": [
+    "Choose a flamenco palette like Ottmar Liebert for heat.",
+    "Choose a pentatonic palette like Black Sabbath for a blues-rock punch."
+  ],
+
+  "tech_note": {
+    "main": "Scale palette selection shapes tonal color.",
+    "common_phrasings": [
+      "note-set",
+      "pitch palette"
+    ]
+  }
+}
+{
+  "name": "Texture Types",
+  "translation": {
+    "Texture": "how many lines of sound happen at once and how they behave",
+    "examples_for_Texture": [
+      "In “Mandy,” rich strings, piano, and vocals blend into a thick melodic texture.",
+      "In “99 Problems,” the texture is sparse and percussive, led by drums and vocal rhythm."
+    ],
+    "Types": "the different ways those lines can work together",
+    "examples_for_Types": [
+      "In “Barcelona Nights,” the guitar often stands alone in a monophonic texture before background patterns join in.",
+      "In “The Wizard,” guitar, bass, drums, and harmonica form a rugged rock ensemble texture."
+    ],
+    "combined": "the different ways sounds can stack and move together",
+    "examples_for_combined": [
+      "In “You Brought the Sunshine” by The Clark Sisters, layered gospel harmonies create a bright, full texture.",
+      "In Mongolian throat singing performances like “Hoos,” the overtones create multiple textures within one voice."
+    ]
+  },
+
+  "description": "Texture tells you how many musical lines are happening and how tightly or loosely they fit together.",
+  "examples_for_description": [
+    "In “Mandy,” full pop-orchestra texture gives emotional warmth.",
+    "In “99 Problems,” the bare texture puts all attention on Jay-Z’s delivery."
+  ],
+
+  "if_you_wanna_use_it": "Decide if your sound should be thick, thin, blended, or separated.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use thick blended texture like Barry Manilow for drama.",
+    "Use thin percussive texture like Jay-Z for directness."
+  ],
+
+  "tech_note": {
+    "main": "Texture categorizes sonic layering and interaction.",
+    "common_phrasings": [
+      "sound layering",
+      "ensemble texture"
+    ]
+  }
+}
+{
+  "name": "Layering Strategy",
+  "translation": {
+    "Layering": "putting sounds on top of each other",
+    "examples_for_Layering": [
+      "In “Mandy,” piano, strings, and background vocals layer in gradually to build emotional height.",
+      "In “99 Problems,” the layering is minimal, with verses mostly built from drums + vocal only."
+    ],
+    "Strategy": "the plan for who goes in front or behind",
+    "examples_for_Strategy": [
+      "In “Barcelona Nights,” Ottmar Liebert keeps the guitar up front while shakers and pads sit quietly behind.",
+      "In “The Wizard,” harmonica often jumps to the front while guitars weave underneath."
+    ],
+    "combined": "a plan for which sounds are upfront and which stay in the background",
+    "examples_for_combined": [
+      "In “You Brought the Sunshine,” lead vocals sit high in the mix while harmonies and rhythm support from behind.",
+      "In Japanese gagaku music, the sho and hichiriki trade foreground/background roles carefully."
+    ]
+  },
+
+  "description": "Layering decides which parts stand out and which parts quietly support.",
+  "examples_for_description": [
+    "In “Mandy,” vocals lead while the orchestra layers beneath.",
+    "In “99 Problems,” sparse layers keep every word sharp."
+  ],
+
+  "if_you_wanna_use_it": "Put your most important sound upfront and keep others softer or simpler behind it.",
+  "examples_for_if_you_wanna_use_it": [
+    "Feature guitar like Ottmar Liebert and tuck percussion behind it.",
+    "Feature vocals like Jay-Z and keep accompaniment minimal."
+  ],
+
+  "tech_note": {
+    "main": "Layering strategy shapes mix depth and clarity.",
+    "common_phrasings": [
+      "foreground/background",
+      "mix placement"
+    ]
+  }
+}
+{
+  "name": "Density Management",
+  "translation": {
+    "Density": "how many sounds are happening at the same time",
+    "examples_for_Density": [
+      "In “Bela Lugosi’s Dead” by Bauhaus, density stays extremely low at the start with sparse bass, echoing drums, and long empty spaces.",
+      "In “Dick in Dixie” by Hank 3, density is higher, with constant guitar strums, vocal grit, and fast-moving banjo lines filling the sound."
+    ],
+    "Management": "controlling how thick or thin that feels",
+    "examples_for_Management": [
+      "In “Kentucky Rain” by Elvis Presley, density is carefully controlled—soft verses, fuller choruses with strings and backing vocals.",
+      "In “Magical Mystery Tour” by The Beatles, density jumps between quiet little pockets and full psychedelic bursts."
+    ],
+    "combined": "choosing when the music feels crowded or open",
+    "examples_for_combined": [
+      "In “Volver” by Vicente Fernández, verses begin with low density (voice + guitar) and swell into full mariachi textures.",
+      "In minimalist pieces like Philip Glass’s “Opening,” density builds slowly as repeated notes layer over time."
+    ]
+  },
+
+  "description": "Density rises or falls as you add or remove layers. Thick = busy. Thin = open.",
+  "examples_for_description": [
+    "“Bela Lugosi’s Dead” stays thin for a long time, making every added sound feel dramatic.",
+    "“Kentucky Rain” becomes lush in the chorus as backing vocals and strings boost density."
+  ],
+
+  "if_you_wanna_use_it": "Choose where your music should open up and where it should fill up.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use thin density like Bauhaus to create eerie or intimate moments.",
+    "Use thick density like Elvis’s choruses to create emotional lift."
+  ],
+
+  "tech_note": {
+    "main": "Density is controlled through layer count and event frequency.",
+    "common_phrasings": [
+      "thin vs. thick texture",
+      "layer density"
+    ]
+  }
+}
+{
+  "name": "Counterpoint Behavior",
+  "translation": {
+    "Counterpoint": "two or more lines moving at the same time without crashing",
+    "examples_for_Counterpoint": [
+      "In “Magical Mystery Tour,” background vocal lines weave around the lead without copying it, creating playful counterpoint.",
+      "In “Bela Lugosi’s Dead,” the bass and guitar drift around each other slowly without stepping on one another’s lines."
+    ],
+    "Behavior": "how those lines act together",
+    "examples_for_Behavior": [
+      "In “Volver” by Vicente Fernández, the violins often create counter-melodies under the voice, moving gently behind the main line.",
+      "In classical fugues like Bach’s “Little Fugue in G Minor,” each voice enters and interacts precisely with the others."
+    ],
+    "combined": "how different musical lines move together without bumping into each other",
+    "examples_for_combined": [
+      "In “Kentucky Rain,” Elvis’s voice and the string lines stay independent but supportive, a soft form of counterpoint.",
+      "In Balkan vocal groups like “Polegnala e Todora,” multiple independent lines move in striking counterpoint."
+    ]
+  },
+
+  "description": "Each musical line has its own path, but they fit together like puzzle pieces.",
+  "examples_for_description": [
+    "In “Magical Mystery Tour,” stacked harmonies slide around the melody in independent motions.",
+    "In “Volver,” the violin counter-melodies wrap around the main vocal line without dominating."
+  ],
+
+  "if_you_wanna_use_it": "Write one line, then write another that moves differently but fits in the gaps.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use gentle counter-lines like Vicente Fernández’s strings for emotional warmth.",
+    "Use sparse counter-lines like Bauhaus to keep tension and mood."
+  ],
+
+  "tech_note": {
+    "main": "Counterpoint follows rules of independence and consonance.",
+    "common_phrasings": [
+      "independent lines",
+      "interlocking melodies"
+    ]
+  }
+}
+{
+  "name": "Voice Spacing",
+  "translation": {
+    "Voice": "one musical line",
+    "examples_for_Voice": [
+      "In “Volver,” the lead voice and violins sit in different pitch zones, keeping the parts separate and clear.",
+      "In “Bela Lugosi’s Dead,” the vocals hover low while the guitar echoes in higher space, preventing overlap."
+    ],
+    "Spacing": "how far apart lines sit from low to high",
+    "examples_for_Spacing": [
+      "In “Kentucky Rain,” Elvis sings mid-range while strings stay above him and bass stays far below, creating clean spacing.",
+      "In “Dick in Dixie,” guitar and banjo often sit close together in register, making a tight, busy feel."
+    ],
+    "combined": "how close or far apart the musical lines are placed",
+    "examples_for_combined": [
+      "In “Magical Mystery Tour,” the Beatles space harmonies widely to create a big stereo feel.",
+      "In Mongolian throat singing like “Sygyt,” overtones sit far above the low drone, creating natural spacing."
+    ]
+  },
+
+  "description": "Putting musical lines high, low, or in the middle changes clarity and weight.",
+  "examples_for_description": [
+    "Wide spacing in “Volver” lets the voice shine without being crowded.",
+    "Close spacing in Hank 3’s work adds grit and pressure."
+  ],
+
+  "if_you_wanna_use_it": "Separate low, mid, and high sounds so nothing fights for the same spot.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use wide spacing like Vicente Fernández for a clear, emotional lead.",
+    "Use tight spacing like Hank 3 for rowdy intensity."
+  ],
+
+  "tech_note": {
+    "main": "Spacing affects register clarity and textural transparency.",
+    "common_phrasings": [
+      "register spacing",
+      "spread voicing"
+    ]
+  }
+}
+{
+  "name": "Call-and-Response",
+  "translation": {
+    "Call": "one musical idea that speaks first",
+    "examples_for_Call": [
+      "In “You Brought the Sunshine” by The Clark Sisters, one singer delivers a call before the group responds.",
+      "In “Dick in Dixie,” Hank 3 often throws lines that the band answers with short instrumental bursts."
+    ],
+    "Response": "another idea that answers back",
+    "examples_for_Response": [
+      "In “Kentucky Rain,” the backing vocals echo Elvis subtly at emotional peaks.",
+      "In “Bela Lugosi’s Dead,” guitar echoes act like distant responses to the vocal lines."
+    ],
+    "combined": "two ideas taking turns talking to each other",
+    "examples_for_combined": [
+      "In “Magical Mystery Tour,” the Beatles trade vocal phrases in playful call-and-response sections.",
+      "In West African songs like “Kpanlogo,” drums and voices constantly call and answer each other."
+    ]
+  },
+
+  "description": "One musical voice calls, another replies. They trade the spotlight.",
+  "examples_for_description": [
+    "In gospel like the Clark Sisters, call-and-response drives energy upward.",
+    "In Bauhaus’s track, the guitar sometimes replies to the vocal like a ghostly echo."
+  ],
+
+  "if_you_wanna_use_it": "Write a short line, then write another that answers it—same length or shorter.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use bold calls and group responses like gospel choirs.",
+    "Use soft echoes like Elvis’s backing vocals for tenderness."
+  ],
+
+  "tech_note": {
+    "main": "Call-and-response is antiphonal exchange between two forces.",
+    "common_phrasings": [
+      "call/answer",
+      "antiphonal phrasing"
+    ]
+  }
+}
+{
+  "name": "Texture Shifts as Form Markers",
+  "translation": {
+    "Texture Shifts": "when the number or type of sounds changes",
+    "examples_for_Texture Shifts": [
+      "In “Bela Lugosi’s Dead,” texture shifts from sparse to slightly denser sections to signal movement.",
+      "In “Mandy,” the entrance of full strings marks the arrival of a new emotional section."
+    ],
+    "Form Markers": "signals that a new part of the song has begun",
+    "examples_for_Form Markers": [
+      "In “Magical Mystery Tour,” sudden brass and harmonies mark section changes.",
+      "In “Volver,” the mariachi trumpets entering hint that a new musical moment has started."
+    ],
+    "combined": "changing how thick or thin the music is to show something new is happening",
+    "examples_for_combined": [
+      "In “Dick in Dixie,” the band kicks in harder during certain lines, marking verse-to-chorus shifts.",
+      "In “Kentucky Rain,” strings swell to signal the arrival of emotional highs."
+    ]
+  },
+
+  "description": "Changing texture—adding or removing layers—signals a new section or emotional turn.",
+  "examples_for_description": [
+    "In “Mandy,” the orchestral swell marks the chorus.",
+    "In “Bela Lugosi’s Dead,” tiny textural changes tell you the mood has shifted."
+  ],
+
+  "if_you_wanna_use_it": "Add new sounds when entering a new section; remove sounds when leaving it.",
+  "examples_for_if_you_wanna_use_it": [
+    "Bring in brass or backing vocals like the Beatles.",
+    "Strip down to voice + guitar like Elvis for a soft entry."
+  ],
+
+  "tech_note": {
+    "main": "Texture shifts act as structural cues.",
+    "common_phrasings": [
+      "textural marker",
+      "section shift"
+    ]
+  }
+}
+{
+  "name": "Instrument Roles",
+  "translation": {
+    "Instrument": "a sound-making tool",
+    "examples_for_Instrument": [
+      "In “Foolish Heart” by Steve Perry, the keyboard carries the emotional bed while the guitar adds small color lines.",
+      "In “Six Pack” by Black Flag, the guitar takes the aggressive lead role while the bass and drums hammer the rhythm forward."
+    ],
+    "Roles": "the job that tool has in the song",
+    "examples_for_Roles": [
+      "In “Amarillo by Morning” by George Strait, the fiddle plays a storytelling role, answering the vocal with melodic commentary.",
+      "In “If I Was Your Girlfriend” by Prince, the drum machine acts like the track’s heartbeat while the synth pads act as emotional glue."
+    ],
+    "combined": "what job each sound has—leading, supporting, decorating, or holding rhythm",
+    "examples_for_combined": [
+      "In “Foolish Heart,” the piano leads the emotional narrative while discreet percussion quietly supports it.",
+      "In Mongolian long-song performances, the morin khuur supports the voice by adding long, bowed background tones."
+    ]
+  },
+
+  "description": "Each instrument has a job: lead melody, rhythm anchor, color, or support.",
+  "examples_for_description": [
+    "In “If I Was Your Girlfriend,” Prince’s vocal is the clear leader while synths play soft supporting roles.",
+    "In “Six Pack,” guitar leads with violence while drums hold relentless time."
+  ],
+
+  "if_you_wanna_use_it": "Choose who leads, who supports, and who decorates.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use a lead keyboard like Steve Perry and let the guitar decorate.",
+    "Use aggressive guitar lead roles like Black Flag to dominate the mix."
+  ],
+
+  "tech_note": {
+    "main": "Instrument roles determine mix hierarchy and function.",
+    "common_phrasings": [
+      "role assignment",
+      "instrument hierarchy"
+    ]
+  }
+}
+{
+  "name": "Orchestration Patterns",
+  "translation": {
+    "Orchestration": "choosing which instruments play together",
+    "examples_for_Orchestration": [
+      "In “Foolish Heart,” soft piano and gentle synths create a tender orchestration pattern.",
+      "In “Six Pack,” guitar, bass, and drums form a harsh, stripped-down punk orchestration pattern."
+    ],
+    "Patterns": "how those instruments combine",
+    "examples_for_Patterns": [
+      "In “Amarillo by Morning,” guitar + fiddle + steel guitar weave a classic country pattern.",
+      "In “If I Was Your Girlfriend,” sparse synth + drum machine + falsetto create an intimate, minimalist pattern."
+    ],
+    "combined": "the different ways instruments can be grouped to sound good together",
+    "examples_for_combined": [
+      "In “Foolish Heart,” keyboard-led orchestration creates smooth, emotional support for the vocal.",
+      "In Balinese gamelan pieces like “Pemungkah,” orchestration layers metallic instruments in precise interlocking patterns."
+    ]
+  },
+
+  "description": "Which instruments you pair changes the identity: lush, sparse, raw, elegant, bright, dark.",
+  "examples_for_description": [
+    "Prince’s minimalist orchestration in “If I Was Your Girlfriend” gives the track its private, whispered tone.",
+    "The full band orchestration in “Amarillo by Morning” gives it wide open emotional space."
+  ],
+
+  "if_you_wanna_use_it": "Pick a few instruments that blend well, and decide who plays together in each moment.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use piano + soft pads like Steve Perry for warmth.",
+    "Use guitar + bass + drums like Black Flag for raw power."
+  ],
+
+  "tech_note": {
+    "main": "Orchestration patterns group instruments by timbre and function.",
+    "common_phrasings": [
+      "instrumental blend",
+      "combination patterns"
+    ]
+  }
+}
+{
+  "name": "Timbre as Section Signal",
+  "translation": {
+    "Timbre": "the color or texture of a sound",
+    "examples_for_Timbre": [
+      "In “Foolish Heart,” brightening the synth’s timbre signals the emotional lift into the chorus.",
+      "In “Six Pack,” brighter, harsher guitar timbre signals when the song jumps into more aggressive moments."
+    ],
+    "Section Signal": "a clue that a new part of the song has started",
+    "examples_for_Section Signal": [
+      "In “If I Was Your Girlfriend,” Prince adds whispery background vocals as a signal that a new emotional section is arriving.",
+      "In “Amarillo by Morning,” the fiddle stepping forward signals a shift in the storytelling moment."
+    ],
+    "combined": "changing the sound-color to show that a new part of the song has begun",
+    "examples_for_combined": [
+      "In “Magical Mystery Tour” by The Beatles, the sudden brass brightness signals new sections.",
+      "In Tuvan throat singing solos, switching from low drone to high overtones marks a section change."
+    ]
+  },
+
+  "description": "You can show that a new part is coming by changing the sound’s color.",
+  "examples_for_description": [
+    "Steve Perry lifts the timbre in the chorus of “Foolish Heart” to mark the emotional shift.",
+    "Black Flag sharpens guitar tone when the energy spikes."
+  ],
+
+  "if_you_wanna_use_it": "Change instrument color—brighter, darker, heavier, softer—to tell the listener a new part is starting.",
+  "examples_for_if_you_wanna_use_it": [
+    "Add bright synth like Prince to mark new sections.",
+    "Switch to harsher guitar like Black Flag for transitions."
+  ],
+
+  "tech_note": {
+    "main": "Timbre changes can act as formal cues.",
+    "common_phrasings": [
+      "timbre shift",
+      "color change"
+    ]
+  }
+}
+{
+  "name": "Spectral Balance",
+  "translation": {
+    "Spectral": "about low, middle, and high parts of sound",
+    "examples_for_Spectral": [
+      "In “If I Was Your Girlfriend,” the highs (vocal) and lows (drum machine) balance in a sparse, intimate spectrum.",
+      "In “Six Pack,” the high distortion of the guitar and the booming low kick fight for dominance, creating a gritty spectral spread."
+    ],
+    "Balance": "how much of each part is used",
+    "examples_for_Balance": [
+      "In “Amarillo by Morning,” fiddle and steel guitar dominate the highs while the bass anchors the low end.",
+      "In “Foolish Heart,” mid-range piano warmth balances the track’s tone."
+    ],
+    "combined": "how much low, middle, or high sound is present at once",
+    "examples_for_combined": [
+      "In “Bela Lugosi’s Dead,” the sparse spectral balance leaves huge empty spaces in the highs.",
+      "In salsa recordings like “Pedro Navaja” by Rubén Blades, horns fill the highs while percussion thickens the mids."
+    ]
+  },
+
+  "description": "More bass = heavier. More highs = brighter. More mids = warmer. Balance changes feel.",
+  "examples_for_description": [
+    "Prince uses a delicate high-mid spectrum to create intimacy in “If I Was Your Girlfriend.”",
+    "Black Flag pushes heavy mids to make guitars feel loud and raw."
+  ],
+
+  "if_you_wanna_use_it": "Decide if your sound should be bright, dark, or warm by adjusting highs, lows, and mids.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use soft highs and warm mids like Steve Perry for gentleness.",
+    "Use heavy mids like Black Flag for grit."
+  ],
+
+  "tech_note": {
+    "main": "Spectral balance is shaped by EQ, arrangement, and instrumentation.",
+    "common_phrasings": [
+      "frequency balance",
+      "tone spectrum"
+    ]
+  }
+}
+{
+  "name": "Ensemble Blend vs Separation",
+  "translation": {
+    "Ensemble": "a group of instruments playing together",
+    "examples_for_Ensemble": [
+      "In “Foolish Heart,” piano, synth, and vocals blend into a soft, unified ensemble.",
+      "In “Six Pack,” guitar, bass, and drums sound like separate raw edges crashing together."
+    ],
+    "Blend": "when the sounds melt into each other",
+    "examples_for_Blend": [
+      "In “Amarillo by Morning,” fiddle and steel guitar blend smoothly with the vocal.",
+      "In “If I Was Your Girlfriend,” synth pads melt behind Prince's voice, forming a soft blur."
+    ],
+    "Separation": "when the sounds stay clearly apart",
+    "examples_for_Separation": [
+      "In “Rebel Girl” by Bikini Kill, instruments sound deliberately separate, creating in-your-face attack.",
+      "In traditional Irish music like “The Dubliners’ Whiskey in the Jar,” fiddle, voice, and guitar stay distinctly separated."
+    ],
+    "combined": "when instruments either melt together or stay distinct",
+    "examples_for_combined": [
+      "In “Foolish Heart,” smooth ensemble blend creates romantic warmth.",
+      "In “Six Pack,” extreme separation creates aggressive, chaotic energy."
+    ]
+  },
+
+  "description": "Some groups sound like one big voice; others sound like many voices yelling at once.",
+  "examples_for_description": [
+    "Steve Perry uses blended pop-rock textures for emotional unity.",
+    "Black Flag uses separated, clashing textures to stay raw."
+  ],
+
+  "if_you_wanna_use_it": "Choose whether instruments should blur together or stay sharply apart.",
+  "examples_for_if_you_wanna_use_it": [
+    "Blend parts like Prince for softness.",
+    "Separate parts like Black Flag for edge."
+  ],
+
+  "tech_note": {
+    "main": "Blend uses timbral fusion; separation emphasizes individual lines.",
+    "common_phrasings": [
+      "unified ensemble",
+      "distinct voices"
+    ]
+  }
+}
+{
+  "name": "Timbre Layering Grammar",
+  "translation": {
+    "Timbre": "the color or feel of a sound",
+    "examples_for_Timbre": [
+      "In “Spellbound” by Siouxsie and the Banshees, shimmering guitar and bright drums create a sharp, sparkling timbre.",
+      "In “Wait and Bleed” by Slipknot, the guitars and vocals have a gritty, metallic timbre that cuts hard through the mix."
+    ],
+    "Layering": "putting sound-colors on top of each other",
+    "examples_for_Layering": [
+      "In “La Murga de Panamá” by Willie Colón, brass, percussion, and chorus vocals stack in bright tropical layers.",
+      "In “Don’t Close Your Eyes” by Kix, heavy guitars layer under soaring vocals for a classic power-ballad stack."
+    ],
+    "Grammar": "the rules for doing that clearly",
+    "examples_for_Grammar": [
+      "In the Alphabet Song (“A-B-C-D-E-F-G”), simple timbre layering places children’s voices up front with minimal background tone.",
+      "In “Spellbound,” guitars are bright and upfront while tom rolls sit slightly behind, following a deliberate timbre layering scheme."
+    ],
+    "combined": "how to stack different sound-colors without making a mess",
+    "examples_for_combined": [
+      "In “La Murga de Panamá,” horns stay bright while congas and bass stay warm, creating clean vertical layers.",
+      "In “Wait and Bleed,” Slipknot stack screamed vocals, distorted guitars, and punchy drums in controlled layers to keep chaos readable."
+    ]
+  },
+
+  "description": "Stacking sound-colors the right way keeps each layer clear instead of muddy.",
+  "examples_for_description": [
+    "Siouxsie balances bright guitars with tight drums so each layer stays crisp.",
+    "Willie Colón keeps brass on top and percussion below so the groove stays clean even with many layers."
+  ],
+
+  "if_you_wanna_use_it": "Pick one color to lead and place the others softly behind it.",
+  "examples_for_if_you_wanna_use_it": [
+    "Let brass lead like Willie Colón and support it with percussion.",
+    "Let guitars lead like Slipknot and tuck drum textures slightly behind."
+  ],
+
+  "tech_note": {
+    "main": "Layering grammar defines vertical timbral stacking.",
+    "common_phrasings": [
+      "timbre stack",
+      "color layering"
+    ]
+  }
+}
+{
+  "name": "Macro Dynamic Arc",
+  "translation": {
+    "Macro": "big picture",
+    "examples_for_Macro": [
+      "In “Wait and Bleed,” the loud–soft–loud dynamic arc spans the entire track, moving from restrained verses to explosive choruses.",
+      "In the Alphabet Song, the dynamic arc stays mostly flat, matching its simple educational purpose."
+    ],
+    "Dynamic": "loud or soft",
+    "examples_for_Dynamic": [
+      "In “Spellbound,” Siouxsie’s voice rises in intensity for the chorus, creating a dynamic lift.",
+      "In “La Murga de Panamá,” brass gets louder as the coro (chorus) sections kick in."
+    ],
+    "Arc": "the shape of how it changes over time",
+    "examples_for_Arc": [
+      "In “Don’t Close Your Eyes,” the song builds from soft verses to a power-driven chorus with huge vocal sustain.",
+      "In “Amarillo by Morning” by George Strait, the arc rises gently for the chorus then settles again."
+    ],
+    "combined": "how loudness rises and falls across the whole song",
+    "examples_for_combined": [
+      "In “Wait and Bleed,” the arc spikes dramatically each time the chorus hits.",
+      "In “Spellbound,” the arc is smoother, with steady upward pushes instead of huge jumps."
+    ]
+  },
+
+  "description": "A macro arc is the big rise and fall of volume and energy across the track.",
+  "examples_for_description": [
+    "Slipknot uses sharp arcs to shock the listener.",
+    "Willie Colón uses gentle arcs to lift the dance energy."
+  ],
+
+  "if_you_wanna_use_it": "Plan where the song gets louder and softer so the emotion has shape.",
+  "examples_for_if_you_wanna_use_it": [
+    "Build to explosive peaks like Slipknot.",
+    "Let the chorus bloom like Siouxsie & the Banshees."
+  ],
+
+  "tech_note": {
+    "main": "Macro dynamics map global amplitude shape.",
+    "common_phrasings": [
+      "dynamic arc",
+      "energy waveform"
+    ]
+  }
+}
+{
+  "name": "Micro Dynamic Shaping",
+  "translation": {
+    "Micro": "small",
+    "examples_for_Micro": [
+      "In “Spellbound,” tiny swells in Siouxsie's voice add sparkle and urgency to each line.",
+      "In “La Murga de Panamá,” the trumpets swell slightly into notes, adding rhythmic excitement."
+    ],
+    "Dynamic": "loud or soft",
+    "examples_for_Dynamic": [
+      "In “Don’t Close Your Eyes,” small pushes in the vocal volume add drama to emotional words.",
+      "In “Wait and Bleed,” Corey Taylor softens certain words before erupting into screams, creating micro-shifts."
+    ],
+    "Shaping": "tiny changes to give life",
+    "examples_for_Shaping": [
+      "In “Amarillo by Morning,” George Strait subtly shapes notes with soft crescendos that follow the lyric meaning.",
+      "In “Spellbound,” drum fills grow or shrink in micro-steps inside each bar."
+    ],
+    "combined": "small loudness changes inside each phrase",
+    "examples_for_combined": [
+      "In “Foolish Heart” by Steve Perry, soft breathy openings swell gently into each lyric.",
+      "In Japanese shakuhachi pieces like “Shika no Tone,” each note blooms and fades with micro-dynamic shape."
+    ]
+  },
+
+  "description": "Little volume bends make each phrase feel alive, not flat.",
+  "examples_for_description": [
+    "Prince uses soft micro-phrasing in intimate songs to shape emotion.",
+    "Slipkno
+{
+ {
+  "name": "Accent Systems",
+  "translation": {
+    "Accent": "a sound you hit harder than the others",
+    "examples_for_Accent": [
+      "In “Wait and Bleed,” Slipknot accents heavy downbeats and syncopated punches to drive intensity.",
+      "In “Spellbound,” accented tom hits add urgency beneath the shimmering guitar."
+    ],
+    "Systems": "a planned pattern for where those hits go",
+    "examples_for_Systems": [
+      "In “La Murga de Panamá,” brass stabs accent repeated spots in each coro, forming a festive system.",
+      "In the Alphabet Song, accents fall on natural speech beats (“A, B, C, D”), forming a simple teaching system."
+    ],
+    "combined": "a repeating plan for which beats get extra punch",
+    "examples_for_combined": [
+      "In “Six Pack” by Black Flag, the accent system is chaotic but still centers around repeated downbeat blasts.",
+      "In salsa dura classics like “Quimbara” by Celia Cruz, accents land on clave-driven beats every cycle."
+    ]
+  },
+
+  "description": "Accent patterns make rhythm feel heavy, light, bouncy, or aggressive depending on where you place them.",
+  "examples_for_description": [
+    "Slipknot uses grinding accents to create violence in the groove.",
+    "Willie Colón uses bright brass accents to energize dancers."
+  ],
+
+  "if_you_wanna_use_it": "Choose which beats get hit harder, and repeat that pattern.",
+  "examples_for_if_you_wanna_use_it": [
+      "Use downbeat punches like Slipknot for ferocity.",
+      "Use brass stabs like Willie Colón for celebration."
+  ],
+
+  "tech_note": {
+    "main": "Accent systems reinforce metric hierarchy.",
+    "common_phrasings": [
+      "accent pattern",
+      "beat emphasis"
+    ]
+  }
+}
+{
+  "name": "Cresc and Decresc Placement",
+  "translation": {
+    "Cresc": "getting louder",
+    "examples_for_Cresc": [
+      "In “Don’t Close Your Eyes,” the pre-chorus swells upward, preparing for the power-ballad explosion.",
+      "In “La Murga de Panamá,” the brass crescendos lift dancers into the coro section."
+    ],
+    "Decresc": "getting softer",
+    "examples_for_Decresc": [
+      "In “Spellbound,” certain vocal descents soften to create atmosphere before drums hit again.",
+      "In “Amarillo by Morning,” lines often soften at the end, giving a warm country gentleness."
+    ],
+    "Placement": "where those changes happen",
+    "examples_for_Placement": [
+      "In “Wait and Bleed,” crescendos often appear right before the chorus screams explode.",
+      "In the Alphabet Song, decrescendos happen naturally at the end of the last line (“now I know my ABCs”)."
+    ],
+    "combined": "where the music slowly grows or fades",
+    "examples_for_combined": [
+      "In “Foolish Heart,” subtle swells happen before emotional lyric peaks.",
+      "In flamenco guitar pieces like “Asturias,” crescendos and decrescendos mark dramatic shifts."
+    ]
+  },
+
+  "description": "Getting louder lifts emotion; getting softer releases it. Placement tells your ear when to expect change.",
+  "examples_for_description": [
+    "Kix uses huge crescendos to launch into anthem-sized choruses.",
+    "Siouxsie uses decrescendos to slip into shadowy moods."
+  ],
+
+  "if_you_wanna_use_it": "Decide where your swells should rise and where you want things to calm down.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use crescendos like Willie Colón to launch into a groove peak.",
+    "Use decrescendos like Elvis to soften emotional landings."
+  ],
+
+  "tech_note": {
+    "main": "Cresc/decresc shape large and small dynamic movement.",
+    "common_phrasings": [
+      "dynamic swell",
+      "dynamic fade"
+    ]
+  }
+}
+{
+  "name": "Dynamic Fake-Outs",
+  "translation": {
+    "Dynamic": "about loud and soft",
+    "examples_for_Dynamic": [
+      "In “Born to Run” by Bruce Springsteen, certain builds get louder as if exploding soon, setting up dynamic tension.",
+      "In “Voodoo U” by Lords of Acid, sudden bursts of loudness appear and disappear to create shock."
+    ],
+    "Fake-Outs": "making someone expect one thing and doing another",
+    "examples_for_Fake-Outs": [
+      "In “Let the Music Play” by Shannon, the beat sometimes drops out briefly before slamming back, teasing the listener.",
+      "In “Another Brick in the Wall Pt. 2” by Pink Floyd, the children’s choir enters quietly where a loud entry is expected, reversing the expectation."
+    ],
+    "combined": "changing loudness in a surprising way to fool the ear",
+    "examples_for_combined": [
+      "In “Mountain Music” by Alabama, a soft instrumental break suddenly lurches into a louder fiddle-driven section.",
+      "In “Balik Kampung” by Sudirman, certain lines soften unexpectedly before the upbeat chorus returns with full brightness."
+    ]
+  },
+
+  "description": "Fake-outs happen when music pretends to get loud then goes quiet—or pretends to go quiet then explodes.",
+  "examples_for_description": [
+    "Springsteen pulls back before big choruses to heighten surprise.",
+    "Lords of Acid slam loud sections without warning to jolt dancers."
+  ],
+
+  "if_you_wanna_use_it": "Build toward loudness, then cut soft. Or drop quiet, then explode.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use tension drops like Shannon to tease the beat.",
+    "Use sudden blasts like Lords of Acid for shock energy."
+  ],
+
+  "tech_note": {
+    "main": "Dynamic reversals manipulate listener expectation.",
+    "common_phrasings": [
+      "drop fake-out",
+      "dynamic bait-and-switch"
+    ]
+  }
+}
+{
+  "name": "Density vs Volume",
+  "translation": {
+    "Density": "how many sounds are happening at once",
+    "examples_for_Density": [
+      "In “Born to Run,” dense layers of guitars, saxophone, and drums make the track feel huge even without extreme volume.",
+      "In “Voodoo U” by Lords of Acid, thick synthetic layers create a heavy feel even when not very loud."
+    ],
+    "Volume": "how loud something is",
+    "examples_for_Volume": [
+      "In “Mountain Music,” certain solo lines are played loudly but have low density—just one instrument at a time.",
+      "In “Let the Music Play,” the beat can be quiet but dense percussion keeps the energy high."
+    ],
+    "combined": "dense music can feel big even when soft; loud music can feel small if it's thin",
+    "examples_for_combined": [
+      "In “Another Brick in the Wall Pt. 2,” the children’s choir isn’t loud, but the layered voices feel massive due to high density.",
+      "In “Balik Kampung” by Sudirman, the chorus feels joyful because more instruments join, increasing density even when volume stays moderate."
+    ]
+  },
+
+  "description": "Density is fullness; volume is loudness. They are not the same.",
+  "examples_for_description": [
+    "Pink Floyd uses dense choirs to make sections feel large without turning them up.",
+    "Bruce Springsteen uses thin solos that feel intimate even when sung loudly."
+  ],
+
+  "if_you_wanna_use_it": "Decide whether to add more instruments or just turn things up.",
+  "examples_for_if_you_wanna_use_it": [
+    "Increase density like Sudirman to make joyful sections feel full.",
+    "Increase volume like Alabama to spotlight a single voice or instrument."
+  ],
+
+  "tech_note": {
+    "main": "Density and amplitude operate independently in mix design.",
+    "common_phrasings": [
+      "full vs loud",
+      "thick vs strong"
+    ]
+  }
+}
+{
+  "name": "Attack Types",
+  "translation": {
+    "Attack": "how a sound starts",
+    "examples_for_Attack": [
+      "In “Born to Run,” guitars hit with sharp, bright attacks that give urgency.",
+      "In “Balik Kampung” by Sudirman, many instruments start with soft, rounded attacks that feel friendly and warm."
+    ],
+    "Types": "the different ways it can start",
+    "examples_for_Types": [
+      "In “Wait and Bleed” by Slipknot, vocals have harsh, explosive attacks that jump out immediately.",
+      "In “Let the Music Play” by Shannon, the synths start with smooth, glossy attacks that glide into the beat."
+    ],
+    "combined": "the different ways a sound can begin—soft, sharp, gentle, or sudden",
+    "examples_for_combined": [
+      "In “Mountain Music,” fiddle notes often begin with a clean bite, giving the track a rustic edge.",
+      "In Japanese koto music like “Rokudan no Shirabe,” attacks are crisp plucked sounds that define each phrase."
+    ]
+  },
+
+  "description": "Attack sets the personality of a sound: sharp for excitement, soft for sweetness.",
+  "examples_for_description": [
+    "Slipknot uses harsh attacks for aggression.",
+    "Sudirman uses soft attacks for warmth."
+  ],
+
+  "if_you_wanna_use_it": "Choose whether each sound starts smoothly or hits hard.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use sharp attacks like Bruce Springsteen for drive.",
+    "Use soft attacks like Shannon for dance shimmer."
+  ],
+
+  "tech_note": {
+    "main": "Attack shape defines onset articulation.",
+    "common_phrasings": [
+      "attack envelope",
+      "note onset"
+    ]
+  }
+}
+{
+  "name": "Decay and Release",
+  "translation": {
+    "Decay": "how a sound fades after it begins",
+    "examples_for_Decay": [
+      "In “Another Brick in the Wall Pt. 2,” the bass guitar decays slowly, giving thick warmth to the groove.",
+      "In “Mountain Music,” banjo notes have short, snappy decay that keeps the rhythm crisp."
+    ],
+    "Release": "how it ends when you stop it",
+    "examples_for_Release": [
+      "In “Let the Music Play,” synth chords have long, smooth releases that wash into the next beat.",
+      "In “Voodoo U,” some stabs have ultra-short releases that make the rhythm feel punchy and abrupt."
+    ],
+    "combined": "how a sound fades out or stops",
+    "examples_for_combined": [
+      "In “Born to Run,” reverb makes piano and sax have long releases that fill space.",
+      "In “Balik Kampung,” short percussion releases keep the groove bouncy and clean."
+    ]
+  },
+
+  "description": "Decay and release control how long a sound stays in the air after it starts.",
+  "examples_for_description": [
+    "Pink Floyd’s long releases make their sound dreamy.",
+    "Alabama’s short releases keep the rhythm tight."
+  ],
+
+  "if_you_wanna_use_it": "Decide whether sounds fade long, fade short, or cut instantly.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use long releases like Shannon to make things glide.",
+    "Use short releases like mountain music for sharp clarity."
+  ],
+
+  "tech_note": {
+    "main": "Decay and release parameters define the tail of a sound.",
+    "common_phrasings": [
+      "note tail",
+      "sound fade"
+    ]
+  }
+}
+{
+  "name": "Legato vs Staccato",
+  "translation": {
+    "Legato": "notes that slide into each other",
+    "examples_for_Legato": [
+      "In “Born to Run,” the saxophone solo often plays long, connected legato phrases.",
+      "In “Balik Kampung” by Sudirman, many vocal lines glide smoothly across notes for a warm, friendly sound."
+    ],
+    "Staccato": "notes that hop or separate",
+    "examples_for_Staccato": [
+      "In “Mountain Music” by Alabama, the banjo and fiddle often play clipped staccato notes to keep the rhythm driving.",
+      "In “Voodoo U” by Lords of Acid, synth stabs pop in tight, short bursts for dance-floor sharpness."
+    ],
+    "combined": "whether notes slide together or hop apart",
+    "examples_for_combined": [
+      "In “Another Brick in the Wall Pt. 2,” the chorus vocals are legato while guitar riffs stay more staccato underneath.",
+      "In “Let the Music Play,” smooth legato vocals float over crisp staccato percussion patterns."
+    ]
+  },
+
+  "description": "Legato is smooth and flowing. Staccato is short and punchy. Each creates a different energy.",
+  "examples_for_description": [
+    "Bruce Springsteen uses legato for emotional sweep.",
+    "Alabama uses staccato fiddle lines for down-home momentum."
+  ],
+
+  "if_you_wanna_use_it": "Choose whether each phrase should glide or punch.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use legato like Sudirman for warmth.",
+    "Use staccato like Lords of Acid for rhythmic bite."
+  ],
+
+  "tech_note": {
+    "main": "Legato and staccato define connectedness of articulation.",
+    "common_phrasings": [
+      "smooth articulation",
+      "short articulation"
+    ]
+  }
+}
+{
+  "name": "Macro Dynamic Arc",
+  "translation": {
+    "Macro": "big picture",
+    "examples_for_Macro": [
+      "In “Wait and Bleed,” the loud–soft–loud dynamic arc spans the entire track, moving from restrained verses to explosive choruses.",
+      "In the Alphabet Song, the dynamic arc stays mostly flat, matching its simple educational purpose."
+    ],
+    "Dynamic": "loud or soft",
+    "examples_for_Dynamic": [
+      "In “Spellbound,” Siouxsie’s voice rises in intensity for the chorus, creating a dynamic lift.",
+      "In “La Murga de Panamá,” brass gets louder as the coro (chorus) sections kick in."
+    ],
+    "Arc": "the shape of how it changes over time",
+    "examples_for_Arc": [
+      "In “Don’t Close Your Eyes,” the song builds from soft verses to a power-driven chorus with huge vocal sustain.",
+      "In “Amarillo by Morning” by George Strait, the arc rises gently for the chorus then settles again."
+    ],
+    "combined": "how loudness rises and falls across the whole song",
+    "examples_for_combined": [
+      "In “Wait and Bleed,” the arc spikes dramatically each time the chorus hits.",
+      "In “Spellbound,” the arc is smoother, with steady upward pushes instead of huge jumps."
+    ]
+  },
+
+  "description": "A macro arc is the big rise and fall of volume and energy across the track.",
+  "examples_for_description": [
+    "Slipknot uses sharp arcs to shock the listener.",
+    "Willie Colón uses gentle arcs to lift the dance energy."
+  ],
+
+  "if_you_wanna_use_it": "Plan where the song gets louder and softer so the emotion has shape.",
+  "examples_for_if_you_wanna_use_it": [
+    "Build to explosive peaks like Slipknot.",
+    "Let the chorus bloom like Siouxsie & the Banshees."
+  ],
+
+  "tech_note": {
+    "main": "Macro dynamics map global amplitude shape.",
+    "common_phrasings": [
+      "dynamic arc",
+      "energy waveform"
+    ]
+  }
+}
+{
+  "name": "Micro Dynamic Shaping",
+  "translation": {
+    "Micro": "small",
+    "examples_for_Micro": [
+      "In “Spellbound,” tiny swells in Siouxsie's voice add sparkle and urgency to each line.",
+      "In “La Murga de Panamá,” the trumpets swell slightly into notes, adding rhythmic excitement."
+    ],
+    "Dynamic": "loud or soft",
+    "examples_for_Dynamic": [
+      "In “Don’t Close Your Eyes,” small pushes in the vocal volume add drama to emotional words.",
+      "In “Wait and Bleed,” Corey Taylor softens certain words before erupting into screams, creating micro-shifts."
+    ],
+    "Shaping": "tiny changes to give life",
+    "examples_for_Shaping": [
+      "In “Amarillo by Morning,” George Strait subtly shapes notes with soft crescendos that follow the lyric meaning.",
+      "In “Spellbound,” drum fills grow or shrink in micro-steps inside each bar."
+    ],
+    "combined": "small loudness changes inside each phrase",
+    "examples_for_combined": [
+      "In “Foolish Heart” by Steve Perry, soft breathy openings swell gently into each lyric.",
+      "In Japanese shakuhachi pieces like “Shika no Tone,” each note blooms and fades with micro-dynamic shape."
+    ]
+  },
+
+  "description": "Little volume bends make each phrase feel alive, not flat.",
+  "examples_for_description": [
+    "Prince uses soft micro-phrasing in intimate songs to shape emotion.",
+    "Slipknot uses micro-contrasts to make screams hit harder."
+  ],
+
+  "if_you_wanna_use_it": "Add tiny swells, dips, or soft attacks inside your lines.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use soft-to-strong vocal shaping like George Strait.",
+    "Use whisper-to-scream shaping like Corey Taylor."
+  ],
+
+  "tech_note": {
+    "main": "Micro-dynamics shape phrase-level expression.",
+    "common_phrasings": [
+      "micro phrasing",
+      "dynamic nuance"
+    ]
+  }
+}
+{
+  "name": "Accent Systems",
+  "translation": {
+    "Accent": "a sound you hit harder than the others",
+    "examples_for_Accent": [
+      "In “Wait and Bleed,” Slipknot accents heavy downbeats and syncopated punches to drive intensity.",
+      "In “Spellbound,” accented tom hits add urgency beneath the shimmering guitar."
+    ],
+    "Systems": "a planned pattern for where those hits go",
+    "examples_for_Systems": [
+      "In “La Murga de Panamá,” brass stabs accent repeated spots in each coro, forming a festive system.",
+      "In the Alphabet Song, accents fall on natural speech beats (“A, B, C, D”), forming a simple teaching system."
+    ],
+    "combined": "a repeating plan for which beats get extra punch",
+    "examples_for_combined": [
+      "In “Six Pack” by Black Flag, the accent system is chaotic but still centers around repeated downbeat blasts.",
+      "In salsa dura classics like “Quimbara” by Celia Cruz, accents land on clave-driven beats every cycle."
+    ]
+  },
+
+  "description": "Accent patterns make rhythm feel heavy, light, bouncy, or aggressive depending on where you place them.",
+  "examples_for_description": [
+    "Slipknot uses grinding accents to create violence in the groove.",
+    "Willie Colón uses bright brass accents to energize dancers."
+  ],
+
+  "if_you_wanna_use_it": "Choose which beats get hit harder, and repeat that pattern.",
+  "examples_for_if_you_wanna_use_it": [
+      "Use downbeat punches like Slipknot for ferocity.",
+      "Use brass stabs like Willie Colón for celebration."
+  ],
+
+  "tech_note": {
+    "main": "Accent systems reinforce metric hierarchy.",
+    "common_phrasings": [
+      "accent pattern",
+      "beat emphasis"
+    ]
+  }
+}
+{
+  "name": "Cresc and Decresc Placement",
+  "translation": {
+    "Cresc": "getting louder",
+    "examples_for_Cresc": [
+      "In “Don’t Close Your Eyes,” the pre-chorus swells upward, preparing for the power-ballad explosion.",
+      "In “La Murga de Panamá,” the brass crescendos lift dancers into the coro section."
+    ],
+    "Decresc": "getting softer",
+    "examples_for_Decresc": [
+      "In “Spellbound,” certain vocal descents soften to create atmosphere before drums hit again.",
+      "In “Amarillo by Morning,” lines often soften at the end, giving a warm country gentleness."
+    ],
+    "Placement": "where those changes happen",
+    "examples_for_Placement": [
+      "In “Wait and Bleed,” crescendos often appear right before the chorus screams explode.",
+      "In the Alphabet Song, decrescendos happen naturally at the end of the last line (“now I know my ABCs”)."
+    ],
+    "combined": "where the music slowly grows or fades",
+    "examples_for_combined": [
+      "In “Foolish Heart,” subtle swells happen before emotional lyric peaks.",
+      "In flamenco guitar pieces like “Asturias,” crescendos and decrescendos mark dramatic shifts."
+    ]
+  },
+
+  "description": "Getting louder lifts emotion; getting softer releases it. Placement tells your ear when to expect change.",
+  "examples_for_description": [
+    "Kix uses huge crescendos to launch into anthem-sized choruses.",
+    "Siouxsie uses decrescendos to slip into shadowy moods."
+  ],
+
+  "if_you_wanna_use_it": "Decide where your swells should rise and where you want things to calm down.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use crescendos like Willie Colón to launch into a groove peak.",
+    "Use decrescendos like Elvis to soften emotional landings."
+  ],
+
+  "tech_note": {
+    "main": "Cresc/decresc shape large and small dynamic movement.",
+    "common_phrasings": [
+      "dynamic swell",
+      "dynamic fade"
+    ]
+  }
+}
+{
+  "name": "Ghost Notes",
+  "translation": {
+    "Ghost": "barely-there notes hiding under the main rhythm",
+    "examples_for_Ghost": [
+      "In “Boom Boom” by John Lee Hooker, tiny muted taps on the guitar strings sit under the main groove, giving it a swagger you feel more than hear.",
+      "In “Stripped” by Depeche Mode, quiet electronic taps and breaths ghost under the beat to make the rhythm feel alive and mechanical at the same time."
+    ],
+    "Notes": "tiny sounds between the big ones",
+    "examples_for_Notes": [
+      "In “I’m a Woman” by Koko Taylor, the drummer plays soft, quick ghost strokes on the snare that thicken the groove without drawing attention.",
+      "In “Rock and Roll All Nite” by KISS, background ghost strikes on the hi-hat make the beat more driving even though listeners rarely notice them."
+    ],
+    "combined": "very soft notes between the main hits that add feel and movement",
+    "examples_for_combined": [
+      "In “A Boy Named Sue” by Johnny Cash, the guitarist brushes the strings quietly behind the rhythm to keep it rolling.",
+      "In “Ghetto Child” by Shemekia Copeland, gentle ghosted snare taps add grit beneath her powerful vocal."
+    ]
+  },
+
+  "description": "Ghost notes are soft, sneaky hits that make the groove feel deeper without jumping out at you.",
+  "examples_for_description": [
+    "Koko Taylor’s band uses ghost hits to make the blues pulse harder.",
+    "Depeche Mode uses ghost electronics to make the beat feel robotic and tense."
+  ],
+
+  "if_you_wanna_use_it": "Add tiny soft notes between loud ones to make the rhythm breathe.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use quiet snare taps like John Lee Hooker’s bands.",
+    "Use soft electronic clicks like Depeche Mode."
+  ],
+
+  "tech_note": {
+    "main": "Ghost notes create micro-rhythmic texture and internal momentum.",
+    "common_phrasings": [
+      "ghost strokes",
+      "undertone hits"
+    ]
+  }
+}
+{
+  "name": "Accent Grammar",
+  "translation": {
+    "Accent": "a note you hit harder than the others",
+    "examples_for_Accent": [
+      "In “Boom Boom,” the strong accents on the downbeats give John Lee Hooker’s groove its swagger.",
+      "In “Stripped,” Depeche Mode hits certain synth stabs harder, making the industrial pulse more hypnotic."
+    ],
+    "Grammar": "the rules for where those hits go",
+    "examples_for_Grammar": [
+      "In “I’m a Woman,” Koko Taylor’s band accents key vocal moments to lift the power of her phrasing.",
+      "In “A Boy Named Sue,” Johnny Cash emphasizes the first beat of each bar to keep the story moving forward."
+    ],
+    "combined": "a repeating plan for which notes get extra punch",
+    "examples_for_combined": [
+      "In “Ghetto Child,” heavy accents fall on emotional words and drum hits that push the blues grit forward.",
+      "In “Rock and Roll All Nite,” KISS accents big beats to make the chorus feel like an anthem."
+    ]
+  },
+
+  "description": "Accent placement changes the feel: heavy accents = strong and bold, soft accents = relaxed or sweet.",
+  "examples_for_description": [
+    "Shemekia Copeland uses sharp accents to underline emotional phrases.",
+    "Depeche Mode uses mechanical accent placement to create cold intensity."
+  ],
+
+  "if_you_wanna_use_it": "Pick a pattern and hit certain beats harder each time.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use blues-style accents like Koko Taylor to build toughness.",
+    "Use arena-rock accents like KISS to make lines feel huge."
+  ],
+
+  "tech_note": {
+    "main": "Accent grammar defines metric hierarchy and emphasis.",
+    "common_phrasings": [
+      "accent pattern",
+      "emphasis grid"
+    ]
+  }
+}
+{
+  "name": "Prosody Alignment",
+  "translation": {
+    "Prosody": "how words naturally rise and fall when spoken",
+    "examples_for_Prosody": [
+      "In “A Boy Named Sue,” Johnny Cash matches the melody to the natural storytelling rhythm of speaking, keeping prosody intact.",
+      "In “Ghetto Child,” Shemekia Copeland stresses emotional syllables exactly where her voice naturally would in speech."
+    ],
+    "Alignment": "lining things up correctly",
+    "examples_for_Alignment": [
+      "In “Stripped,” Dave Gahan aligns stressed syllables with heavy beats to punch specific words.",
+      "In “I’m a Woman,” Koko Taylor aligns vocal emphasis with blues accents so the words hit with authority."
+    ],
+    "combined": "matching the melody to the natural rhythm of the words",
+    "examples_for_combined": [
+      "In “Boom Boom,” the vocal rhythm mirrors the natural spoken rhythm of the phrase 'boom boom boom boom,' creating strong alignment.",
+      "In “Amarillo by Morning,” the melody fits the natural rise-and-fall of George Strait's speech pattern."
+    ]
+  },
+
+  "description": "The melody should treat words the way your voice naturally would if you were just talking.",
+  "examples_for_description": [
+    "Johnny Cash’s phrasing feels like spoken storytelling, so prosody fits perfectly.",
+    "Shemekia Copeland’s blues phrasing matches the natural weight of each emotional word."
+  ],
+
+  "if_you_wanna_use_it": "Say the lyric out loud, then shape the melody to match the natural stresses.",
+  "examples_for_if_you_wanna_use_it": [
+    "Follow speech rhythm like Cash when telling stories.",
+    "Follow heavy emotional stress like Koko Taylor when belting blues power."
+  ],
+
+  "tech_note": {
+    "main": "Prosodic alignment connects linguistic stress with musical stress.",
+    "common_phrasings": [
+      "lyric alignment",
+      "stress matching"
+    ]
+  }
+}
+{
+  "name": "Syllable-to-Note Mapping",
+  "translation": {
+    "Syllable": "one beat of a word",
+    "examples_for_Syllable": [
+      "In “Ghetto Child,” Shemekia Copeland often gives one note per syllable to make the message direct and strong.",
+      "In “Stripped,” some syllables stretch across multiple notes in a dark, smooth arc."
+    ],
+    "Note": "one sound in the melody",
+    "examples_for_Note": [
+      "In “Boom Boom,” John Lee Hooker often places one syllable on one note for simple, punchy effect.",
+      "In “I’m a Woman,” Koko Taylor sometimes stretches one syllable across multiple notes for blues emphasis."
+    ],
+    "Mapping": "how they connect",
+    "examples_for_Mapping": [
+      "In “A Boy Named Sue,” the mapping is mostly one-to-one, keeping the lyrics fast and clear.",
+      "In “Let the Music Play,” Shannon often glides one word across several notes for dance-floor smoothness."
+    ],
+    "combined": "deciding how many notes each part of a word gets",
+    "examples_for_combined": [
+      "In “Born to Run,” Springsteen sometimes stretches key words across longer melodic lines.",
+      "In the Alphabet Song, words and notes line up one-to-one to help kids learn quickly."
+    ]
+  },
+
+  "description": "Some words get one note, some stretch across many. The choice affects clarity and emotion.",
+  "examples_for_description": [
+    "Hooker’s simple one-note-per-syllable creates raw directness.",
+    "Shannon’s stretched syllables create shimmering dance emotion."
+  ],
+
+  "if_you_wanna_use_it": "Assign one note per syllable for clarity, or stretch syllables for emotion.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use clean mapping like Cash when telling a story fast.",
+    "Use stretched mapping like Depeche Mode for atmosphere."
+  ],
+
+  "tech_note": {
+    "main": "Mapping controls lyric clarity and melodic expression.",
+    "common_phrasings": [
+      "syllabic setting",
+      "melismatic setting"
+    ]
+  }
+}
+{
+  "name": "Rhyme-Pattern Integration",
+  "translation": {
+    "Rhyme": "words that sound similar at the end",
+    "examples_for_Rhyme": [
+      "In “A Boy Named Sue,” internal and end rhymes support the comedic storytelling rhythm.",
+      "In “Stripped,” Depeche Mode use subtle rhyme to blend into the dark electronic mood."
+    ],
+    "Pattern": "where those rhymes appear",
+    "examples_for_Pattern": [
+      "In “Boom Boom,” rhymes land at predictable phrase endings, reinforcing the blues form.",
+      "In “Let the Music Play,” rhymes appear exactly on chorus entry points, making them hook-like."
+    ],
+    "Integration": "fitting them into something bigger",
+    "examples_for_Integration": [
+      "In “I’m a Woman,” rhyme placement lines up with accented musical hits so the words punch through.",
+      "In “Ghetto Child,” rhymes fall at emotional peaks, matching the intensity of the blues phrasing."
+    ],
+    "combined": "lining up rhyming words with musical spots where they hit hardest",
+    "examples_for_combined": [
+      "In “Rock and Roll All Nite,” KISS drops rhymes right on the biggest rhythmic punches to make the chorus unforgettable.",
+      "In “Volver” by Vicente Fernández, rhymes fall on melodic resolutions, tying the emotion and structure together."
+    ]
+  },
+
+  "description": "Rhymes land stronger when they match the music’s big landing spots.",
+  "examples_for_description": [
+    "Johnny Cash lines up rhyme punches with his guitar rhythm.",
+    "Shemekia Copeland aligns rhymes with emotional vocal peaks."
+  ],
+
+  "if_you_wanna_use_it": "Place your rhyming words at important musical moments—phrase ends, hooks, or strong beats.",
+  "examples_for_if_you_wanna_use_it": [
+    "Hit rhymes on the beat like Hooker for raw blues power.",
+    "Hit rhymes on the hook entry like Shannon for pop clarity."
+  ],
+
+  "tech_note": {
+    "main": "Rhymes reinforce structural emphasis when aligned with musical cadence.",
+    "common_phrasings": [
+      "rhyme placement",
+      "lyric alignment"
+    ]
+  }
+}
+{
+  "name": "Semantic Pacing",
+  "translation": {
+    "Semantic": "about the meaning of the words",
+    "examples_for_Semantic": [
+      "In “Goodbye Stranger” by Supertramp, certain key words (“been a long time”) land on slower, stretched notes to spotlight their emotional meaning.",
+      "In “La Gozadera” by Gente de Zona, important words like “gente,” “Latinoamérica,” and “gozadera” hit right on big rhythmic accents to highlight cultural pride."
+    ],
+    "Pacing": "timing when important things happen",
+    "examples_for_Pacing": [
+      "In “The Shady Dame from Seville” by Julie Andrews, comedic punchwords land exactly on rhythmic peaks to time the jokes perfectly.",
+      "In “Little Wing” by Stevie Ray Vaughan (instrumental version), emotional peaks appear exactly when the musical line reaches a high bend or sustain."
+    ],
+    "combined": "choosing the exact moment when the most meaningful words arrive",
+    "examples_for_combined": [
+      "In “Goodbye Stranger,” the most reflective lines appear during slowing harmonic moments, giving them weight.",
+      "In “La Gozadera,” high-meaning words drop right before drum hits to emphasize unity and celebration."
+    ]
+  },
+
+  "description": "Semantic pacing is placing important words (or musical moments) at the right emotional time.",
+  "examples_for_description": [
+    "Julie Andrews times comedic words to land at musical peaks.",
+    "Gente de Zona times cultural shout-outs to hit with maximum excitement."
+  ],
+
+  "if_you_wanna_use_it": "Decide which words matter most, then place them at musical peaks or slowdowns.",
+  "examples_for_if_you_wanna_use_it": [
+    "Slow down around key phrases like Supertramp for reflection.",
+    "Time important words on strong beats like Gente de Zona for celebration."
+  ],
+
+  "tech_note": {
+    "main": "Semantic pacing aligns meaning-heavy words with structural emphasis.",
+    "common_phrasings": [
+      "lyric timing",
+      "semantic emphasis placement"
+    ]
+  }
+}
+{
+  "name": "Hook Placement",
+  "translation": {
+    "Hook": "the most memorable line",
+    "examples_for_Hook": [
+      "In “Goodbye Stranger,” the repeating “Goodbye Mary, goodbye Jane” melody acts as a hook anchored in the chorus.",
+      "In “La Gozadera,” the shouted “¡La Gozadera!” line is the unmistakable hook repeated throughout."
+    ],
+    "Placement": "where it goes",
+    "examples_for_Placement": [
+      "In “The Shady Dame from Seville,” the comedic hook lands right at the chorus entry, making it impossible to forget.",
+      "In “Little Wing” (SRV version), the hook is melodic: a repeated emotional phrase placed at the start of each new section."
+    ],
+    "combined": "choosing the best place for the most memorable idea",
+    "examples_for_combined": [
+      "In “Rock and Roll All Nite” by KISS, the hook sits right at the top of the chorus.",
+      "In “La Gozadera,” the hook appears at rhythmic peaks so it hits every time."
+    ]
+  },
+
+  "description": "The hook should sit where listeners are most open to remembering: usually the chorus or the start of a section.",
+  "examples_for_description": [
+    "Supertramp drop the hook at the chorus where emotional energy peaks.",
+    "Gente de Zona drop the hook on big drum accents for maximum impact."
+  ],
+
+  "if_you_wanna_use_it": "Put your hook at the beginning of a chorus or at the point of highest energy.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use chorus-top hooks like Supertramp for emotional clarity.",
+    "Use rhythm-driven hooks like Gente de Zona for party energy."
+  ],
+
+  "tech_note": {
+    "main": "Hook placement optimizes thematic recognition.",
+    "common_phrasings": [
+      "hook drop",
+      "hook entry position"
+    ]
+  }
+}
+{
+  "name": "Internal Rhyme Reinforcement",
+  "translation": {
+    "Internal Rhyme": "rhymes inside the line, not just at the end",
+    "examples_for_Internal Rhyme": [
+      "In “Goodbye Stranger,” internal vowel echoes help tie the verse lines together musically.",
+      "In “The Shady Dame from Seville,” Julie Andrews uses internal rhymes to enhance the comedic punch of each phrase."
+    ],
+    "Reinforcement": "making those rhymes feel stronger",
+    "examples_for_Reinforcement": [
+      "In “La Gozadera,” internal rhythmic repeats reinforce internal rhyme patterns in Spanish lines.",
+      "In gospel-blues vocals like Shemekia Copeland’s “Ghetto Child,” internal rhymes are reinforced by vocal emphasis and band accents."
+    ],
+    "combined": "using the music to support little rhymes inside your lyric lines",
+    "examples_for_combined": [
+      "In “Boom Boom” by John Lee Hooker, internal rhymes land on accented guitar hits.",
+      "In “The Shady Dame from Seville,” internal rhymes fall on comedic pauses to strengthen delivery."
+    ]
+  },
+
+  "description": "Internal rhymes pop harder when rhythm, accent, or harmony line up with them.",
+  "examples_for_description": [
+    "Julie Andrews aligns rhymes with comedic timing for precision.",
+    "Gente de Zona line up rhymes with percussion hits for dance power."
+  ],
+
+  "if_you_wanna_use_it": "Place internal rhymes on strong beats or moments with musical emphasis.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use accented rhymes like Hooker for blues drive.",
+    "Use rhythmic rhymes like Gente de Zona for party flow."
+  ],
+
+  "tech_note": {
+    "main": "Internal rhyme reinforcement aligns phonetic cues with musical stress.",
+    "common_phrasings": [
+      "inner rhyme stress",
+      "rhythmic rhyme placement"
+    ]
+  }
+}
+{
+  "name": "Interpretive Phrasing",
+  "translation": {
+    "Interpretive": "adding personal expression",
+    "examples_for_Interpretive": [
+      "In “Little Wing” (SRV), the guitar phrasing bends and swells with extreme personal emotion.",
+      "In “The Shady Dame from Seville,” Julie Andrews shapes phrases theatrically, adding humor and drama in each line."
+    ],
+    "Phrasing": "how you shape a line",
+    "examples_for_Phrasing": [
+      "In “Goodbye Stranger,” Supertramp shapes phrases with gentle rises and falls that reflect the regretful mood.",
+      "In “La Gozadera,” Gente de Zona use sharp phrasing for playful, rhythmic delivery."
+    ],
+    "combined": "the way a performer bends and shapes a line to give it personality",
+    "examples_for_combined": [
+      "In “I’m a Woman” by Koko Taylor, phrases bend and stretch with blues intensity.",
+      "In “Stripped” by Depeche Mode, phrasing becomes cold and steady, giving the track its eerie control."
+    ]
+  },
+
+  "description": "Phrasing is how a performer breathes, bends, pushes, or relaxes lines to give them life.",
+  "examples_for_description": [
+    "SRV’s bending, singing guitar phrases shape every emotional high.",
+    "Julie Andrews’ theatrical delivery turns each line into a performance moment."
+  ],
+
+  "if_you_wanna_use_it": "Shape lines with breath, bends, pauses, or exaggeration.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use long emotional bends like Stevie Ray Vaughan.",
+    "Use theatrical timing like Julie Andrews."
+  ],
+
+  "tech_note": {
+    "main": "Interpretive phrasing mediates timing, articulation, and dynamics.",
+    "common_phrasings": [
+      "expressive phrasing",
+      "performance shaping"
+    ]
+  }
+}
+{
+  "name": "Swing Placement",
+  "translation": {
+    "Swing": "a rhythm that leans or bounces",
+    "examples_for_Swing": [
+      "In “Boom Boom,” John Lee Hooker’s guitar leans behind the beat, giving the groove a bluesy swing.",
+      "In “La Gozadera,” the percussion often leans ahead of the beat slightly, giving the groove a forward-driving Caribbean bounce."
+    ],
+    "Placement": "where the notes sit on or around the beat",
+    "examples_for_Placement": [
+      "In “Goodbye Stranger,” soft rhythmic placement sits comfortably in the middle of the beat for smooth rock flow.",
+      "In “Little Wing” (SRV), guitar notes often land slightly late, creating emotional drag and soul."
+    ],
+    "combined": "deciding whether to play slightly early, slightly late, or exactly on the beat",
+    "examples_for_combined": [
+      "In “I’m a Woman,” Koko Taylor pushes ahead of the beat to inject power.",
+      "In “Stripped” by Depeche Mode, notes land rigidly on the beat for a cold, mechanical feel."
+    ]
+  },
+
+  "description": "Swing placement determines whether a rhythm feels relaxed, urgent, bouncy, stiff, or soulful.",
+  "examples_for_description": [
+    "John Lee Hooker’s behind-the-beat swing creates blues heaviness.",
+    "Caribbean ahead-of-the-beat placement creates festival energy."
+  ],
+
+  "if_you_wanna_use_it": "Place notes slightly early or late depending on the feeling you want.",
+  "examples_for_if_you_wanna_use_it": [
+    "Use behind-the-beat like SRV for soul.",
+    "Use ahead-of-the-beat like Gente de Zona for dance excitement."
+  ],
+
+  "tech_note": {
+    "main": "Swing placement is microtiming relative to the beat grid.",
+    "common_phrasings": [
+      "laid-back feel",
+      "pushed feel"
+    ]
+  }
+}
